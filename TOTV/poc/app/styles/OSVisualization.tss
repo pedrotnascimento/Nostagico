@@ -1,0 +1,15 @@
+"#tab1":{
+	title: "Abertas (1)", 
+}
+
+'#inProgress': {
+	backgroundColor: 'white'	
+}
+
+"#tab2": {
+	title: "Concluídas",
+}
+    
+".padding": {
+    width: "90%",
+}

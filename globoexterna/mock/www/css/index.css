@@ -1,0 +1,48 @@
+.CARD-PADDING {
+    padding: 10%;
+}
+        
+.BORDER-ROUND {
+    border-radius: 1em;
+}
+
+.HORIZONTAL-PADDING-PLUS-80{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.BCKGND-GRAY {
+    background-color: #EEE;
+}
+
+.BCKGND-WHITE{
+    background-color: #FFF;
+}
+
+.CENTER-BUTTON{
+    left: 10%;
+    width: 80%;
+   
+}
+
+
+.CENTER-TEXT {
+    font-size: x-large;
+    font-weight: 700;
+    padding-top: 6%;
+    padding-left: 0%;
+}
+
+.TEXT-AREA{
+    min-width:80% ! important; 
+    border: 1px solid black; 
+    border-radius: 5%
+    }
+
+.BUTTON-LARGER{
+    font-size:400%;
+}
+/*
+.PANIC-TOP {
+    top: 0;
+}*/

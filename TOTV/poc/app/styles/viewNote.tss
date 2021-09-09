@@ -1,0 +1,39 @@
+"#viewMain": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical"
+}
+
+"#listNotes[platform=android]": {
+	separatorHeight: "0",
+}
+
+"#listNotes[platform=ios]": {
+	separatorStyle: "0",
+}
+
+".note": {
+    layout: "vertical",
+    backgroundColor: "#ffffff",
+    borderRadius: "4dp",
+    width: "92%",
+    height: Ti.UI.SIZE,
+    top: "18dp",
+}
+
+"#labelCreationSub": {
+    top: "10dp",
+}
+    
+"#labelShowDetails": {
+    font: {
+        fontSize: "15dp",
+    },
+    bottom: "10dp",
+    color: "#96172e",
+}
+
+"#viewPadding": {
+    height: "0dp",
+}
+    

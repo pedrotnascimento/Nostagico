@@ -1,0 +1,66 @@
+"#btnPause":{
+	left: "5%",
+	width: "43.5%",
+	title: "PAUSA TÉCNICA",
+	color: "white",
+	height:52,
+	font: {
+        fontSize:"18"
+    },
+    bottom: 13,
+    borderColor: "white",
+    backgroundColor: "transparent"
+
+}
+
+"#btnEnd":{
+	left: "51.5%",
+	width: "43.5%",
+	title: "CONCLUIR"
+}
+
+"#vwMain":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical"
+}
+
+"Picker": {
+//    top: "17",
+//    left: "10",
+    font: {fontSize: '16'},
+    width: 120
+}
+
+"PickerRow": {
+    color: "#000000",
+    font: {
+        fontSize: "14",
+        fontWeight: "bold",
+    },
+}
+
+"#typePicker": {
+    left: 16,
+}
+
+"#pauseButton": {
+    backgroundColor:"#96172e",
+    color:"white",
+    borderRadius: 30,
+    font: {
+        fontSize: "14",
+    },
+    height: 30
+}
+
+"#finishPauseButton": {
+    backgroundColor:"#96172e",
+    color:"white",
+    borderRadius: 30,
+    font: {
+        fontSize: "14",
+    },
+    height: 30,
+    width: 200
+}

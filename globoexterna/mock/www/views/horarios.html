@@ -1,0 +1,90 @@
+<ion-view>
+<ion-nav-bar class="bar-subheader bar-stable">
+        <ion-nav-back-button>Voltar
+        </ion-nav-back-button>
+</ion-nav-bar>
+    
+ <ion-content class="has-subheader">
+     <center>
+    <div class="row row-top">
+        <div class="col col-top button" ng-click="pickTime()" >
+            Apresentação     
+        </div>
+        <div class="col col-top">
+            Saída externa    
+        </div>
+        <div class="col col-top">
+            Chegada set    
+        </div>
+    </div>
+    <div class="row row-bottom">
+        <div class="col col-offset-10 col-top">
+            {{apresentacaoIn.H}}:{{apresentacaoIn.M}}
+        </div>
+        <div class="col col-offset-10 col-top">
+            <ion-input type="number" ></ion-input>
+        </div>
+        <div class="col col-offset-10 col-top">
+            <ion-input type="number" ></ion-input>
+        </div>
+    </div>
+    <hr/>
+    <div class="row row-top">
+        <div class="col col-top">
+            Montagem     
+        </div>
+        <div class="col col-top">
+            Gravação    
+        </div>
+    </div>
+    <div class="row row-bottom">
+        <div class="col col-20 col-offset-10 col-top">
+            <center> <ion-input type="number" ></ion-input> </center>    
+        </div>
+        <div class="col   col-20   col-top">
+            <center> <ion-input type="number" ></ion-input> </center>
+        </div>
+        <div class="col   col-20  col-offset-10 col-top">
+            <ion-input type="number" ></ion-input>
+        </div>
+        <div class="col   col-20   col-top">
+            <ion-input type="number" ></ion-input>    
+        </div>
+    </div>
+    <hr/>
+        <div class="row row-top">
+        <div class="col col-top">
+            Almoço     
+        </div>
+        <div class="col col-top">
+            Bombeiro    
+        </div>
+    </div>
+    <div class="row row-bottom">
+        <div class="col col-20 col-offset-10 col-top">
+            <center> <ion-input type="number" ></ion-input> </center>    
+        </div>
+        <div class="col   col-20   col-top">
+            <center> <ion-input type="number" ></ion-input> </center>
+        </div>
+        <div class="col   col-20  col-offset-10 col-top">
+            <ion-input type="number" ></ion-input>
+        </div>
+        <div class="col   col-20   col-top">
+            <ion-input type="number" ></ion-input>    
+        </div>
+    </div>
+    <hr />
+      <div class="row row-top">
+        <div class="col col-top">
+            Término     
+        </div>
+      </div>
+      <div class="row row-bottom">
+        <div class="col col-offset-10 col-top">
+            <ion-input type="number" ></ion-input>    
+        </div>
+      </div>
+     </center>
+    </ion-content>
+</ion-view>

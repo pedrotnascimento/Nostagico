@@ -1,0 +1,25 @@
+﻿{
+    "products": [
+        {
+			"id" : "1",
+			"nome": "Abscinto",
+            "preco": "",
+            "media": "31.50",
+            "quantidade_total": "5",
+			"img" : "../img/absinto.jpg",
+			"tipoId" : "2",
+			"descrição" : "Refrigerante sabor cola"
+            
+        },
+        { 
+			"id": "2",
+            "nome": "Vinho Bordeaux",
+            "preco": "",
+            "media": "31.50",
+            "quantidade_total": "5",
+			"img" : "../img/bordeaux.jpg",
+			"tipoId" : "2",
+			"descrição" : "agua fresquinha da fonte"
+        }
+    ]
+}

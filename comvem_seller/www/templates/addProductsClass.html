@@ -1,0 +1,48 @@
+﻿<ion-view view-title="Adicionar {{classTipo}}">
+    <ion-nav-bar class="bar-royal">
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+
+
+        <ion-nav-buttons side="right ">
+            <div class="buttons">
+                <button class="button button-icon ion-android-search" ng-click="showFilterBar()"></button>
+            </div>            
+        </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <!-- Pesquisa 
+    <div class="bar bar-subheader bar-stable item-input-inset">
+        <label class="item-input-wrapper">
+            <i class="icon ion-ios-search placeholder-icon"></i>
+            <input type="search" placeholder="Buscar">
+        </label>
+    </div><!-- Fim Pesquisa -->
+
+    
+    <!--
+        Apenas comment: Na tela "Add_produto_Abre Item" que vai ter um botão "Incluir Item".
+        No nivel das folhas NÃO aparece preço no Add_Produto
+        -->
+
+    <ion-content class="">
+
+        <ion-list>
+            <ion-item   ng-repeat="produto in products" 
+                        ng-click="showPopup(produto, myProducts, classes, produto.tipoId, $index)"
+                        
+                        ng-hide="isHide(produto)"><!-- deveria ocultar o produto quando fosse setado para 1 
+                                                        solução, só colocar o atributo não funciona, foi preciso colocar uma função pra retornar o booleano-->
+                <div class="row" >
+                    <div class="col-25 col-center">
+                        <img ng-src="{{produto.img}}" class="itemImage" alt="Img">
+                    </div>
+                    <div class="col-75 col-center title" >
+                        {{produto.nome}}<!-- {{produto.possui}} flag que indica que o cliente já possui o produto -->
+                    </div>
+                </div>
+            </ion-item>    
+        </ion-list>
+
+    </ion-content>
+</ion-view>

@@ -1,0 +1,26 @@
+﻿{
+  "oferta": {
+    "preco_total": "33,00",
+    "quantidade_total": "6",
+    "itens": [
+      {
+        "imagem": "coca-cola.jpg",
+        "nome": "coca-cola",
+        "descricao": "Refrigerante 600ml",
+        "quantidade": "3",
+        "preco": "4,50",
+        "media_preco": "4,00",
+        "checked": true
+      },
+      {
+        "imagem": "cerveja-brahma.jpg",
+        "nome": "Cerveja Brahma",
+        "descricao": "Cerveja Garrafa 600ml",
+        "quantidade": "3",
+        "preco": "6,50",
+        "media_preco": "6,30",
+        "checked": true
+      }
+    ]
+  }
+}

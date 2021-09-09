@@ -1,0 +1,75 @@
+"#vwMain": {
+	"height": "100%",
+	"backgroundColor": "black",
+	"top": "0",
+	"width":"100%",
+	"backgroundImage":"/images/Onboarding_1@3x.png",
+	"zIndex":"1"
+},
+"#vwMenu": {
+	"height": "13%",
+	"top": "87%",
+	"zIndex":"2",
+	"backgroundColor":"white"
+
+},
+"#imgLogo": {
+	"image": "/images/logo-globo-login.png",
+	"top": "80dp",
+	"height": "64",
+	"width": "64"
+},
+"#lblGlobo": {
+	"text": "CENTRAL 2777",
+	"color": "#ffffff",
+	"font": {fontSize:'24',fontFamily:'',fontStyle:'',fontWeight:''},
+	"height": Ti.UI.SIZE,
+	"width": Ti.UI.SIZE,
+	"top":"180dp"
+},
+"#btnPular": {
+	"title": "PULAR INTRO",
+	"height": "70%",
+	"top": "15%",
+	"left": "2%",
+	"width": "46%",
+	"borderColor": "white",
+	"color": "#009ddb",
+	"font": {fontSize:'16dp'},
+	"backgroundColor":"white"
+},
+"#btnAv": {
+	"title": "AVANÇAR",
+	"color": "white",
+	"backgroundColor": "#009ddb",
+	"font": {fontSize:'16dp'},
+	"height": "70%",
+	"top": "15%",
+	"left": "52%",
+	"width": "46%",
+	"borderColor": "white",
+	"borderRadius": "5"
+},
+"#lblInfo": {
+	"text":"Crie um atalho para os\nserviços mais utilizados\n por você e acompanhe\nsuas solicitações de Serviços\ne Manutenção.",
+    "textAlign": "center",
+	"color":"white",
+	"width": "96%",
+	"font":{fontSize:"25"},
+	"top":"170dp",
+	"bottom":"10dp",
+	
+	
+},
+"#btnFim":{
+	"title": "FECHAR",
+	"color": "white",
+	"backgroundColor": "#009ddb",
+	"font": {fontSize:'16dp'},
+	"height": "70%",
+	"top": "15%",
+	//"left": "52%",
+	"width": "46%",
+	"borderColor": "white",
+	"borderRadius": "5"
+}

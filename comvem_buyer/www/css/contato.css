@@ -1,0 +1,28 @@
+﻿.ALINHA_TUDO {
+    align-content:initial;
+} /*nao esta em uso*/
+
+.MARGEM_CONTATO {
+    margin-left: 10%;
+}
+
+.MARGEM_TEXTO {
+    margin-left:5%;
+}
+
+.COR_UM {
+    color:cornflowerblue;
+}
+
+.ESPACO_CONTATO {
+    height:6em;
+    color:cornflowerblue;
+}
+
+.AZUL_CONTATO {
+    color:cornflowerblue;
+}
+
+.ESPACO_EXTRA_CONTATO {
+    height:4em;
+}

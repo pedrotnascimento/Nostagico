@@ -1,0 +1,25 @@
+"#vwMain": {
+	layout:"vertical",
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: "transparent"
+}
+
+"#lblSearch": {
+	text:"Pesquisar",
+	height: "210dp"
+}
+"#vwSearch": {
+	
+	height: "100dp"
+}
+
+"#btnCreate": {
+	title: "DISTRIBUIR OPERAÇÃO"	
+}
+
+"#vwCreateSection": {
+    top: 20,
+    height:72,
+    width: Ti.UI.FILL
+}

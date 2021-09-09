@@ -1,0 +1,13 @@
+<Alloy>
+    <Window class="container" id="winRec">
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+        <View id="vwMain">
+            <Label id="lblInfo"/>
+            <TextField id="fldUser"/>
+            <View id="vwRec">
+	            <Button id="btnRecBG"/>
+	            <Button id="btnRec"/>
+	        </View>
+        </View>
+    </Window>
+</Alloy>

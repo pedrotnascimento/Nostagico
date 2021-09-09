@@ -1,0 +1,12 @@
+<h1>Hello friend</h1>
+{{title}}
+<form method='POST' action='' >{% csrf_token %}>
+    <!--{% csrf_token %} allows send POST data -->
+    {{form}}<!-- or {{form.as_p}} for paragraph-->
+
+    
+<input type="submit" value="MyForm">
+<!--
+    <input type="sub"
+-->
+</form>

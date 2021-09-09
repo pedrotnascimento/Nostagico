@@ -1,0 +1,42 @@
+<Alloy>
+    <Window id="winOpDetails">
+        <Widget id="indicator" src="loadingOverlay"/>
+        <ImageView class="backgroundImageHolder" id="imageHolder"/>
+        <View class="contentHolder">
+            <Require id="WidFechar" src="widFechar" type="widget"/>
+            <View id="vwMain">
+                <View class="cardView" id="vwCard">
+                    <Label class="subtitle" height="Ti.UI.SIZE">
+                        NÚMERO DA O.S.
+                    </Label>
+                    <Label class="content" id="lblOsNumber"/>
+                    <View class="hr"/>
+                    <Label class="subtitle" height="Ti.UI.SIZE">
+                        TEXTO BREVE
+                    </Label>
+                    <Label class="content">
+                        PAINEL ROBÔ C4G (PASSO 1/2)
+                    </Label>
+                    <View class="hr"/>
+                    <Label class="subtitle" height="Ti.UI.SIZE">
+                        TEXTO LIVRE OPERAÇÃO
+                    </Label>
+                    <Label class="content" id="osNumber">
+                        REALIZAR DESLIGAMENTO\nSHUTDOWN ROBÔ\nREALIZAR LIMPEZA NOS\nCOMPONENTES ELETRÔNICOS
+                    </Label>
+                    <View class="hr"/>
+                    <Label id="labelMaintainer" class="subtitle" height="Ti.UI.SIZE">
+                        MANUTENTOR(ES)
+                    </Label>
+                    <View class="contentView" id="vwSearch">
+                        <Label class="contentHighlight" id="lblSearch"/>
+                    </View>
+                    <View class="hr" id="hrMaintainer"/>
+                </View>
+                <View id="vwCreateSection">
+                    <Button class="btnSendStyle" id="btnCreate"/>
+                </View>
+            </View>
+        </View>
+    </Window>
+</Alloy>

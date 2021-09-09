@@ -1,0 +1,288 @@
+﻿<!--
+similar a: Login
+detalhes da tela:
+Nesta tela o usuario_comprador podera fazer o seu cadastro inicial para uso do app.
+Sera requisitado do mesmo uma serie de dados como descrito abaixo. Caso o usuario
+perceba ja ser cadastrado um pequeno link o encaminhara para tela de login.
+
+
+-Corpo
+    --Nome (primeiro nome do usuario_comprador):
+        --fonte:
+        --cor:
+        --etc:
+    --Sobrenome (sobrenome do usuario_comprador):
+        --fonte:
+        --cor:
+        --etc:
+    --Email (endereco de email do usuario_comprador):
+        --fonte:
+        --cor:
+        --etc:
+    --Genero (genero do usuario_comprador):
+        --fonte:
+        --cor:
+        --etc:
+    --Aniversario (data de nascimento do usuario_comprador):
+        --fonte:
+        --cor:
+        --etc:
+    --Senha (senha do usuario_comprador):
+    --Confirmar senha (campo para confirmação da senha de dado usuario_comprador )
+
+----------------------------------------------------------------------------------------------------------------------
+funcionalidades:
+-Botao Genero:
+    =Havera um botao no campo para a selecao
+    =do genero, o botao vira com duas opcoes
+    =masculino ou feminino, sendo que
+    =como default o botao vem com a string:
+    =----
+-Confirma/Senha:
+    =os dois campos de senha terao
+    =a funcao de esconder a string
+    =digitada
+-Aniversario:
+    =O campo aniversario sera
+    =clicavel para mais facil
+    =selecao da data de aniversario
+    =de dado usuario_comprador
+
+-Botao Confirmar
+    =Este sera o botao que finaliza
+    =o preenchimento do cadastro
+    =e levara o usuario para a tela
+    =de registro de seu cartao, para
+    =postuma debitacao.
+-Botao Cadastrado
+    =Este botao levara o usuario
+    =para a tela de login caso
+    =clicado
+
+
+-Nome que aparecera no menu:
+    =Cadastro
+        ==sugestao: Cadastre-se
+
+-->
+
+<ion-view view-title="Convem">
+    <link href="./css/cadastro.css" rel="stylesheet">
+    <!-- Navbar (Override default) -->
+    <ion-nav-bar class="bar-stable">
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar><!-- End Navbar -->
+    <!-- Content -->
+    <ion-content>
+        <!--campo nome-->
+        <div class="item item-input-inset">
+            <label class="item-input-wrapper FUNDO_BRANCO">
+                <input ng-model="user.name" type="text" placeholder="Nome">
+            </label>
+        </div>
+        <!--campo Sobrenome-->
+        <div class="item item-input-inset">
+            <label class="item-input-wrapper FUNDO_BRANCO">
+                <input type="text" placeholder="Sobrenome">
+            </label>
+        </div>
+        <!--campo email-->
+        <div class="item item-input-inset">
+            <label class="item-input-wrapper FUNDO_BRANCO">
+                <input type="text" placeholder="Email">
+            </label>
+        </div>
+        <!--campo telefone-->
+        <div class="item item-input-inset">
+            <label class="item-input-wrapper FUNDO_BRANCO">
+                <input type="text" placeholder="Telefone">
+            </label>
+        </div>
+        <!--campo genero-->
+        <div class="item item-input item-inset">
+            <select class="item-input-wrapper FUNDO_BRANCO">
+                <option id="fundo-branco">Masculino</option>
+                <option>Feminino</option>
+                <option selected>Genero</option>
+            </select>
+        </div>
+        <!-- campo data de nascimento-->
+        <div class="item item-input item-inset">
+            <select class="item-input-wrapper FUNDO_BRANCO">
+                <option selected>Dia</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select class="item-input-wrapper FUNDO_BRANCO">
+                <option selected>Mês</option>
+                <option>Janeiro</option>
+                <option>Fevereiro</option>
+                <option>Março</option>
+                <option>Abril</option>
+                <option>Maio</option>
+                <option>Junho</option>
+                <option>Julho</option>
+                <option>Agosto</option>
+                <option>Setembro</option>
+                <option>Novembro</option>
+                <option>Dezembro</option>
+            </select>
+            <select class="item-input-wrapper FUNDO_BRANCO">
+                <option selected>Ano</option>
+                <option>1910</option>
+                <option>1911</option>
+                <option>1912</option>
+                <option>1913</option>
+                <option>1914</option>
+                <option>1915</option>
+                <option>1916</option>
+                <option>1917</option>
+                <option>1918</option>
+                <option>1919</option>
+                <option>1920</option>
+                <option>1921</option>
+                <option>1922</option>
+                <option>1923</option>
+                <option>1924</option>
+                <option>1925</option>
+                <option>1926</option>
+                <option>1927</option>
+                <option>1928</option>
+                <option>1929</option>
+                <option>1930</option>
+                <option>1931</option>
+                <option>1932</option>
+                <option>1933</option>
+                <option>1934</option>
+                <option>1935</option>
+                <option>1936</option>
+                <option>1937</option>
+                <option>1938</option>
+                <option>1939</option>
+                <option>1940</option>
+                <option>1941</option>
+                <option>1942</option>
+                <option>1943</option>
+                <option>1944</option>
+                <option>1945</option>
+                <option>1946</option>
+                <option>1947</option>
+                <option>1948</option>
+                <option>1949</option>
+                <option>1950</option>
+                <option>1951</option>
+                <option>1952</option>
+                <option>1953</option>
+                <option>1954</option>
+                <option>1955</option>
+                <option>1956</option>
+                <option>1957</option>
+                <option>1958</option>
+                <option>1959</option>
+                <option>1960</option>
+                <option>1961</option>
+                <option>1962</option>
+                <option>1963</option>
+                <option>1964</option>
+                <option>1965</option>
+                <option>1966</option>
+                <option>1967</option>
+                <option>1968</option>
+                <option>1969</option>
+                <option>1970</option>
+                <option>1971</option>
+                <option>1972</option>
+                <option>1973</option>
+                <option>1974</option>
+                <option>1975</option>
+                <option>1976</option>
+                <option>1977</option>
+                <option>1978</option>
+                <option>1979</option>
+                <option>1981</option>
+                <option>1982</option>
+                <option>1983</option>
+                <option>1984</option>
+                <option>1985</option>
+                <option>1986</option>
+                <option>1987</option>
+                <option>1988</option>
+                <option>1989</option>
+                <option>1990</option>
+                <option>1991</option>
+                <option>1992</option>
+                <option>1993</option>
+                <option>1994</option>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+            </select>
+        </div>
+        <!--
+        Data do jeito que eu prefiro(mas está ficando horroroso)
+        <ion-list>
+            <ion-item class="row">
+                <label class="item-input;col">
+                    <input type="text" placeholder="dia">
+                </label>
+
+                <label class="item-input;col">
+                    <input type="text" placeholder="mes">
+                </label>
+
+                <label class="item-input;col">
+                    <input type="text" placeholder="ano">
+                </label>
+            </ion-item>
+        </ion-list>
+        -->
+        <!--campo senha-->
+        <div class="item item-input-inset">
+            <label class="item-input-wrapper FUNDO_BRANCO">
+                <input ng-model="user.password1" type="password" placeholder="Senha">
+            </label>
+        </div>
+        <!--campo confirmar senha-->
+        <div class="item item-input-inset">
+            <label class="item-input-wrapper FUNDO_BRANCO">
+                <input ng-model="user.password2" type="password" placeholder="Confirmar Senha">
+            </label>
+        </div>
+
+        <!--Botao para confirmar cadastro-->
+    </ion-content><!-- End Content -->
+    <ion-footer-bar class="ION_FOOTER_HEIGHT">
+        <button class="button button-block button-positive text-center BOTAO_HEIGHT" ng-click="register()">Confirmar</button>
+    </ion-footer-bar>
+</ion-view>

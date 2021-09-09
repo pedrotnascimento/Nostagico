@@ -1,0 +1,543 @@
+.distance {
+    margin-top:21%;
+}
+
+.bar.bar-subheader.item-text-wrap {
+    padding-bottom:20%;
+
+}
+
+.header_text_large {
+    color:#ffffff;
+    font-size:x-large;
+}
+
+.text_large {
+    font-size:1.2em !important ;
+}
+
+
+.text_vlarge {
+    font-size:1.5em !important;
+}
+.text_medium {
+    font-size:medium;
+}
+.text_small {
+    font-size:small;
+}
+
+.margin_first_row {
+    margin-top:-1em;
+}
+
+.margin_second_row {
+    margin-top:0.1em;
+}
+
+.margin_dlvry_detls {
+    margin-top:.8em;
+}
+
+.header_text_medium{
+    color:#ffffff;
+    font-size:medium;
+}
+
+
+.row.tab {
+    color: #fff;
+    font-weight: bold;
+   font-size:medium;
+}
+
+.expiringTime {
+    font-size: x-large;
+    color: #fff;
+    font-weight: bold;
+}
+
+.item.item-dark {
+    background-color: #ccc;
+    border-color: #ccc;
+    color: #333;
+}
+
+.badge-container {
+    position: relative;
+}
+
+.bar.bar-royal.title {
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+
+.bar.bar-royal {
+    background-color: #7f3390;
+    border: none;
+}
+
+.bar-subheader {
+    background-color: #7f3390;
+    border: none;
+}
+
+    .bar-subheader > .button-bar {
+        margin: 0px;
+        padding: 0px;
+        vertical-align: bottom;
+        border: none;
+    }
+
+.NO_BORDERS_MENU .item-content {
+    background-color: #7f3390;
+    color: #FFF;
+}
+
+.price {
+    line-height: 2em;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.itemImage {
+    height: 2em !important;
+    width: 2em;
+}
+
+.button-lightblue {
+    background-color: #7cc8d4;
+    color: #FFF;
+}
+
+.button-purple {
+    background-color: #7f3390;
+    color: #FFF !important;
+    border: none;
+}
+
+    .button-purple a:active {
+        color: #FFF;
+    }
+
+.TAB_CLICKED {
+    color: #FFF !important;
+    border-bottom: 2px solid white !important;
+    font-weight: bold;
+}
+
+.has-customFooter {
+    bottom: 8em; /* Mesma altura do footer*/
+}
+
+.itemHeight {
+    height: 3em;
+    left: -5%;
+}
+
+.item-text-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.CHECKBOX-PEDIDO {
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+
+
+.ESPACO_EXTRA {
+    height: 0.5em;
+}
+
+.MARGEM_GERAL {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.CABECALHO {
+    color: #7f3390;
+    text-align: center;
+}
+
+.ALINHAMENTO {
+    text-align: center;
+}
+
+.TITULO_ITEM {
+    color: #7f3390;
+    font-size: 1.3em;
+}
+
+.ALINHA_TUDO {
+    align-content: initial;
+}
+/*nao esta em uso*/
+
+.MARGEM_CONTATO {
+    margin-left: 10%;
+}
+
+.MARGEM_TEXTO {
+    margin-left: 5%;
+}
+
+.COR_UM {
+    color: cornflowerblue;
+}
+
+.ESPACO_CONTATO {
+    height: 6em;
+    color: cornflowerblue;
+}
+
+.AZUL_CONTATO {
+    color: #7cc8d4;
+}
+
+.ESPACO_EXTRA_CONTATO {
+    height: 4em;
+}
+
+.ION_FOOTER_HEIGHT {
+    height: 6em;
+    bottom: 0em;
+}
+
+.ION_FOOTER_BUTTON_HEIGHT {
+    height: 6em;
+    bottom: 0em;
+}
+
+.BOTAO_HEIGHT {
+    height: 4em;
+    bottom: 0em;
+    top: 1em;
+}
+
+.BOTAO_HEIGHT_DOUBLE {
+    height: 4em;
+    bottom: 1em;
+}
+
+.SUGESTAO_MARGEM {
+    color: cornflowerblue;
+    margin-left: 10%;
+}
+
+.SUGESTAO {
+    margin-left: 5%;
+}
+
+.ALTURA {
+    height: 3em;
+}
+
+.VERDE {
+    color: green;
+}
+
+.FOOTER_LIS {
+    align-items: center;
+    min-height: 8em;
+}
+
+.FOOTER_ITEM {
+    border: none;
+    border-top-style: outset;
+    border-color: #7cc8d4;
+    border-top-width: thin;
+}
+
+.VALOR_ESTIMADO {
+    text-align: left;
+    font-size: large;
+}
+
+.TAXA_ESTIMADA {
+    text-align: left;
+    font-size: small;
+    color: gray;
+}
+
+.INBOX {
+    border: 1px solid lightgreen;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.AVATAR {
+    max-height: 30px;
+    width: auto;
+}
+
+#avaliacoes {
+    display: inline;
+    float: right;
+}
+
+    #avaliacoes > img {
+        max-height: 20px;
+        width: auto;
+    }
+
+.bold-larger {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.float-right {
+    float: left;
+}
+
+.bar-subheader {
+    font-size: large;
+    display: block;
+    border: none;
+    text-align: center;
+}
+
+.RUA {
+    text-align: center;
+    font-size: large;
+    font-weight: normal;
+    margin-left: 10%;
+}
+
+
+.MIN {
+    text-align: left;
+    font-size: medium;
+    margin-left: -0.2em;
+}
+
+.ITEM {
+    text-align: center;
+}
+
+.PRECO {
+    text-align: right;
+    color: green;
+}
+
+.CABECALHO_ITENS {
+    padding-top: 19%;
+}
+
+.ITEM_CONTENT {
+    text-align: center;
+}
+
+.PRECO_CONTENT {
+    text-align: right;
+}
+
+
+.NAME {
+    text-align: left;
+    font-size: small;
+}
+
+.never_clicked {
+    font-weight: bold !important;
+}
+
+.clicked {
+    font-weight: normal !important;
+}
+
+.HAS_CUSTOM_SUBHEADER {
+    margin-top: 3em;
+}
+
+.NO_BORDERS_MENU {
+    border: none;
+}
+
+.CARD_BORDER {
+    border-color: #7f3390;
+    margin-bottom: 1em;
+}
+
+.custom_badge {
+    color:#000;
+    font-weight:bold;
+}
+
+.BADGE_VERDE {
+ color:#00460e;
+ font-weight:bold;
+}
+
+.BADGE_VERMELHO {
+    color:red;
+    font-weight:bold;
+}
+
+.BADGE_AMARELO {
+    color:#8e9d06;
+}
+
+.TAM_DIV_AVATAR {
+    width: 3em;
+    height: 3em;
+}
+
+.AVATAR_VENDEDOR {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.AVATAR_BORDERS {
+    margin-top: 1em;
+    align-content: center;
+    border: none;
+    margin-left: 5em;
+    margin-right: 0em;
+    border-style: solid;
+    border-radius: 100%;
+    border-color: #7f3390;
+    width: 5em;
+    height: 5em;
+    background-color: cornflowerblue;
+}
+
+.MARGEM_TOP_AVATAR {
+    margin-top: 6em;
+}
+
+.LOGIN_NOME_MENU {
+    margin-top: 0.3em;
+}
+
+.NOME_USER {
+    color: #7f3390;
+}
+
+.convem_color {
+    color: #7f3390;
+}
+
+.LIGHT_BACKGROUND {
+    border-style: solid;
+    background-color: lightblue;
+}
+
+.TOP_BORDERS_MENU {
+    margin-top: 0.5em;
+    border-top: solid;
+    border-color: #7f3390;
+}
+
+.ALINHA_LOGO {
+    margin-top: -8em;
+}
+
+.CONVEM_LOGO {
+    /*TODO: Buscar background exato que o Edu usou*/
+    background-color: #7f3390;
+    height: 5em;
+}
+
+.MENU_BG {
+    /*TODO N�O CONSEGUI APLICAR BACKGROUND AO MENU*/
+    background-color: #7f3390 !important;
+    border: 0.01em solid #7f3390 !important;
+}
+
+.TEXT_OVERFLOW_ELLIPSIS {
+    text-overflow: ellipsis;
+}
+
+.this-row {
+    display: block;
+    left: 18%;
+}
+
+.this-checkbox {
+    display: inline-block !important;
+    border: none !important;
+    float: left !important;
+}
+
+/*permite alinha o checkbox e a linha do produto*/
+.alinha-com-checkbox {
+    display: inline-block;
+}
+
+.HORIZONTAL-RULE {
+    position: absolute;
+    height: 100%;
+    border: 0.1em solid lightgray;
+    /*left: 18%;*/
+}
+
+.NO-DECORATION {
+    text-decoration:none;
+}
+
+.standard_card {
+    margin-top: 0.1em !important;
+    margin-bottom: 0.1em !important;
+    margin-left: 0em !important;
+    margin-right: 0em !important;
+    border-color:#7f3390;
+    min-height:3.9em;
+
+}
+
+delivery_id {
+    text-align: center !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.teste {
+    background-color:red;
+}
+.teste2 {
+    background-color:green;
+}

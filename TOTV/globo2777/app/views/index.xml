@@ -1,0 +1,20 @@
+<Alloy>
+    <Window class="container" id="winLogin">
+        <!-->   <View id="vwGlobo">
+            <Label id="lblGlobo"/>
+     </View>-->
+        <Require id="WidNR" src="naoResponsivo" type="widget"/>
+        <View id="vwMain">
+            <!--  arranjar teclado numerico para IOs-->
+           <ImageView id="imgLogo"/> 
+            <Label id="lblGlobo"/>
+            <TextField id="fldUser"/>
+            <TextField id="fldSenha"/>
+            <Button id="btnEntrarBG"/>
+            <Button id="btnEntrar" onClick="abrirMenu"/>
+            <Button id="btnVis"/>
+            <Button id="btnCad" onClick="abrirCad"/>
+            <Button id="btnEsq"/>
+        </View>
+    </Window>
+</Alloy>

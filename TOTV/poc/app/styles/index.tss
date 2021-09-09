@@ -1,0 +1,56 @@
+"#vwMain":{
+	"width": Ti.UI.FILL,
+	"height": Ti.UI.FILL,
+	layout: "vertical"		
+},
+"#imgFiat":{
+	width:170,
+	height: 70,
+	image:"/images/logo-fca.png",
+	top: "8.5%"
+},
+"#lblFiat":{
+	"text":"GESTÃO DE O.S.",
+	"font": {fontWeight:'bold',fontSize:24},
+	"color":"white",
+	"top":"7%",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+/*
+"#switchLoggedIn[platform=android]":{
+	style: Ti.UI.Android.SWITCH_STYLE_CHECKBOX,
+	title: "Permanecer logado",
+	color:"#95989A"
+},*/
+
+"#fldEmail":{
+	hintText: "Insira seu e-mail",
+	top: "5%"
+},
+"#fldPassword":{
+	hintText: "Insira sua senha",
+	top: 10,
+    passwordMask: "true",
+},
+"#vwLoginSection":{
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+},
+"#btnLogin":{
+	title: "Entrar",
+	bottom: 0,
+	top: 20	
+},
+"#btnForgotPassword":{
+	backgroundColor:"transparent",
+	color:"white",
+	title:"ESQUECEU SUA SENHA?",
+	borderColor:"white",
+	borderRadius: 16,
+	width: 175,
+	height: 40,
+	font:{fontSize:13},
+	bottom: 15 
+},
+
+

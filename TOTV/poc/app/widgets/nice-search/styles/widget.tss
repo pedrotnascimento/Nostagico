@@ -1,0 +1,49 @@
+"#viewOuterWrapper[platform=android]": {
+	height: 50,
+}
+
+"#viewOuterWrapper": {
+	height: 60,
+	left: 0,
+	top: 0,
+	width: "100%",
+}
+
+"#viewClickLeft[platform=android]": {
+	height: 50,
+}
+
+"#viewClickLeft": {
+	left: 0,
+	bottom: 0,
+	height: 40,
+	width: 62,
+}
+
+"#viewClickRight[platform=android]": {
+	height: 50,
+}
+
+"#viewClickRight": {
+	right: 0,
+	bottom: 0,
+	height: 40,
+	width: 62,
+}
+
+"#textFieldSearch[platform=ios]": {
+    bottom: 12,
+}
+
+"#textFieldSearch": {
+    left: 66,
+    right: 66,
+    backgroundColor: "transparent",
+    borderWidth: 0,
+    hintText: "PESQUISAR NÚMERO DA O.S",
+    hintTextColor: "#B2B2B2",
+    color: "#ffffff",
+    font: {
+        fontSize: 14,
+    }
+}

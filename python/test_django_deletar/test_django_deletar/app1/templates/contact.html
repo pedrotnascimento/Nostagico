@@ -1,0 +1,7 @@
+<form method='POST' action='' >{% csrf_token %}>
+    <!--{% csrf_token %} allows send POST data -->
+    {{form.as_p}}<!-- or {{form}} without paragraph-->
+
+    
+<input type="submit" value="MyForm">
+</form>

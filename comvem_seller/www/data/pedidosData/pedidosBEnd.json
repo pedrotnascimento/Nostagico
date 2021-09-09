@@ -1,0 +1,47 @@
+﻿{
+  "status": 0,
+  "message": "Ok",
+  "data": {
+    "orders": {
+      "6": {
+        "id": "6",
+        "createdate": "2016-04-23 23:50:00",
+        "lastupdate": "2016-04-23 02:17:45",
+        "totalitems": "3",
+        "amount": 19,
+        "distance": "2.3",
+        "customerid": "1",
+        "status": "AT",
+        "address": {
+          "zipcode": "21725020",
+          "address": "Estrada General Afonso de Carvalho",
+          "number": "110",
+          "complementary": "Fundos",
+          "neighborhood": "Padre Miguel",
+          "city": "Rio de Janeiro",
+          "state": "RJ",
+          "lat": "0.000000",
+          "long": "0.000000"
+        },
+        "products": {
+          "2": {
+            "id": "2",
+            "vendorref": "Antarctica Garrafa 300ml",
+            "price": "5.00",
+            "qty": "2",
+            "imgurl": "2.png",
+            "incatalog": "1"
+          },
+          "6": {
+            "id": "6",
+            "vendorref": "Brahma Lata 269ml",
+            "price": "9.00",
+            "qty": "1",
+            "imgurl": "6.png",
+            "incatalog": "1"
+          }
+        }
+      }
+    }
+  }
+}

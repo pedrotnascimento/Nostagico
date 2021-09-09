@@ -1,0 +1,52 @@
+﻿{
+  "pedidos": [
+    {
+      "id": "432342",
+      "preco_total": "32,89",
+      "media_regiao": "31,50",
+      "quantidade_total": "5",
+      "visit": false,
+      "distancia": "3.1",
+      "tempo": "120",
+
+      "itens": [
+        {
+          "imagem": "../img/coca-cola.jpg",
+          "nome": "coca-cola",
+          "descricao": "Refrigerante lata",
+          "quantidade": "5",
+          "preco": "2,00",
+          "media": "4,00"
+
+        },
+        {
+          "imagem": "../img/cerveja-brahma.jpg",
+          "nome": "Cerveja Brahma",
+          "descricao": "Garrafa 600ml",
+          "quantidade": "2",
+          "preco": "9,00",
+          "media": "9,00"
+        }
+      ]
+    },
+    {
+      "id": "2131241",
+      "preco_total": "24,59",
+      "media_regiao": "25,41",
+      "quantidade_total": "3",
+      "visit": false,
+      "distancia": "1.1",
+      "tempo": "13",
+      "itens": [
+        {
+          "imagem": "../img/coca-cola.jpg",
+          "nome": "coca-cola",
+          "descricao": "Refrigerante lata",
+          "quantidade": "4",
+          "preco": "4,50",
+          "media": "4,00"
+        }
+      ]
+    }
+  ]
+}

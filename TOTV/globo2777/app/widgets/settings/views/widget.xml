@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="vwSet" visible="false">
+		<Button id="btnVoltar"/>
+		<Button id="btnAjuda"/>
+		<Button id="btnSair"/>
+	</View>
+</Alloy>

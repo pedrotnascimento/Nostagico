@@ -1,0 +1,93 @@
+﻿<ion-view view-title="Catálogo de Produtos">
+    <ion-nav-bar class="bar-royal">
+        <ion-nav-buttons side="left" ng-click="reset()">
+            <button class="button button-icon button-clear ion-navicon" menu-toggle></button>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right">
+            <div class="buttons">
+                <button class="button button-icon ion-android-search" id="filter" ng-click="showFilterBar()"></button>
+            </div>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content class="has-footer has-subfooter">
+        <ion-list ng-hide="showFilter"
+                  ng-repeat="category in myProducts">
+            <ion-item ng-show="category.products.length!=0"
+                      ng-click="toggleGroup(category)"
+                      ng-class="{active: isGroupShown(category)}">
+                <div class="row">
+                    
+                    <div class="col col-100 col-left title">
+                        <i class="icon" ng-class="isGroupShown(category) ? 'ion-minus' : 'ion-plus'"></i>
+                        {{category.categorynames}}
+                    </div>
+                </div>
+            </ion-item>
+            <ion-item href="#" ng-repeat="product in category.products"
+                      ng-click="editProdPopup(product, myProducts, product.tipoId)"
+                      ng-show="isGroupShown(category)"
+                      ng-class="{'item-dark': hasPrice(product.price)}">
+                <div class="row item-accordion">
+                    <!--<div class="col-10 col-center ">
+                        <div class="BACKGROUND_IMAGE">
+                            <img ng-src="{{product.imgurl}}" onerror="this.src = './img/logo_convem.png'" class="itemImage">
+                        </div>
+                    </div>-->
+                    <div class="col  col-70 col-center">
+                        <div class="text-left item-text-wrap ">
+                            {{product.vendorref ? product.vendorref : product.name }} 
+                        </div>
+                    </div>
+                    <div ng-show="product.price" class="col col-20 text-right price">
+                        <i>R{{product.price | currency}}</i>
+                    </div>
+                    <div ng-hide="product.price" class="col col-20 text-right">
+                        <div ng-show="product.media">
+                            <div class="row row-top"><small>Preço médio</small></div>
+                            <div class="row row-center">{{product.media}}</div>
+                        </div>
+                        <div>
+                            <div ng-hide="product.media" class="row item-text-wrap row-top"><small>Não há preço médio</small></div>
+                        </div>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+        <!--{{products}}-->
+        <ion-list ng-show="showFilter">
+            <ion-item ng-repeat="product in products"
+                      ng-click="editProdPopup(product, myProducts, product.tipoId)"
+                      ng-class="{'item-dark': hasPrice(product.price)}">
+                      <!--ng-hide="{{product.incatalog}}"-->
+                <div class="row">
+                    <div class="col col-20 col-center">
+                        <img ng-src="{{product.imgurl}}" onerror="this.src = './img/logo_convem.png'"  class="itemImage" alt="Img">
+                    </div>
+                    <div class="col col-60 item-text-wrap col-center title">
+                        {{product.name}}
+                    </div>
+                    <div ng-show="product.price" class="col col-20 text-left">
+                        <i>R{{product.price | currency}}</i>
+                    </div>
+                    <div ng-hide="product.price" class="col col-20 text-left">
+                        <div ng-show="product.media">
+                            <div class="row row-top"><small>Preço médio</small></div>
+                            <div class="row row-center">{{product.media | currency}}</div>
+                        </div>
+                        <div>
+                            <div ng-hide="product.media" class="row row-top"><small>Não há preço médio</small></div>
+                        </div>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+
+    <ion-footer-bar ng-hide="hideSugestion " class="ION_FOOTER_HEIGHT">
+        <label class="item item-input item-stacked-label">
+            <span class="input-label"><i class="icon ion-ios-lightbulb"></i> Sugira um produto</span>
+            <textarea cols="100" type="text" placeholder="" ng-model="sugestao"></textarea>
+        </label>
+        <button class="button button-small button-positive FOOTER_BOTAO_HEIGHT" ng-click="enviar(sugestao)"><b>Enviar</b></button>
+    </ion-footer-bar>
+</ion-view>

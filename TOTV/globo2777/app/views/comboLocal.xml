@@ -1,0 +1,24 @@
+<Alloy>
+    <Window id="winComboLocal">
+        <Require id="WidNR" src="naoResponsivo" type="widget"/>
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+        <View id="vwMain">
+            <Label id="lblLocal"/>
+            <Picker class="pickLocal" id="pickLocalAnd" platform="android" selectionIndicator="true">
+                <PickerColumn id="pColLocalAnd"/>
+            </Picker>
+            <Picker class="pickLocal" id="pickLocalAnd2" platform="android" selectionIndicator="true">
+                <PickerColumn id="pColLocalAnd2"/>
+            </Picker>
+            <Picker class="pickLocal" id="pickLocalAnd3" platform="android" selectionIndicator="true">
+                <PickerColumn id="pColLocalAnd3"/>
+            </Picker>
+            <TextField class="pickLocal" editable="false" id="pickLocaliOS" platform="ios"/>
+            <TextField class="pickLocal" editable="false" id="pickLocaliOS2" platform="ios"/>
+            <TextField class="pickLocal" editable="false" id="pickLocaliOS3" platform="ios"/>
+            <Label id="lblDesc"/>
+            <TextField id="fldDesc"/>
+            <Button id="btnConf"/>
+        </View>
+    </Window>
+</Alloy>

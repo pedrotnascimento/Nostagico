@@ -1,0 +1,9 @@
+<Alloy>
+    <View id="vwCancel">
+    	<View id="viewClickLeft" onClick="voltar"/>        	
+         
+        <View id="viewClickRight"/>
+            
+        <Label id="lblCancel"/>
+    </View>
+</Alloy>

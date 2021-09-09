@@ -1,0 +1,76 @@
+﻿<!--
+similar a: N/A
+detalhes da tela:
+Nesta tela o usuario_comprador podera escolher o endereco onde
+vai receber o seu pedido. Tendo a opcao de escolher "meus locais"
+onde tera registrado seus diversos enderecos(ex: trabalho, casa, etc).
+
+
+-Corpo
+    --Endereco (campo para que o usuario digite seu endereco):
+        --fonte:
+        --cor:
+        --etc:
+
+----------------------------------------------------------------------------------------------------------------------
+funcionalidades:
+-Botao de escolha:
+    =Havera um botao para que o usuario clique
+    =e selecione de maneira rapida, um de seus
+    =varios enderecos registrados no app.
+
+-Botao Concluir:
+    =Este sera o botao que finaliza
+    =o preenchimento do cadastro
+    =e levara o usuario para a tela
+    =de registro de seu cartao, para
+    =postuma debitacao.
+
+
+-Nome que aparecera no menu:
+    =ConfirmaLocal ()
+        ==sugestao: Mapa
+
+-->
+
+<ion-view view-title="Convem">
+    <link href="./css/confirmaLocal.css" rel="stylesheet" />
+    <!-- Navbar (Override default) -->
+    <ion-nav-bar class="bar-stable">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar><!-- End Navbar -->
+    <ion-content class="has-customFooter">
+        <div id="map" data-tap-disabled="true"></div>
+       <!-- <img src="./img/mapa_teste.png" />-->
+    </ion-content>
+
+    <!-- Footer -->
+    <div class="bar bar-footer bar-stable MyFooter">
+        <div class="col">
+            <div class="row">
+                <div class="col-90">
+                    <input id="address" type="text" placeholder="Endereço" class="userAddr" />
+                    <!--<button class="button button-icon icon ion-navigate"></button>-->
+                </div>
+                <div class="col-10">
+                    <button class="button" ng-click="xxx()"><i class="ion-home icon"></i></button>
+                </div>
+            </div>
+            <div class="myDivider"></div>
+            <div class="row">
+                <div class="col-60">
+                    <input class="userCompl" id="complemento" type="text" placeholder="Complemento" ng-model="complement"  />
+                </div>
+                <div class="col-40">
+                    <button class="button button-positive button-large myBtn" ng-click="executarPedido()"><b>Pedir Aqui</b></button>
+                </div>
+            </div>
+        </div>
+    </div><!-- End Footer -->
+</ion-view>
+
+
+
+

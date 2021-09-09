@@ -1,0 +1,55 @@
+"#Wrapper": {
+	width: "250dp",
+	left: "-250dp",
+	backgroundColor: "#FFF"
+},
+"#Nodes": {
+	top: "0dp",
+	backgroundColor: "#FFF",
+	"color": "#000",
+	"height":"60%",
+	separatorColor: "#DCE3E6",
+	separatorStyle: Ti.UI.iPhone.TableViewSeparatorStyle.SINGLE_LINE
+},
+"#vwFixo":{
+	"bottom":"1dp",
+	"height":"160dp",
+	
+},
+
+
+"#vwDiv01":{
+	"top":"40dp",
+	"height":"1dp",
+	"backgroundColor":"#DCE3E6"
+},
+"#vwDiv02":{
+	"top":"80dp",
+	"height":"1dp",
+	"backgroundColor":"#DCE3E6"
+},
+"#vwDiv03":{
+	"top":"120dp",
+	"height":"1dp",
+	"backgroundColor":"#DCE3E6"
+},
+"#lblSO":{
+	"color": "#009ddb",	
+	"left":"7%",
+	"top":"88dp",
+	"width": "100%"
+}
+"#lblRest":{
+	"color": "#009ddb",	
+	"left":"7%",
+	"top":"48dp",
+	"width": "100%"
+		
+}
+"#lblMapa":{
+	"color": "#009ddb",	
+	"left":"7%",
+	"top":"128dp",
+	"width": "100%"
+		
+}

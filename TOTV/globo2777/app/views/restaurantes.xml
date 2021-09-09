@@ -1,0 +1,137 @@
+<Alloy>
+    <Window id="winRest">
+        <ScrollView id="scrView">
+            <View backgroundColor="white" height="10dp" id="vwEspaco" platform="android"/>
+            <View id="vwRest" onClick="abrirRest1">
+                <ImageView id="logoRest" image="/images/asbentas-logo.jpg"/>
+                <Label id="lblNome" text="As Bentas"/>
+                <Label id="lblTel" text="Tel: (21) 99826-6428"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest2">
+                <ImageView id="logoRest" image="/images/bobs-logo.png"/>
+                <Label id="lblNome" text="Bob's"/>
+                <Label id="lblTel" text="Tel: (21) 2444-5408"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest3">
+                <ImageView id="logoRest" image="/images/bongrille-logo.png"/>
+                <Label id="lblNome" text="Bon Grillê"/>
+                <Label id="lblTel" text="Tel: (21) 2444-5409"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest4">
+                <ImageView id="logoRest" image="/images/cdpq-logo.png"/>
+                <Label id="lblNome" text="Casa do Pão de Queijo"/>
+                <Label id="lblTel" text="Tel: (21) 2444-5411"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest5">
+                <ImageView id="logoRest" image="/images/emporium-logo.png"/>
+                <Label id="lblNome" text="Emporium Pax"/>
+                <Label id="lblTel" text="Tel: (21) 2444-5930"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest6">
+                <ImageView id="logoRest" image="/images/executivo-logo.jpg"/>
+                <Label id="lblNome" text="Executivo"/>
+                <Label id="lblTel" text="Tel: (21) 2444-7920"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest7">
+                <ImageView id="logoRest" image="/images/icon-foodtruck.png"/>
+                <Label id="lblNome" text="Food Truck - MPs"/>
+               <!-- <Label id="lblTel" text="Tel: -"/> -->
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest8">
+                <ImageView id="logoRest" image="/images/icon-foodtruck.png"/>
+                <Label id="lblNome" text="Food Truck - Criação"/>
+               <!--  <Label id="lblTel" text="Tel: -"/> -->
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest9">
+                <ImageView id="logoRest" image="/images/lafruteria-logo.jpg"/>
+                <Label id="lblNome" text="La Fruteria"/>
+                <Label id="lblTel" text="Tel: (21) 2444-8620"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest10">
+                <ImageView id="logoRest" image="/images/mac-logo.jpg"/>
+                <Label id="lblNome" text="MAC"/>
+                <Label id="lblTel" text="Tel: (21) 2444-8212"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest11">
+                <ImageView id="logoRest" image="/images/logo-paleteca.jpg"/>
+                <Label id="lblNome" text="Paleteca"/>
+                <Label id="lblTel" text=""/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest12">
+                <ImageView id="logoRest" image="/images/pedafruta-logo.jpg"/>
+                <Label id="lblNome" text="Pé da Fruta"/>
+                <Label id="lblTel" text="Tel: (21) 2444-5227"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest13">
+                <ImageView id="logoRest" image="/images/logo-polissucos.jpg"/>
+                <Label id="lblNome" text="Polis Sucos"/>
+                <Label id="lblTel" text="Tel: (21) 2444-5049"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest14">
+                <ImageView id="logoRest" image="/images/logo-rdm.jpg"/>
+                <Label id="lblNome" text="Rei do Mate"/>
+                <Label id="lblTel" text="Tel: (21) 2444-7396"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest15">
+                <ImageView id="logoRest" image="/images/rest-mais.jpg"/>
+                <Label id="lblNome" text="Restaurante +"/>
+                <Label id="lblTel" text="Tel: (21) 2444-5717"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest16">
+                <ImageView id="logoRest" image="/images/sabor-logo.jpg"/>
+                <Label id="lblNome" text="Sabor das Estrelas"/>
+                <Label id="lblTel" text="Tel: (21) 2444-4854"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest17">
+                <ImageView id="logoRest" image="/images/subway-logo.png"/>
+                <Label id="lblNome" text="Subway"/>
+                <Label id="lblTel" text="Tel: (21) 2444-8311"/>
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwRest" onClick="abrirRest18">
+                <ImageView id="logoRest" image="/images/logo-tudoaler.jpg"/>
+                <Label id="lblNome" text="Tudo a Ler"/>
+            <!--     <Label id="lblTel" text="Tel: - "/> -->
+                <Label id="lblVer"/>
+                <ImageView id="setaDir"/>
+            </View>
+            <View id="vwBlank"/>
+            <View backgroundColor="white" height="30dp" id="vwEspaco2" platform="android"/>
+            <View backgroundColor="white" height="100dp" id="vwEspaco2" platform="ios"/>
+        </ScrollView>
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+    </Window>
+</Alloy>

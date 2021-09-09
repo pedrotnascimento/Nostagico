@@ -1,0 +1,48 @@
+﻿{
+  "status": 0,
+  "message": "good to go! DBG OFFLINE",
+  "data": {
+    "products": [
+      {
+        "id": "1",
+        "name": "abc",
+        "vendorref": "",
+        "price": "2.22",
+        "categoryid": "2",
+        "categoryname": "coco",
+        "imgurl": "../img/coco.png",
+        "incatalog": false
+      },
+      {
+        "id": "2",
+        "name": "abc",
+        "vendorref": "",
+        "price": "2.22",
+        "categoryid": "2",
+        "categoryname": "coco",
+        "imgurl": "../img/coco.png",
+        "incatalog": false
+      },
+      {
+        "id": "3",
+        "name": "abc",
+        "vendorref": "",
+        "price": "2.22",
+        "categoryid": "2",
+        "categoryname": "blabla",
+        "imgurl": "../img/coco.png",
+        "incatalog": false
+      },
+      {
+        "id": "4",
+        "name": "abc",
+        "vendorref": "",
+        "price": "2.22",
+        "categoryid": "2",
+        "categoryname": "blabla",
+        "imgurl": "../img/coco.png",
+        "incatalog": false
+      }
+    ]
+  }
+}

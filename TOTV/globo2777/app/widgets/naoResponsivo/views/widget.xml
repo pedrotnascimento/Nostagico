@@ -1,0 +1,5 @@
+<Alloy>
+    <View id="vwNaoResp" visible="false">
+    	<ActivityIndicator id="actIndi"/>
+    </View>
+</Alloy>

@@ -1,0 +1,15 @@
+
+"#vwMain":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical"
+},
+
+"#btnStart":{
+	title: "CONTINUAR OPERAÇÃO"	
+},
+"#vwMain":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical"
+},

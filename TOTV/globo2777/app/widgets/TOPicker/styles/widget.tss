@@ -1,0 +1,9 @@
+'#iosPicker': {
+	height: 45,
+	width: '100%'
+}
+
+'#androidPicker': {
+	height: 45,
+	width: '100%'
+}

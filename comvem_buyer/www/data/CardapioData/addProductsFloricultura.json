@@ -1,0 +1,21 @@
+﻿{
+    "products": [
+        {
+			"id" : "1",
+			"nome": "Buquê de Tulipas",
+            "preco": "",
+            "media": "31.50",
+			"img" : "tulipas.jpg",
+			"descrição" : ""
+            
+        },
+        { 
+			"id": "2",
+            "nome": "Buquê de Girassóis",
+            "preco": "",
+            "media": "31.50",
+			"img" : "girassol.jpg",
+			"descrição" : ""
+        }
+    ]
+}

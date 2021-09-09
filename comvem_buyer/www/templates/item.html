@@ -1,0 +1,64 @@
+﻿﻿
+<!-- tela item: tela que mostra os produtos disponíveis para pedido pertencentes
+     a uma única classe(bebidas, bebidas alcóolicas,etc)
+     -->
+<link href="./css/item.css" rel="stylesheet" />
+
+<ion-view view-title="Convem">
+
+    <ion-nav-bar class="bar bar-stable">
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+        <ion-nav-buttons side="right">
+
+            <div class="buttons">
+                <button class="button button-icon ion-android-search"
+                        ng-click="showFilterBar()"></button>
+            </div>
+
+            <!-- <img class="ICON-SM ion-ios-cart " src ="../img/cardapio.jpg"/> -->
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <div class="bar bar-subheader bar-positive">
+        <h1 class="title"><b>{{subclass.name}}</b></h1>
+    </div>
+    <ion-content class="padding has-subheader has-customFooter">
+
+
+        <!-- insere produtos do cardápio -->
+        <div class="row" ng-repeat="product in subclass.products">
+            <div class="col-10">
+                <img alt="Img" class="itemImage" ng-src="{{product.img}}" />
+            </div>
+            <div class="col-60">
+                {{product.name}}
+            </div>
+
+            <div class="col-33">
+                <div class="row ALIGN-RIGHT">
+                        <div class="button button-icon icon col" ng-click="downQt(product)">
+                            <img src="./img/minus-round.png" class="UPDOWN-BUTTON" />
+                        </div>
+                        <div class="col">
+                            {{showQt(product)}}
+                        </div>
+                        <!-- <input class="item-input" value="{{product.qt}}" type="number" maxlength="2"  > -->
+                        <div class="button button-icon icon col" ng-click="upQt(product)">
+                            <img src="./img/plus-round.png" class="UPDOWN-BUTTON" />
+                        </div>
+                        
+                    </div>
+                <div class="row MARGEM_DIREITA">
+                   R{{product.value | currency}}
+                  
+                </div>
+            </div>
+            </div>
+                
+
+    </ion-content>
+    <ion-footer-bar class="bar-footer ION_FOOTER_HEIGHT">
+        <button class="button button-block button-positive BOTAO_HEIGHT_ITEM" ng-click="goPedidos()"><i class="icon ion-android-cart"></i> Sua Lista de Compra</button>
+    </ion-footer-bar>
+
+</ion-view>

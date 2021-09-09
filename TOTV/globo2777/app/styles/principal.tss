@@ -1,0 +1,102 @@
+".container": {
+},
+"#lblGlobo": {
+	"text": "CENTRAL 2777",
+	"font": {fontSize:'18',fontFamily:'Arial Rounded MT Bold', fontStyle:'normal',fontWeight:'bold'},
+	"height": "43.97%",
+	"width": "56.27%",
+	"color": "#009ddb",
+	"left": "32%",
+},
+"#lblGlobo[platform=ios]":{
+	"top": "40.62%",
+},
+"#imgSair": {
+	"height": "28dp",
+	"width": "28dp",
+	"right": "10dp",
+	
+	"image": "/images/icon-settings.png",
+},
+"#imgSair[platform=ios]":{
+	"top": "39%"
+},
+"#vwGlobo": {
+	"backgroundColor": "#ffffff",
+	"height": "10.5%",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%"
+},
+"#View1": {
+	"backgroundColor": "#ffffff",
+	"height": "100%",
+	"left": "0.00%",
+	"top": "10%",
+	"width": "100.00%"
+},
+"#vwMenuBtn": {
+	"backgroundColor": "#ffffff",
+	"borderColor": "#009ddb",
+	"borderRadius": "9",
+	"height": "50%",
+	"width": "20%",
+	"left": "2.00%",
+	"padding": "20"
+	
+},
+"#vwMenuBtn[platform=ios]":{
+	"top": "39%"
+},
+"#lblMenuBtn": {
+	"color": "#009ddb",
+	"text": "MENU",
+	"font": {fontFamily:'Arial Rounded MT'}
+},
+"#View_1": {
+	"height": "89.80%",
+	"left": "0.00%",
+	"top": "10.12%",
+	"width": "100.00%"
+},
+"#ImageView_1": {
+	"left": "0.00%",
+	"top": "10.36%",
+	"image": "/images/menu-img.jpg",
+	"height": "89.72%",
+	"width": "100.00%"
+},
+"#menuicon": {
+	"left": "3.00%",
+	"top": "45%",
+	"height": "30%",
+	"width": "12%"
+},
+"#SlideMenu": {
+	"color": "#333"
+},
+"#AppWrapper": {
+
+},
+"#vwSettings":{
+	"height": "135",
+	"width": "130",
+	"top": "0",
+	"right": "0",
+	"backgroundColor": "white",
+	"zIndex":"999" 
+
+},
+"#lstSettings":{
+	"left":"0",
+	"width": "100%",
+	"color": "#009ddb",
+},
+".lstSettingsItem":{
+	"left":"2",
+	"width": "100%",
+	"height": "45dp",
+	"color": "#009ddb",
+},
+
+

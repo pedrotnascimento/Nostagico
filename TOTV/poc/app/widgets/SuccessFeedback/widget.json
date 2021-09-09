@@ -1,0 +1,13 @@
+{
+	"id": "SuccessFeedback",
+	"name": "SuccessFeedback",
+	"description" : "Simple clickable pop-up",
+	"author": "Mateus Alves",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2017",
+	"license":"TOTVS S.A.",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios"
+}

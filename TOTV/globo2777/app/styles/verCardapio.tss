@@ -1,0 +1,38 @@
+".container": {
+},
+
+"#vwVerCard": {
+	"backgroundColor": "#333333",
+	"height": "90%",
+	"top": "10%",
+	"left": "0.00%",
+},
+
+"#lblCancel": {
+	"text": "CARDÁPIO",
+	"color": "white",
+	"height": "31.90%",
+	"left": "14.40%",
+	"top": "33.62%",
+	//"width": "50%",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+"#vwCancel": {
+	"height": "9.32%",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%",
+	"backgroundColor": "#ea7f34"
+},
+"#imgCancel": {
+	"height": "40%",
+	"image": "/images/ic-voltar@2x.png",
+
+	"left": "2%",
+
+	"top": "35%",
+	"width": "9%"
+},
+"#winVerCard": {
+},
+

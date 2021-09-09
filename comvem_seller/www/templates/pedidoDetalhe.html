@@ -1,0 +1,44 @@
+﻿<ion-view view-title="Pedidos" onload="loadPedido()"> 
+    <ion-nav-bar class="bar-royal">
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar><!-- End NavBar -->
+    <!-- SubHeader -->
+    <div class="bar bar-subheader item-text-wrap">
+        <div class="row">
+            <div class="col text-center">
+                <p class="expiringTime">
+                    {{showCount(order.time)}}
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10"></div>
+            <div class="col-40 text-center header_text_medium">Produto</div>
+            <div class="col-20 text-right header_text_medium">Qtd</div>
+            <div class="col-33 text-center header_text_medium">Preço</div>
+        </div>
+    </div><!-- End SubHeader -->
+    <!-- Content -->
+    <ion-content class="distance has-customFooter">
+        
+        <ion-list>
+            <ion-item class="row card standard_card" ng-repeat="product in order.products">
+                <ion-checkbox class="col-10 checkbox-royal" ng-checked="true" ng-model="product.checked" ng-click="updatePrice()"></ion-checkbox>
+                <p class="col-40 text-left margin_dlvry_detls text_large"><b>{{product.vendorref ? product.vendorref : product.name }}</b></p>
+                <p class="col-10 text-center numberHighlight margin_dlvry_detls text_large">{{product.qty}}</p>
+                <p class="col-20 text-right margin_dlvry_detls text_large">{{parseInt_ng(product.price)?parseInt_ng(product.price):0 | currency }}</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    
+    <ion-footer-bar class="bar bar-footer col FOOTER_LIS">
+        <div class="col FOOTER_ITEM_OFERTA">
+            <h3 class="col VALOR_ESTIMADO">Valor Total: <span class="VERDE">R{{payingPrice | currency}}</span></h3>
+        </div>
+            <div class="row" ng-hide="order.time==777">
+                <button class="col-25 button button-assertive button-block BOTAO_HEIGHT_DOUBLE" ng-click="cancel()">Cancelar</button>
+                <button class="col-75 button button-royal button-block BOTAO_HEIGHT_DOUBLE"  ng-click="accept()"><b>Aceitar</b></button>
+            </div>
+    </ion-footer-bar>
+</ion-view>

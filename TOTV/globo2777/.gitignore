@@ -1,0 +1,17 @@
+.DS_Store
+Resources
+build.log
+build
+npm-debug.log
+tmp
+.map
+.project
+.settings
+Thumbs.db
+*.orig
+plugins/ti.alloy/hooks/deepclean.js
+platform/android/res/
+platform/android/alloy_generated
+platform/ios/alloy_generated
+i18n/
+*.apk

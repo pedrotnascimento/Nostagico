@@ -1,0 +1,41 @@
+<Alloy>
+    <Window id="winCad">
+        <Require id="WidNR" src="naoResponsivo" type="widget"/>
+        <ScrollView id="scrollMain" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true">
+            <Label id="lblMatSmall"/>
+            <Label id="lblMat"/>
+            <TabbedBar id="tbarMat" platform="ios">
+                <Labels>
+                    <Label>Funcionário</Label>
+                    <Label>Parceiro</Label>
+                </Labels>
+            </TabbedBar>
+            <View id="vwTbar" platform="android">
+                <Button id="btnTVG" onClick="clickTvg"/>
+                <Button id="btnTer" onClick="clickTer"/>
+            </View>
+            <Label id="lblUser"/>
+            <TextField id="fldUser"/>
+            <View class="breakPt" id="break01"/>
+            <Label id="lblDados"/>
+            <Label id="lblNome"/>
+            <TextField id="fldNome"/>
+            <Label id="lblEmail"/>
+            <TextField id="fldEmail"/>
+            <View class="breakPt" id="break02"/>
+            <Label id="lblCont"/>
+            <Label id="lblRamal"/>
+            <TextField id="fldRamal"/>
+            <Label id="lblTel"/>
+            <TextField id="fldTel"/>
+            <View class="breakPt" id="break03"/>
+            <Label id="lblAcess"/>
+            <Label id="lblSenha"/>
+            <TextField id="fldSenha"/>
+            <TextField id="fldSenhaConf"/>
+            <Button id="btnCad"/>
+            <View id="vwFill"/>
+        </ScrollView>
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+    </Window>
+</Alloy>

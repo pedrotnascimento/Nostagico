@@ -1,0 +1,8 @@
+"#vwCreateSection":{
+	top: 20,
+	height: 72,
+	width: Ti.UI.FILL	
+},
+"#btnCreate":{
+    title: "SAIR DO APLICATIVO"
+}

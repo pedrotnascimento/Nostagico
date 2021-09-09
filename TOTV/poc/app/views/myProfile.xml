@@ -1,0 +1,24 @@
+<Alloy>
+    <Window id="windowMyProfile">
+       <ImageView id="imageHolder" class="backgroundImageHolder" />
+        <View class="contentHolder">
+            <Require id="WidFechar" src="widFechar" type="widget" />
+            <View layout="vertical">
+                <View id="vwCard" class="cardView">
+                    <Label class="subtitle">E-Mail</Label> 
+                    <Label id="emailLabel" class="content"/>
+                    <View class="hr" top="10"/>
+                    <Label class="subtitle">Perfil de Acesso</Label> 
+                    <Label id="profileLabel" class="content"/>
+                    <View class="hr" top="10"/>
+                    <Label class="subtitle">Senha</Label> 
+                    <Label class="contentHighlight">Alterar senha</Label>
+                    <View class="hr" top="10"/>
+                </View>
+                <View id="vwCreateSection">
+                    <Button id="btnCreate" class="btnSendStyle" onClick="logout"/>
+                </View>
+            </View>
+        </View>    
+    </Window>
+</Alloy>

@@ -1,0 +1,6 @@
+<Alloy>
+    <Window class="container vertical" id="fav">
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+        <!-- TODO: passar de js code para alloy -->
+    </Window>
+</Alloy>

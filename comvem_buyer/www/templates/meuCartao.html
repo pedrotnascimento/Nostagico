@@ -1,0 +1,60 @@
+﻿<ion-view view-title="Convem">
+    <link href="./css/meuCartao.css" rel="stylesheet" />
+    <ion-nav-bar class="bar-stable">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon icon ion-navicon" menu-toggle></button>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right">
+            <a class="button button-clear button-outline" href="#/app/addCartao"><i class="icon ion-plus"></i></a>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <div class="bar bar-subheader bar-stable">
+        <h1 class="title"> Meus Cartões</h1>
+    </div>
+
+    <!-- Content -->
+    <ion-content class="has-subheader">
+        <ion-list>
+            <ion-item class="item-divider">
+                Cartão favorito/Primário
+            </ion-item>
+            <ion-item>
+                <!-- Cartao Favorito/Primario -->
+                <div class="row">
+                    <div class="col-center col-20">
+                        <i class="icon ion-ios-star button-small COR_ESTRELA"></i>
+                    </div>
+                    <div class="col-center col-40">
+                        {{favorito.nome}}
+                    </div>
+                    <div class="col-center col-25 text-left">
+                        {{favorito.bandeira}}
+                    </div>
+                    <div class="col-center col-10">
+                        <button class="button button-icon" ng-click="deletaCartao(favorito.id)"><i class="icon ion-trash-a LIXEIRA"></i></button>
+                    </div>
+                </div><!-- End Cartao Favorito/Primario -->
+            </ion-item>
+            <!-- Divider -->
+            <ion-item class="item-divider">
+            </ion-item><!-- End Divider -->
+            <ion-item ng-repeat="cartao in cartoes" ng-click="trocaFavorito(cartao.id)">
+                <div class="row">
+                    <div class="col-center col-20">
+                        <i class="icon ion-ios-star-outline button-small"></i>
+                    </div>
+                    <div class="col-center col-40">
+                        {{cartao.nome}}
+                    </div>
+                    <div class="col-center col-25">
+                        {{cartao.bandeira}}
+                    </div>
+                    <div class="col-center col-10">
+                        <button class="button button-icon icon" ng-click="deletaCartao(cartao.id)"><i class="icon ion-trash-a"></i></button>
+                    </div>
+                </div><!-- End Cartao Favorito/Primario -->
+            </ion-item>
+        </ion-list>
+    </ion-content><!-- End Content -->
+</ion-view>

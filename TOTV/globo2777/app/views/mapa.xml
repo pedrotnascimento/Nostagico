@@ -1,0 +1,62 @@
+<Alloy>
+    <Window id="winMapa">
+    	
+        <View id="vwCover"/>
+       
+        <ScrollView id="vwLegenda">
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinGrey.png" width="22dp"/>
+                <Label class="lblLegenda" text="MGs - Módulos de Gravação"/>
+            </View>
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinYellow.png" width="22dp"/>
+                <Label class="lblLegenda" text="MPs - Módulos de Produção"/>
+            </View>
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinAzure.png" width="22dp"/>
+                <Label class="lblLegenda" text="CCs - Cidades Cenográficas"/>
+            </View>
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinOrange.png" width="22dp"/>
+                <Label class="lblLegenda" text="Portaria"/>
+            </View>
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinRed.png" width="22dp"/>
+                <Label class="lblLegenda" text="Restaurante"/>
+            </View>
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinPurple.png" width="22dp"/>
+                <Label class="lblLegenda" text="Prédios"/>
+            </View>
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinCyan.png" width="22dp"/>
+                <Label class="lblLegenda" text="Salas de Reunião"/>
+            </View>
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinPink.png" width="22dp"/>
+                <Label class="lblLegenda" text="Estacionamento"/>
+            </View>
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinGreen.png" width="22dp"/>
+                <Label class="lblLegenda" text="Serviços"/>
+            </View>
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinMagenta.png" width="22dp"/>
+                <Label class="lblLegenda" text="PAs - Pontos de Apoio"/>
+            </View>
+            <View id="vwItemLegenda">
+                <ImageView class="imgLegenda" height="35dp" image="/images/pinBlue.png" width="22dp"/>
+                <Label class="lblLegenda" text="Outros"/>
+            </View>
+        </ScrollView>
+        <View id="vwMain" platform="ios"/>
+        <View id="vwMap" mapType="Alloy.Globals.Map.HYBRID_TYPE" ns="Alloy.Globals.Map" platform="android" userLocation="true"/>
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+        <View id="vwFiltro">
+            <SearchBar id="searchMap" platform="ios,android"/>
+            <Button id="btnFiltro"/>
+        </View>
+        <Button id="btnLegendaBG"/>
+        <Button id="btnLegenda"/>
+    </Window>
+</Alloy>

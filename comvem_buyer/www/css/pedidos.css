@@ -1,0 +1,83 @@
+﻿#nav_bar_buttons {
+    border-bottom-width: thin;
+}
+
+.ALIGN-RIGHT { /*classe para alinhaR icone a direita*/
+    text-align: right;
+}
+
+
+
+.UPDOWN-BUTTON_PEDIDO {
+    width: 1.1em;
+    height: auto;
+    /*padding: 1px;
+        border-spacing: 1px;
+        background-size: 1px; */
+    /*box-sizing: border-box;*/
+}
+
+.UPDOWN-BUTTON {
+    width: 1em;
+    height: auto;
+    /*padding: 1px;
+        border-spacing: 1px;
+        background-size: 1px; */
+    /*box-sizing: border-box;*/
+}
+
+.itemImage {
+    height: 2em;
+}
+
+/* botão de deletar produtos na tela de pedidos*/
+#DELETEPRODUCT {
+    bottom: 1em !important;
+    position: relative;
+}
+
+
+.VALOR_ESTIMADO {
+    text-align:left;
+}
+
+.TAXA_ESTIMADA {
+        text-align:left;
+        font-size:small;
+        color:gray;
+}
+
+.VERDE {
+    color:green;
+}
+
+.ION_FOOTER_HEIGHT {
+    height: 6em;
+    bottom:0em;
+}
+
+.has-customFooter {
+    bottom: 6em;
+}
+
+.FOOTER_ITEM {
+    border:none;
+    border-top-style:outset;
+    border-color:dodgerblue;
+    border-top-width:thin;
+}
+
+.FOOTER_LIS {
+    align-items:center;
+    min-height:11em;
+}
+
+
+.BOTAO_HEIGHT_PEDIDO {
+    height:4em;
+    bottom:1em;
+    
+}
+.VERDE {
+    color:green;
+}

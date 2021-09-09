@@ -1,0 +1,20 @@
+"#vwMain": {
+	layout: "vertical"
+},
+"Label":{
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT,
+	left: 0,
+	color: "white",
+	font: {
+		fontSize: 16
+	},
+},
+"#vwCreateNote": {
+	top:"25%",	
+},
+"#vwViewNote": {
+	top:10	
+},
+"#vwViewOS": {
+	top:10	
+}

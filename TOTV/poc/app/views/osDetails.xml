@@ -1,0 +1,154 @@
+<Alloy>
+    <Window id="winOSDetails">
+        <ImageView id="imageHolder" class="backgroundImageHolder" />
+        <View class="contentHolder">
+            <Require id="WidFechar" src="widFechar" type="widget" />
+            <Require id="niceTabs" src="nice-tabs" type="widget" />
+        </View>
+        
+        <View id="vwMain">
+            <View height="15" />
+            <View id="vwCard" class="cardView" height="Ti.UI.SIZE">
+                <View layout="horizontal" height="80" width="Ti.UI.SIZE" top="0">
+                    <View width="49.5%" layout="vertical">
+                        <Label height="Ti.UI.SIZE" class="subtitle">
+                            NÚMERO DA O.S.
+                        </Label>
+                        <Label id="OSNumber" class="content" />
+                    </View>
+                    <View class="vr" />
+                    <View width="49.5%" layout="vertical">
+                        <Label height="Ti.UI.SIZE" class="subtitle">
+                            NÚMERO DA NOTA
+                        </Label>
+                        <Label class="content" id="labelNoteNumber"/>
+                    </View>
+                </View>
+                <View class="hr" />
+                <Label class="subtitle" top=10>
+                	DESCRIÇÃO DA TAREFA
+                </Label>
+                <Label id="lbldescription" class="info" />
+
+                <View class="hr" top=10/>
+                <Label class="subtitle" top=10>
+                	CÓDIGO DO EQUIPAMENTO
+                </Label>
+                <Label id="lblequipCode" class="info" />
+
+                <View class="hr" top=10/>
+                <Label class="subtitle" top=10>
+                	NOME DO EQUIPAMENTO
+                </Label>
+                <Label class="info">
+                	D2 OP250 ROBO R3
+                </Label>
+                <View class="hr" top=10/>
+                <Label class="subtitle" top=10>
+                	LOCAL DE INSTALAÇÃO
+                </Label>
+                <Label class="info">
+                	L02BFUN8116
+                </Label>
+                <View class="hr" top=10/>
+                <Label class="subtitle" top=10>
+                	CICLO APLICADO (LISTA DE TAREFA)
+                </Label>
+                <Label class="info">
+                	PREVENTIVA PAINEL ROBÔ C4G
+                </Label>
+                <View height=10/>
+            </View>
+            <View height="15"/>
+            <View id="vwCardTime" class="cardView" height="Ti.UI.SIZE">
+                <View backgroundColor="#fafafa" height=30>
+                    <Label class="dateText">INÍCIO</Label>
+                </View>	
+                <View class="hr" />
+                <View layout="horizontal" height="80" width="Ti.UI.SIZE" top="0">
+                    <View width="49.5%" layout="vertical">
+                        <Label height="Ti.UI.SIZE" class="subtitle">
+                            DATA
+                        </Label>
+                        <Label id="lblStartDate" class="content" />
+                    </View>
+                    <View class="vr" />
+                    <View width="49.5%" layout="vertical">
+                        <Label height="Ti.UI.SIZE" class="subtitle">
+                            HORA
+                        </Label>
+                        <Label  class="content" > 09:00 </Label>
+                    </View>
+                </View>
+	            <View class="hr" top=10/>
+	                <View backgroundColor="#fafafa" height=30>
+	            		<Label class="dateText">FIM</Label>
+	            	</View>
+	            <View class="hr"/> 
+	            <View layout="horizontal" height="80" width="Ti.UI.SIZE" top="0">
+                    <View width="49.5%" layout="vertical">
+                        <Label height="Ti.UI.SIZE" class="subtitle">
+                            DATA
+                        </Label>
+                        <Label id="lblEndDate" class="content" />
+                    </View>
+                    <View class="vr"/>
+                    <View width="49.5%" layout="vertical">
+                        <Label height="Ti.UI.SIZE" class="subtitle">
+                            HORA
+                        </Label>
+                        <Label class="content">18:00</Label>
+                    </View>
+                </View>
+	            <View class="hr" top=10/>
+	            <Label class="subtitle" top=10>
+                	TEMPO DE PARADA PREVISTA
+                </Label>
+                <Label class="info">
+                	(H)
+                </Label>
+                <View height=10/>
+			</View>
+			<View height="15"/>
+		</View>
+        
+        
+        <ListView defaultItemTemplate="templateOperationView" id="listViewOperations" class="cardListView">
+            <Templates>
+                <ItemTemplate id="templateOperationView" name="templateOperationView" class="cardItemTemplate">
+                    <View layout="vertical" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+                        <View bindId="paddingUp" class="padding" />
+                        <View class="cardView" height="Ti.UI.SIZE">
+                            <View layout="horizontal" height="140" width="Ti.UI.SIZE">
+                                <View  layout="vertical">
+                                    <Label height="Ti.UI.SIZE" class="subtitle">
+                                        CÓDIGO
+                                    </Label>
+                                    <Label bindId="operationCode" class="content" />
+                                     <View class="hr" />
+                                     <Label height="Ti.UI.SIZE" class="subtitle">
+                                        TEXTO BREVE
+                                    </Label>
+                                    <Label  class="content" >
+                                       PAINEL ROBÔ C4G (PASSO 1/2)
+                                    </Label>	
+                                </View>
+                                 
+                              	 
+                            </View>
+                            <View class="hr" />
+                            <View height="48">
+                                <Label class="details" bindId="details">
+                                    DETALHAR
+                                </Label>
+                            </View>
+                        </View>
+                        <View bindId="paddingBottom" class="padding" />
+                    </View>
+                </ItemTemplate>
+            </Templates>
+            <ListSection id="listSectionOperations" />
+        </ListView>
+        
+    </Window>
+</Alloy>

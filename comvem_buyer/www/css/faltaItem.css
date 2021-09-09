@@ -1,0 +1,43 @@
+﻿
+.itemIMAGE {
+    height: 2em;
+    width: auto;
+}
+
+.bar-footerPedro { /* COM ESSA CLASSE O FOOTER SUPORTA O PREÇO TOTAL E O BOTÃO DE CONCLUIR COMPRA*/
+    display: block; /*bar-footer é uma classe do IONIC, mexendo nela você interfere com o bar-footer de todo mundo*/
+    /*min-height: 4em;*/
+}    
+
+.bar-footer > div > .button {
+    min-height: 4em;
+}
+
+.FOOTER {
+    height: 6em;
+} 
+
+.has-customFooter {
+    bottom: 6em;
+}
+
+.item-divider {
+    height: 3em !important;
+}    
+
+.produtoClasse {
+    display: block !important;
+}        
+     
+
+.produtoTexto {
+    padding-top: 1em;
+}
+
+#alinha_direita {
+    text-align: right;
+}
+
+#alinha_esquerda {
+    text-align: left;
+}

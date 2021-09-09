@@ -1,0 +1,32 @@
+"#lblCancel": {
+	"text": "Carregando...",
+	"color": "white",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+"#lblCancel[platform=ios]":{
+	"bottom": "9dp",
+},
+"#vwCancel": {
+	"height": "60dp",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%",
+	"backgroundColor": "#0039a6"
+},
+"#imgCancel": {
+	"image": "/images/ic-voltar@2x.png",
+	"width":"35dp",
+	"height":"25dp",
+
+},
+"#imgCancel[platform=ios]": {
+	"bottom":"9dp"
+},
+"#vwImgCancel":{
+	"height": "100%",
+	"left": "1.88%",
+	"width": "50dp",
+	
+	
+}
+

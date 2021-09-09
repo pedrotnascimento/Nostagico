@@ -1,0 +1,29 @@
+﻿{
+  "usuarios": [
+    {
+      "uid": 1,
+      "nome": "Ian",
+      "senha": "a71a448d3d8474653e831749b8e71fcc"
+    },
+    {
+      "uid": 2,
+      "nome": "Pedro",
+      "senha": "c6cc8094c2dc07b700ffcc36d64e2138"
+    },
+    {
+      "uid": 3,
+      "nome": "Mateus",
+      "senha": "e42b6a82864b7060c447ecebd62518a3"
+    },
+    {
+      "uid": 4,
+      "nome": "Luiggi",
+      "senha": "03dfff2a6bd4d15a476c4661af35d30b"
+    },
+    {
+      "uid": 5,
+      "nome": "Convem",
+      "senha": "3bfb9c51e184a6871b3e028e639cd7bb"
+    }
+  ]
+}

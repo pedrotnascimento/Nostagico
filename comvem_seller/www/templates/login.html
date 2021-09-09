@@ -1,0 +1,42 @@
+﻿<ion-view view-title="Login">
+    <!-- Navbar (Override default) -->
+    <ion-nav-bar class="bar-royal" hide-nav-bar="false">
+    </ion-nav-bar><!-- End Navbar -->
+    <!-- Content -->
+    <ion-content>
+        <div class="list">
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">
+                    Usuário
+                </span>
+                <input type="text" ng-model="user.name" autocorrect="off" autocapitalize="none">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">
+                    Senha
+                </span>
+                <input type="password" ng-model="user.password" autocorrect="off" autocapitalize="none">
+            </label>
+        </div>
+        <div class="col-center">
+            <button class="button button-full button-lightblue" ng-click="loginButton()">
+                Entrar
+            </button>
+        </div>
+        <div class="col-center text-center">
+            <button class="button button-full button-clear" ng-hide="passwordForgotten" ng-click="showPasswordForm()">
+                Esqueceu sua senha?
+            </button>
+            <div ng-show="passwordForgotten" class="row item item-input-inset">
+                <span class="col col-20 item-input-wrapper">
+                    Email
+                </span>
+                <input type="email" ng-model="user.email"   class="item-clear " placeholder="Digite seu email" />
+                <button class="col col-offset-10 button button-small  ion-ios-paperplane" ng-click="requestPassword()" >Enviar</button>
+            </div>
+            <!--<button class="button button-full button-clear">
+                Nao tem conta? Crie uma Conta
+            </button>-->
+        </div>
+    </ion-content><!-- End Content -->
+</ion-view>

@@ -1,0 +1,47 @@
+﻿{ "myProducts" :	[	
+						{
+						"tipo" : "Bebidas",
+						"id" : "1",
+						"img" : "ion-ios-pint",
+						"products" : [
+								{
+								"id" : "9834",
+								"nome" : "coco",
+								"preco" : "5.23",
+								"img" : "../img/coco.png",
+								"tipoId" : "1",
+								"visivel" : "1"
+								
+								}
+								
+							]
+						},
+						{
+						"tipo" : "Bebidas Alcoolicas",
+						"id": "2",
+						"img" : "ion-beer",
+						"products" : [
+								{
+								"id" : "1534",
+								"nome" : "brahma",
+								"preco" : "5.23",
+								"img" : "../img/cerveja-brahma.jpg",
+								"tipoId" : "2",
+								"visivel" : "1"
+
+								},
+
+								{
+								"id" : "144",
+								"nome" : "ionic",
+								"preco" : "5.23",
+								"img" : "../img/ionic.png",
+								"tipoId" : "2",
+								"visivel" : "1"
+
+								}
+							]
+						}
+
+				]
+}

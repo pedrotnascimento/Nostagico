@@ -1,0 +1,53 @@
+<Alloy>
+    <Window id="winForm">
+        <Require id="WidNR" src="naoResponsivo" type="widget"/>
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+        <ScrollView class="container" id="scrollMain">
+            <Label id="lblDesc"/>
+            <TextField class="descPick" editable="false" id="pickDesciOS" onClick="abrirOpcDesc" platform="ios"/>
+            <Picker class="descPick" id="pickDescAnd" platform="android">
+                <PickerColumn id="pickColDescAnd"/>
+            </Picker>
+            <Label id="lblLocal"/>
+            <View id="vwLocal">
+                <Label id="lblSubLocal"/>
+                <Label id="lblSubLocal2" platform="ios"/>
+                <View id="vwBtnQR">
+                    <ImageView id="imgQR"/>
+                    <Label id="lblQR1"/>
+                    <Label id="lblQR2"/>
+                </View>
+                <Button id="lblSel1" onClick="chooseLocal"/>
+            </View>
+            <Label id="lblLocalId"/>
+            <View class="breakPt" id="break01"/>
+            <Label id="lblInfo"/>
+            <TextField id="areaInfo"/>
+            <View id="vwFoto">
+                <Label id="lblFoto"/>
+                <ImageView id="imgFoto"/>
+                <ImageView id="imgMedia"/>
+                <ImageView id="imgGal"/>
+            </View>
+            <View id="vwBtn">
+                <Button id="btnEnviarBG"/>
+                <Button id="btnEnviar"/>
+            </View>
+        </ScrollView>
+        <View id="vwGallery" visible="false">
+            <View id="vwReturn">
+                <Label id="lblReturn"/>
+                <ImageView id="imgReturn"/>
+            </View>
+            <ListView defaultItemTemplate="tmpGallery" id="listGallery">
+                <Templates>
+                    <ItemTemplate name="tmpGallery">
+                        <ImageView bindId="foto" id="icon"/>
+                        <Label bindId="info" id="title"/>
+                    </ItemTemplate>
+                </Templates>
+                <ListSection id="listSecGallery"/>
+            </ListView>
+        </View>
+    </Window>
+</Alloy>

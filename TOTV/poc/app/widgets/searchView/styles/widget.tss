@@ -1,0 +1,14 @@
+"#vwSearch":{
+	height:50,
+	backgroundColor:"white",
+	//layout: "horizontal",
+	bottom: 2
+},
+"#fldSearch":{
+	left:55,
+	right:20,
+	borderColor:"transparent",
+	color:"black",
+	hintText:"Pesquisar",
+	backgroundColor:"transparent"
+},

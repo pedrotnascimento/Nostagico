@@ -1,0 +1,44 @@
+﻿{
+  "status": "0",
+  "message": "good to go! myDelivery!",
+  "data": {
+    "deliveries": {
+      "2": {
+        "2": {
+          "id": "2",
+          "createdate": "2016-04-24 11:11:00",
+          "lastupdate": "2016-04-23 02:17:45",
+          "status": "",
+          "customername": "Natasha"
+        },
+        "address": {
+          "zipcode": "21725020",
+          "address": "Estrada General Afonso de Carvalho",
+          "number": "110",
+          "complementary": "Fundos",
+          "neighborhood": "Padre Miguel",
+          "city": "Rio de Janeiro",
+          "state": "RJ",
+          "lat": "0.000000",
+          "long": "0.000000"
+        },
+        "products": {
+          "3": {
+            "id": "3",
+            "vendorref": "uma referencia",
+            "price": "5.00",
+            "qty": "2",
+            "imgurl": ""
+          },
+          "4": {
+            "id": "3",
+            "vendorref": "uma referencia",
+            "price": "10.00",
+            "qty": "2",
+            "imgurl": ""
+          }
+        }
+      }
+    }
+  }
+}

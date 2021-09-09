@@ -1,0 +1,27 @@
+<Alloy>
+    <Window id="win">
+        <ImageView id="imageHolder" class="backgroundImageHolder"/>
+        <View class="contentHolder">
+            <Require id="WidFechar" src="widFechar" type="widget"/>
+            <View id="vwMain">
+                <View class="cardView" id="vwCard">
+                    <Label class="subtitle" id="lblNoteNumberSub" text="Número da nota"/>
+                    <Label class="content" id="lblNoteNumber"/>
+                    <View class="hr" top="10"/>
+                    <Label class="subtitle" id="lblCreationSub" text="Data de criação"/>
+                    <Label class="content" id="lblCreation"/>
+                    <View class="hr" top="10"/>
+                    <Label class="subtitle" id="lblTypeSub" text="Tipo de nota"/>
+                    <Label class="content" id="lblType"/>
+                    <View class="hr" top="10"/>
+                    <Label class="subtitle" id="lblCodeSub" text="Descrição"/>
+                    <Label class="content" id="lblCode"/>
+                    <View class="hr" top="10"/>
+                    <Label class="subtitle" id="lblDescriptionSub" text="Descrição"/>
+                    <Label class="content" id="lblDescription"/>
+                    <View class="hr" top="10"/>
+                </View>
+            </View>
+        </View>
+    </Window>
+</Alloy>

@@ -1,0 +1,130 @@
+".container": {
+},
+"#lblCancel": {
+	"text": "...",
+	"color": "white",	
+	"bottom": "12dp",	
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+"#vwCancel": {
+	"height": "60dp",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%",
+	"backgroundColor": "#ea7f34"
+},
+"#imgCancel": {
+	"height": "25dp",
+	"image": "/images/ic-voltar@2x.png",
+	"left": "11dp",
+	"bottom": "10dp",
+	"width": "35dp"
+},
+"#vwDiv": {
+	"top": "56%",
+	"height": "2dp",
+	"backgroundColor": "#DCE3E6"
+},
+"#vwDiv2": {
+	"top": "43%",
+	"height": "2dp",
+	"backgroundColor": "#DCE3E6"
+},
+"#imgFotoRest": {
+	"height": "200dp",
+	"top": "0dp",
+	"width": "100%"
+},
+"#imgArq": {
+},
+"#vwPerfilRest": {
+	"height": "88%", 
+	"top": "60dp",
+},
+"#btnCard": {
+	"title": "VER CARDÁPIO",
+	"height": "8.50%",
+	"left": "4.00%",
+	"bottom":"10dp",
+	"width": "92.40%",
+	"color": "#ffffff",
+	"backgroundColor": "#009946",
+	"borderRadius": "8"
+},
+"#btnCardS": {
+	"height": "7.55%",
+	"left": "4.00%",
+	"top": "91%",
+	"width": "92.40%",
+	"color": "#ffffff",
+	"backgroundColor": "#00823b",
+	"borderRadius": "8"
+},
+"#lblDescTel": {
+	"text": "Telefone(s)",
+	"left": "10dp",
+	"top": "45%",
+	"font": {fontSize:'16',fontWeight:''}
+},
+"#lblTel": {
+	"top": "50%",
+	"left": "10dp",
+	"color": "#009ddb",
+	"font": {fontSize:'17',fontWeight:'bold'}
+},
+"#lblTel2": {
+	"top": "52%",
+	"right": "10dp",
+	"color": "#009ddb",
+	"font": {fontSize:'17',fontWeight:'bold'}
+},
+"#lblDescHorario": {
+	"text": "Horário de Funcionamento",
+	"left": "10dp",
+	"top": "60%",
+	"font": {fontSize:'16',fontWeight:''}
+},
+"#lblHorario1": {
+	"right": "10dp",
+	"top": "68%",
+	"font": {fontSize:'16',fontWeight:'bold'}
+},
+"#lblHorario2": {
+	"right": "10dp",
+	"top": "73%",
+	"font": {fontSize:'16',fontWeight:'bold'}
+},
+"#lblHorario3": {
+	"right": "10dp",
+	"top": "78%",
+	"font": {fontSize:'16',fontWeight:'bold'}
+},
+"#lblHorario4": {
+	"right": "10dp",
+	"top": "83%",
+	"font": {fontSize:'16',fontWeight:'bold'}
+},
+"#lblDescHorario1": {
+	"left": "10dp",
+	"top": "68%",
+	"text": "Domingo",
+	"font": {fontSize:'17',fontWeight:''},
+},
+"#lblDescHorario2": {
+	"left": "10dp",
+	"top": "73%",
+	"text": "Seg à Sex",
+	"font": {fontSize:'17',fontWeight:''}
+},
+"#lblDescHorario3": {
+	"left": "10dp",
+	"top": "78%",
+	"text": "Sábado",
+	"font": {fontSize:'17',fontWeight:''}
+},
+"#lblDescHorario4": {
+	"left": "10dp",
+	"top": "83%",
+	"text": "Feriado",
+	"font": {fontSize:'17',fontWeight:''}
+}

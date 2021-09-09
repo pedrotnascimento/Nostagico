@@ -1,0 +1,28 @@
+
+<link href="css/index.css" type="text/css" rel="stylesheet"></link>
+    <div class="tabs-top tabs-background-stable tabs-color-dark">
+        <div class="tabs">
+            <a class="tab-item" ng-class="tab_=='tabs.externaTab'? 'active': ''" href="#/tabs/externaTab">
+                EXTERNA {{a}}
+                   
+            </a>
+                    
+            <a class="tab-item" ng-class="tab_=='tabs.muralTab'? 'active': ''" href="#/tabs/muralTab">
+                MURAL
+            </a>
+            <a class="tab-item" ng-class="tab_=='tabs.chatTab'? 'active': ''" href="#/tabs/chatTab">
+                CHAT
+            </a>
+        </div>
+        
+    </div>
+
+        <ion-nav-view class="has-tabs-top has-footer"></ion-nav-view>
+<ion-footer-bar class="bar LARGER-FOOTER">
+    <a class="button button-block CENTER-BUTTON button-energized" href="#/incidente">
+        <div class="">
+             CRIAR INCIDENTE {{a}}
+        </div> 
+    </a>
+</ion-footer-bar>
+ 

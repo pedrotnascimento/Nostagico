@@ -1,0 +1,14 @@
+"#vwNaoResp":{
+	"zIndex":10,
+	"backgroundColor":"black",
+	"opacity":0.5
+},
+"#actIndi":{
+  color: 'white',
+  font: {fontFamily:'Helvetica Neue', fontSize:30, fontWeight:'bold'},
+  message: 'Aguarde...',
+  style: Ti.UI.ActivityIndicatorStyle.DARK,
+  height:Ti.UI.SIZE,
+  width:Ti.UI.SIZE
+
+},

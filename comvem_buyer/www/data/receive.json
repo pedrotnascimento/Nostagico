@@ -1,0 +1,32 @@
+﻿{
+    "classes": [
+        {
+			"tipo" : "Bebidas",
+			"id" : "1",
+			"img" : "ion-ios-pint"
+            
+        },
+        { 
+			"tipo" : "Bebidas Alcoolicas",
+			"id": "2",
+			"img" : "ion-beer"
+            
+        },
+		{
+			"tipo" : "Floricultura",
+			"id" : "3",
+			"img" : "ion-ios-rose"
+
+		},
+		{
+			"tipo" : "Alimentos",
+			"id": "4",
+			"img" : "ion-pizza"
+		},
+		{
+			"tipo" : "Fármacos",
+			"id" : "5",
+			"img" : "ion-medkit"
+		}
+]
+}

@@ -1,0 +1,271 @@
+".container": {
+},
+"#winCad": {
+	"backgroundColor": "white",
+	"fullscreen": "true",
+	"navBarHidden": "true",
+	"tabBarHidden": "true"
+},
+"#winCad[platform=android]": {
+	"windowSoftInputMode": Ti.UI.Android.SOFT_INPUT_ADJUST_PAN
+},
+"#fldSenhaConf": {
+	"left":"15dp", "right":"15dp",,
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"borderWidth": "1",
+	"left": "15dp",
+	"height": "52dp",
+	"top": "5dp",
+	"passwordMask": "true",
+	"backgroundColor": "transparent",
+	"hintText": "Confirme sua senha"
+},
+
+"#lblMat": {
+	"text": "Tipo de matrícula",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": "146dp"
+},
+"#lblNome": {
+	"text": "Nome",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": "91dp"
+},
+"#fldNome": {
+	"left":"15dp", "right":"15dp",
+	"height": "52dp",
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"borderWidth": "1",
+	"hintText": "Digite seu nome",
+	"left": "15dp",
+	"top": "5dp",
+	"backgroundColor": "transparent"
+},
+"#lblEmail": {
+	"text": "E-mail",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": "91dp"
+},
+"#fldEmail": {
+	"left":"15dp", "right":"15dp",
+	"height": "52dp",
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"borderWidth": "1",
+	"hintText": "Digite seu e-mail",
+	"left": "15dp",
+	"top": "5dp",
+	"backgroundColor": "transparent",
+	"keyboardType": Titanium.UI.KEYBOARD_EMAIL
+},
+"#lblRamal": {
+	"text": "Telefone Comercial",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": Ti.UI.SIZE
+},
+"#lblTel": {
+	"text": "Celular",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": Ti.UI.SIZE
+},
+"#fldTel": {
+	"keyboardType": Titanium.UI.KEYBOARD_PHONE_PAD,
+	"left":"15dp", "right":"15dp",
+	"height": "52dp",
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"borderWidth": "1",
+	"hintText": "(00) 00000-0000",
+	"left": "15dp",
+	"top": "5dp",
+	"backgroundColor": "transparent"
+},
+"#tbarMat": {
+	"left":"15dp","right":"15dp",
+	"height": "50dp",
+	"top": "5dp"
+},
+"#vwTbar": {
+	"left":"0dp","right":"15dp",
+	"height": "50dp",
+	"left": "15dp",
+	"top": "5dp"
+},
+"#lblUser": {
+	"text": "Número da matrícula",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": Ti.UI.SIZE
+},
+"#btnTVG": {
+	"width": "50%",
+	"left":"0%",
+	"height": "100.00%",
+	"top": "0.00%",
+	"title": "Funcionário",
+	"backgroundColor": "#3574A9",
+	"color": "white"
+},
+"#btnTer": {
+	"left": "50%",
+	"width": "50%",
+	"height": "100%",
+	"top": "0dp",
+	"title": "PARCEIRO",
+	"backgroundColor": "white",
+	"color": "#DDDDDD"
+},
+"#fldUser": {
+	"width": "92.53%",
+	"height": "52dp",
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"borderWidth": "1",
+	"hintText": "Exemplo: 33650",
+	"left": "15dp",
+	"top": "5dp",
+	"backgroundColor": "transparent",
+	"keyboardType": Titanium.UI.KEYBOARD_NUMBER_PAD
+},
+"#lblSenha": {
+	"text": "Senha",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": "96dp"
+},
+"#fldSenha": {
+	"left":"15dp", "right":"15dp",
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"borderWidth": "1",
+	"left": "15dp",
+	"height": "52dp",
+	"top": "5dp",
+	"passwordMask": "true",
+	"backgroundColor": "transparent",
+	"hintText": "Utilize de 6 a 10 caracteres"
+},
+
+"#btnCad": {
+	"title": "CADASTRAR USUÁRIO",
+	"height": "52dp",
+	"top":"10dp",
+	"left":"15dp", "right":"15dp",
+	"color": "#ffffff",
+	"backgroundColor": "#36C784",
+	"borderRadius": "5"
+},
+"#scrollMain": {
+	"height": Ti.UI.FILL,
+	"left": "0.00%",
+	"top": "60dp",
+	"width": "100.00%",
+	"layout": "vertical",
+	"backgroundColor": "white",
+},
+"TextField": {
+	"hintTextColor": "#757271",
+	"color": "black",
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	"borderColor": "#A7A7A7"
+},
+"#fldRamal": {
+	"left":"15dp", "right":"15dp",
+	"height": "52dp",
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"borderWidth": "1",
+	"hintText": "(00) 0000-0000",
+	"left": "15dp",
+	"top": "5dp",
+	"backgroundColor": "transparent",
+	"keyboardType": Titanium.UI.KEYBOARD_NUMBER_PAD
+},
+"#btnDivisao": {
+	"title": "Selecione sua divisão",
+	"color": "#A7A7A7",
+	"borderRadius": "5",
+	"left":"15dp", "right":"15dp",
+	"height": "52dp",
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"borderWidth": "1",
+	"hintText": "Digite seu nome",
+	"left": "15dp",
+	"top": "5dp",
+	"backgroundColor": "transparent"
+},
+"Label": {
+	"color": "black",
+	"height": "23dp",
+	"font": {fontFamily:'ProximaNovaLight',fontSize:'14'}
+},
+"#lblMatSmall": {
+	"text": "Matrícula",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": "146dp",
+	"font": {fontSize:'12',fontStyle:'normal',fontWeight:'bold',fontFamily:'ProximaNovaLight'},
+	"color": "#b0b0b0"
+},
+".breakPt": {
+	"backgroundColor": "#F2F2F2",
+	"width": "100%",
+	"height": "2",
+	"top": "6.5dp"
+},
+"#lblDados": {
+	"text": "Dados Pessoais",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": Ti.UI.SIZE,
+	"font": {fontSize:'12',fontStyle:'normal',fontWeight:'bold',fontFamily:'ProximaNovaLight'},
+	"color": "#b0b0b0"
+},
+"#lblCont": {
+	"text": "Contatos",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": Ti.UI.SIZE,
+	"font": {fontSize:'12',fontStyle:'normal',fontWeight:'bold',fontFamily:'ProximaNovaLight'},
+	"color": "#b0b0b0"
+},
+"#lblAcess": {
+	"text": "Acesso",
+	"height": "26dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": Ti.UI.SIZE,
+	"font": {fontSize:'12',fontStyle:'normal',fontWeight:'bold',fontFamily:'ProximaNovaLight'},
+	"color": "#b0b0b0"
+},
+"#lblDiv": {
+	"text": "Divisão",
+	"height": "23dp",
+	"left": "15dp",
+	"top": "5dp",
+	"width": "146dp"
+},
+"#vwFill": {
+	"top":"0dp",
+	"width":"100%",
+	"height":"40dp",
+	"backgroundColor":"white"
+}

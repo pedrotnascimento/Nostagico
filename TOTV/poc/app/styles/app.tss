@@ -1,0 +1,315 @@
+"Window": {
+	backgroundColor: "#111111",
+	orientationModes: [Ti.UI.PORTRAIT],
+}
+
+"TabGroup[platform=android]": {
+    theme: "Theme.Light",
+	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_ADJUST_PAN
+}
+
+"Window[platform=android]": {
+	theme: "Theme.Light",
+	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_ADJUST_PAN
+}
+
+"Window[platform=iOS]": {
+	statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+}
+
+"TextField":{
+	returnKeyType: Titanium.UI.RETURNKEY_DONE
+
+}
+
+"ListView" : {
+    backgroundColor: "transparent"
+}
+
+"TextArea":{
+	height:120,
+	borderColor:"#ABADAF",
+	borderRadius:5,
+	backgroundColor: "transparent",
+	returnKeyType: Titanium.UI.RETURNKEY_DONE,
+}
+
+"SearchBar":{
+	height:52,
+	borderColor:"#ABADAF",
+	borderRadius:5,
+	backgroundColor: "transparent",
+	returnKeyType: Titanium.UI.RETURNKEY_DONE,
+	hintText:"Pesquisar"
+}
+
+"Button":{
+	borderRadius: 24
+}
+
+".alignLeft":{
+	left:"10dp",
+	right:"10dp"
+}
+
+".btnSendStyle":{
+	bottom: 13,
+	backgroundColor:"#96172e",
+	color:"white",
+	height:52,
+	font: {
+        fontSize:"20"
+    },
+    width: "90%",
+}
+
+".btnMenuStyle":{
+	bottom: 13,
+	backgroundColor:"#96172e",
+	color:"white",
+	height:52,
+	font: {
+        fontSize:"20"
+    },
+    width: "90%",
+}
+
+".lblGrayStyle":{
+	top:10,
+	color:"#ABADAF",
+	font: {fontSize: 20},
+	left:"10dp",
+	right:"10dp"
+}
+
+".btnSmallHighlight": {
+    borderColor:"transparent",
+	backgroundColor:"#96172e",
+	color:"white",
+	height:20,
+	font: {
+        fontSize: "15dp",
+        fontWeight: "bold",
+    }
+}
+
+".btnSmall": {
+    borderColor:"#4C4C4C",
+	backgroundColor:"transparent",
+	color:"white",
+	height:20,
+	font: {
+        fontSize: "15dp",
+        fontWeight: "bold",
+    }
+}
+
+".subtitle": {
+    top: "20dp",
+    left: "16dp",
+    color: "#BFBFBF",
+    font: {
+        fontSize: "14dp",
+        fontWeight: "bold",
+    },
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".content": {
+    left: "16dp",
+    color: "#000000",
+    font: {
+        fontSize: "17dp",
+    },
+    bottom: "5dp",
+    hintTextColor:"#96172E",
+    right:7
+}
+
+".details": {
+    color: "#96172E",
+    font: {
+        fontSize: "14dp",
+        fontWeight: "bold",
+    },
+}
+
+".textbox": {
+    left: 16,
+    color: "#96172E",
+    font: {
+        fontSize: "20dp",
+        content: "bold",
+    },
+    bottom: "5dp",
+    hintTextColor:"#96172E",
+    right: 16
+}
+
+".hr": {
+    height: "1dp",
+    backgroundColor: "#D8D8D8",
+    width: "100%",
+    visible: "true",
+}
+
+".vr": {
+    height: "100%",
+    backgroundColor: "#D8D8D8",
+    width: 1,
+    visible: "true",
+}
+
+".thickBreak":{
+	height: 2,
+	backgroundColor:"#96172E",
+	width:"100%",
+}
+
+".contentView":{
+	height:50
+}
+
+".contentHighlight":{
+	color:"#96172E",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	font: {
+        fontSize: "18dp",
+        content: "bold",
+    },
+    left: 16
+}
+
+".wordCount":{
+	right: 7,
+	text: "0/140",
+	font: {
+        fontSize: 11,
+    },
+    color: "gray",
+    top: 5
+}
+
+".cardView":{
+	left:"5%",
+	right:"5%",
+	backgroundColor:"white",
+	layout: "vertical",
+	borderRadius:4
+}
+
+".inputBox":{
+	hintTextColor: "white",
+	color: "white",
+	backgroundColor: "transparent",
+	borderColor: "transparent",
+	left: "5%",
+	right: "5%",
+	height: 50,
+	font: {
+		fontSize: 16
+	},
+	borderWidth: 0
+}
+
+".delimitedBreak": {
+    height: "1dp",
+    backgroundColor: "#D8D8D8",
+    right: "5%",
+    left:"5%",
+    visible: "true",
+    top: 10,
+    opacity: 0.3
+}
+
+".info":{
+    left: "16dp",
+    right: 16,
+    color: "black",
+    font: {
+        fontSize: "16dp",
+    },
+    textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+    top: 10,
+}
+
+".backgroundImageHolder": {
+    top: 0,
+    zIndex: 0,
+    width: "100%",
+    height: "100%"
+}
+
+".contentHolder": {
+    top: 0,
+    zIndex: 5,
+    layout: "vertical"
+}
+
+".manHolder":{
+	backgroundColor:"#6d2d41",
+	borderRadius: 15,
+	width: 120,
+	left: 10,
+	height: 30
+}
+
+".manText":{
+	color:"white",
+	font:{
+		fontSize: 15
+	}
+}
+
+".cardItemTemplate[platform=ios]": {
+    width: "Ti.UI.SIZE",
+    backgroundColor: "transparent",
+    height: 144,
+}
+
+".cardListView[platform=android]": {
+    separatorHeight: "0",
+}
+
+".cardListView[platform=ios]": {
+    separatorStyle: "0",
+},
+".btnSection":{
+	top: 20,
+	height:72,
+	width: Ti.UI.FILL	
+},
+".dateText":{
+	font:{
+		fontSize:12,
+		fontWeight: "bold"
+	},
+	color: "black",
+	opacity: 0.5,
+	left: "16dp"
+}
+".commonLabel":{
+	font: {fontSize: '16'},
+	left: '10',
+	color:'black',
+	top:'15'
+}
+
+".dateTimeTextField": {
+    backgroundColor: "transparent",
+    font: {
+        fontSize: "14dp",
+    },
+    color: "#000000",
+    hintTextColor: "#BFBFBF",
+    width: "40",
+    textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+
+}
+
+".dateTimeDivider": {
+    font: {
+        fontSize: "14dp",
+    },
+    color: "#BFBFBF",
+}

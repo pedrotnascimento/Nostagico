@@ -1,0 +1,23 @@
+<Alloy>
+    <Window id="winUpCardapio">
+        <Require id="WidNR" src="naoResponsivo" type="widget"/>
+        <!--<View id="vwCancel">
+            <Label id="lblCancel"/>
+            <ImageView id="imgCancel"/>
+     </View>-->
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+        <View id="vwBtn">
+            <AlertDialog cancel="1" id="alertDialog" message="Deseja excluir esta página?" onClick="excluirFoto" title="Excluir Página">
+                <ButtonNames>
+                    <ButtonName>Cancelar</ButtonName>
+                    <ButtonName>Excluir</ButtonName>
+                </ButtonNames>
+            </AlertDialog>
+            <Button id="btnAdicionarS"/>
+            <Button id="btnAdicionar"/>
+        </View>
+        <View id="vwFotos">
+            <Label id="lblFotos"/>
+        </View>
+    </Window>
+</Alloy>

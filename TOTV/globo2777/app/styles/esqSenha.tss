@@ -1,0 +1,87 @@
+".container": {
+	"backgroundColor": "white"
+},
+"Label": {
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"color": "#000"
+},
+"TextField": {
+	"hintTextColor": "#757271",
+	"color": "black",
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"#winRec": {
+	"backgroundColor": "#ffffff",
+},
+"#vwMain": {
+	"backgroundColor": "#fff",
+	"height": "90%",
+	"left": "0.00%",
+	"top": "60dp",
+	"width": "100.00%",
+	"layout": "vertical",
+},
+"#vwMain[platform=android]": {
+	"height": "90%"
+},
+"#fldUser": {
+	"width": "92%",
+	"height": "52dp",
+	"borderRadius": "5",
+	"borderColor": "#E5E5E5",
+	"borderWidth": "1",
+	"backgroundColor": "#ffffff",
+	"hintText": "Digite seu e-mail",
+	"left": "4.00%", 
+	"top": "1%",
+},
+"#btnRec": {
+	"title": "RECUPERAR SENHA",
+	"width": "92.00%",
+	"borderRadius": "5",
+	"borderColor": "#0085ba",
+	"borderWidth": "1",
+	"backgroundColor": "#009ddb",
+	"left": "4.00%",
+	"height": "45dp",
+	"bottom":"5dp",
+	"color": "white"
+},
+"#vwRec":{
+	"height": "55dp",
+	"top": "35dp",
+},
+"#btnRecBG": {
+	"width": "92.00%",
+	"borderRadius": "5",
+	"borderColor": "#0085ba",
+	"borderWidth": "1",
+	"backgroundColor": "#0085ba",
+	"left": "4.00%",
+	"height": "45dp",
+	"bottom":"3dp",
+	"color": "white"
+},
+"#lblInfo": {
+	"text": "Digite a sua matrícula:",
+	"color": "#ffffff",
+	"height": "5.13%",
+	"left": "4.00%",
+	"top": "1.86%",
+	"width": "92.00%",
+},
+"#lblInfo[platform=android]": {
+	"top": "13%"
+},
+"#lblCancel": {
+	"text": "RECUPERAR SENHA",
+	"color": "white",
+	"height": "31.90%",
+	"left": "14.40%",
+	"top": "33.62%",
+	"width": "77.73%",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+"#WidFechar": {
+}

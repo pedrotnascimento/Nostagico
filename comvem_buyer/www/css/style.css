@@ -1,0 +1,55 @@
+﻿
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.item-text-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+
+/*Inicio accordeon list*/
+.list .item.item-accordion {
+  line-height: 2.375em;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.09s all linear;
+}
+.list .item.item-accordion.ng-hide {
+  line-height: 0em;
+}
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove {
+  display: block !important;
+}
+/*Fim accordeon list*/
+
+.itemImage {
+    height: 2em;
+    width: 2em;
+}
+
+.footer {
+    height: 6em;
+    bottom:0em;
+}
+
+
+.footer_buttom {
+    height:4em;
+    top:1em;
+}

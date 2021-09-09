@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    <script src="lib/ionic-timepicker/dist/ionic-timepicker.bundle.min.js"></script>
+    
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/ctrl/index.js"></script>
+    <script src="js/ctrl/Tabs.js"></script>
+    <script src="js/ctrl/Externa.js"></script>
+    <script src="js/ctrl/Mural.js"></script>
+    <script src="js/ctrl/Chat.js"></script>
+    <script src="js/ctrl/Horario.js"></script>
+    
+    <link href="css/index.css" type="text/css" rel="stylesheet"></link>
+    
+  </head>
+  <body ng-app="starter" ng-controller="Index">
+
+    <ion-pane>
+      <ion-header-bar align-title="left" class="bar bar-header bar-stable has-tabs-top">
+        <h1 class="title ">Segurança de Externas</h1>
+        <div ng-click="panicBtn()" class="button button-clear" >
+            <img ng-show="login" ng-src="img/panic.png" />
+        </div>
+      </ion-header-bar>
+      <ion-nav-view></ion-nav-view>
+      
+      <ion-content>
+               <center>
+                   <img ng-src="img/globo_main.png"/>
+                   <P><H3><B>SEGURANÇA DE EXTERNA</B></H3></P>  
+               <div class="row ">
+                    <div class="col col-80 col-offset-10">
+                        <div class="card CARD-PADDING BCKGND-GRAY">
+                                <div class=" list list-inset">
+                                    <label class=" BCKGND-GRAY item item-input">
+                                        <input class="BCKGND-WHITE" placeholder="Matrícula"/>
+                                    </label>
+                                    <label class="BCKGND-GRAY  item item-input">
+                                        <input class="BCKGND-WHITE" placeholder="Senha"/>
+                                    </label>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button button-energized button-large HORIZONTAL-PADDING-PLUS-80 BORDER-ROUND"
+                        ng-click="goTabMain()">
+                    ENTRAR
+                </div>
+                </center>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

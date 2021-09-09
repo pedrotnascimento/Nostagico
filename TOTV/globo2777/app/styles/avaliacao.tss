@@ -1,0 +1,110 @@
+"Label": {
+	"color": "black",
+	"font": {fontFamily:"Proxima Nova Light",fontSize:"14"},
+	"right": "15dp"
+},
+"#vwMain": {
+	"height": Ti.UI.FILL,
+	"left": "0.00%",
+	"top": "60dp",
+	"width": "100.00%"
+},
+"#lblPerg": {
+	"text": "O que achou do serviço realizado?",
+	"top": "2dp",
+	"left": "15dp"
+},
+"#lblInfo": {
+	"text": "Quer nos dizer mais",
+	"top": "100dp",
+	"left": "15dp"
+},
+"#lblInfoCont": {
+	"text": "alguma coisa?",
+	"top": "118dp",
+	"left": "15dp"
+},
+"#lblOpc": {
+	"text": "Campo Opcional",
+	"font": {fontSize:'12',fontFamily:'ProximaNovaLightItalic',fontStyle:'normal',fontWeight:'italic'},
+	"color": "#111111",
+	"top": "118dp",
+	"right": "2dp",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_RIGHT
+},
+"#areaInfo": {
+	"height": "120dp",
+	"left": "15dp",
+	"top": "145dp",
+	"right": "15dp"
+},
+"#btnEnviar": {
+	"title": "ENVIAR AVALIAÇÃO",
+	"height": "45dp",
+	"left": "15dp",
+	"bottom": "10dp",
+	"right": "15dp",
+	"color": "#ffffff",
+	"backgroundColor": "#009946",
+	"borderRadius": "5"
+},
+"#btnEnviarBG": {
+	"height": "45dp",
+	"left": "15dp",
+	"right": "15dp",
+	"bottom": "8dp",
+	"backgroundColor": "#00823b",
+	"borderRadius": "5"
+},
+"#btnPes": {
+	"title": "Péssimo",
+	"height": "50dp",
+	"left": "4%",
+	"top": "30dp",
+	"width": "23%"
+},
+"#btnRuim": {
+	"title": "Ruim",
+	"height": "50dp",
+	"left": "27%",
+	"top": "30dp",
+	"width": "23%"
+},
+"#btnBom": {
+	"title": "Bom",
+	"height": "50dp",
+	"left": "50%",
+	"top": "30dp",
+	"width": "23%"
+},
+"#btnExc": {
+	"title": "Excelente",
+	"height": "50dp",
+	"left": "73%",
+	"top": "30dp",
+	"width": "23%"
+},
+".notSelBtn": {
+	"font": {fontFamily:"Proxima Nova Semibold",fontSize:"13"},
+	"color": "#009ddb",
+	"backgroundColor": "white",
+	"borderColor": "#e6e6e6",
+	"textAlign": Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+".selBtn": {
+	"font": {fontFamily:"Proxima Nova Semibold",fontSize:"13"},
+	"color": "white",
+	"backgroundColor": "#009ddb",
+	"borderColor": "#e6e6e6",
+	"textAlign": Titanium.UI.TEXT_ALIGNMENT_CENTER
+},
+"#winAval": {
+},
+"#vwBtn": {
+	"top": "270dp",
+	"height": Titanium.UI.FILL,
+	"bottom": "5dp",
+	"backgroundColor": "white",
+	"left": "0.00%",
+	"width": "100.00%",
+}

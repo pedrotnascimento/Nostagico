@@ -1,0 +1,33 @@
+﻿{
+  "cartoes": [
+    {
+      "favorito": 1,
+      "bandeira": "visa",
+      "numero": 23231451,
+      "data_vencimento": 619,
+      "nome": "Solaire",
+      "codigo_seguranca": 502,
+      "id": 231
+    },
+    {
+      "favorito": 0,
+      "bandeira": "mastercard",
+      "numero": 5435351,
+      "data_vencimento": 816,
+      "nome": "Nito",
+      "codigo_seguranca": 555,
+      "id":  432
+    },
+    {
+      "favorito": 0,
+      "bandeira": "visa",
+      "numero": 75928412,
+      "data_vencimento": 318,
+      "nome": "Mario",
+      "codigo_seguranca": 324,
+      "id":  342
+    }
+
+
+  ]
+}

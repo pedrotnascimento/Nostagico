@@ -1,0 +1,37 @@
+"Window": {
+	"backgroundColor": "#fff",
+	"orientationModes": [Ti.UI.PORTRAIT]
+},
+"Window[platform=android]": {
+	"theme": "Theme.Light",
+	"windowSoftInputMode": Ti.UI.Android.SOFT_INPUT_ADJUST_PAN
+},
+"Window[platform=iOS]": {
+	"statusBarStyle": Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+	"fullscreen": "true",
+	"navBarHidden": "true"
+},
+"TextArea": {
+	"color": "black",
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	"borderRadius": "13",
+	"borderColor": "#d0cfd0",
+	"backgroundColor": "transparent",
+	"returnKeyType": Titanium.UI.RETURNKEY_DONE
+},
+"Picker": {
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER,
+	"selectionIndicator": "true"
+},
+"PickerRow": {
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".vertical": {
+	"layout": "vertical"
+},
+".horizontal": {
+	"layout": "horizontal"
+},
+"TextField": {
+	"returnKeyType": Titanium.UI.RETURNKEY_DONE
+}

@@ -1,0 +1,77 @@
+<ion-side-menus enable-menu-with-back-views="true">
+    <ion-side-menu-content>
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button>
+            </ion-nav-back-button>
+            <ion-nav-buttons side="left">
+                <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+            </ion-nav-buttons>
+        </ion-nav-bar>
+        <ion-nav-view name="menuContent"></ion-nav-view>
+    </ion-side-menu-content>
+    <!-- Menu Lateral -->
+    <ion-side-menu side="left">
+        <ion-header-bar class="bar-stable">
+            <h1 class="title">Menu Convem</h1>
+        </ion-header-bar>
+        <ion-content>
+            <!-- Conte�do do Menu -->
+            <ion-list>
+                <!-- Op��o do Menu:
+                   menu-close: fecha o menu lateral quando o link � clicado
+                   href="PATH_TO_STATE": faz o link da op��o de menu para o state que foi criado em route.js
+                   PATH_TO_STATE: substitua esse placeholder pelo path do state que voc� criou (ex: #/app/newState)
+                -->
+                <!--
+                <ion-item menu-close href="#/app/login">
+                    Log In*
+                </ion-item>
+                -->
+                <ion-item menu-close href="#/app/confirmaLocal">
+                    Novo Pedido
+                </ion-item>
+                <!--
+                <ion-item menu-close href="#/app/pedidos">
+                    Minha Lista de Compras*
+                </ion-item>
+                -->
+                <ion-item menu-close href="#/app/oferta">
+                    Ofertas Recebidas
+                </ion-item>
+                <ion-item menu-close href="#/app/deliveryList">
+                    Minhas Entregas
+                </ion-item>
+                <ion-item class="item-divider">
+                </ion-item>
+                <!--
+                <ion-item menu-close href="#/app/avaliaVendedor">
+                    Avalia Vendedor*
+                </ion-item>
+                -->
+                <ion-item menu-close href="#/app/meuCartao">
+                    Meus Cartoes
+                </ion-item>
+                <!--
+                <ion-item menu-close href="#/app/cadastro">
+                    Cadastre-se*
+                </ion-item>
+                <ion-item menu-close href="#/app/deliveryList">
+                    Lista de Entrega*
+                </ion-item>
+                -->
+                <ion-item menu-close href="#/app/sugestao">
+                    Sugira um Produto
+                </ion-item>
+                <ion-item menu-close href="#/app/contato">
+                    Contato
+                </ion-item>
+                <ion-item menu-close href="#/app/condicoes">
+                    Condicoes de Uso
+                </ion-item>
+                <ion-item menu-close href="#/app/logout">
+                    Logout
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+</ion-side-menus>

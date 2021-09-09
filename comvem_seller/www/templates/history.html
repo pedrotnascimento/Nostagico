@@ -1,0 +1,87 @@
+<ion-view view-title="Histórico" onload="test()">
+
+    <ion-nav-bar class="bar-royal WHITE_BOT_BORDER">
+        <ion-nav-buttons>
+            <button class="button button-icon icon ion-navicon" menu-toggle></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <ion-content>
+        <div class="card" ng-repeat="delivery in deliveries" ng-click="toggleShowGroup({{delivery.deliver.id}})">
+            <div class="item convem_color">
+                <div class="row">
+                    <div class="col-20">
+                        Entrega #{{delivery.deliver.id}}
+                    </div>
+                    <div class="col-80 text-right">
+                        Data {{printDate(delivery.deliver.createdate)}}
+                    </div>
+                </div>
+            </div>
+            <div class="" ng-show="isShownGroup({{delivery.deliver.id}})">
+                <div class="row bold">
+                    {{delivery.address.address}}, {{delivery.address.number}}, {{delivery.address.city}}
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-40 bold">
+                        Nome Cliente 
+                    </div>
+                    <div class="col-60 text-right">
+                        {{delivery.deliver.customername}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-50 bold">
+                        Quantidade de produtos
+                    </div>
+                    <div class="col-50 text-right">
+                        {{getTotal(delivery.products, "qty")}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-50 bold">
+                        Preço Total
+                    </div>
+                    <div class="col-50 text-right">
+                        R{{getTotal(delivery.products, "price") | currency}}
+                    </div>
+                </div>
+                <br />
+                <div class="row bold">
+                    <div class="col-60">
+                        Nome do Produto
+                    </div>
+                    <div class="col-20">
+                        Qtd
+                    </div>
+                    <div class="col-20">
+                        Preço
+                    </div>
+                </div>
+                <hr />
+                <div class="row" ng-repeat="product in delivery.products">
+                    <div class="col-60">
+                        {{product.vendorref? product.vendorref : product.name}}
+                    </div>
+                    <div class="col-20">
+                        {{product.qty}}
+                    </div>
+                    <div class="col-20">
+                        {{product.price}}
+                    </div>
+                </div>
+                <!--<div class="row item-text-wrap">
+                    <ion-list >
+                        <ion-item class="row card standard_card" ng-repeat="a in [1,2,3]">
+                            <p class="col-60">{product.vendorref ? product.vendorref : product.name }</p>
+                            <p class="col-20">{product.qty}}</p>
+                            <p class="col-20">{product.price}}</p>
+                        </ion-item>
+                    </ion-list>
+                </div>-->
+            </div>
+
+        </div>
+    </ion-content>
+</ion-view>

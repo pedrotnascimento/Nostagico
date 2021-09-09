@@ -1,0 +1,19 @@
+"#lblStatus":{ 
+	color:"white",
+	font:{
+		fontSize: 12	
+	}
+},
+"#vwBtnSection":{
+	top: 20,
+	height:72,
+	width: Ti.UI.FILL	
+},
+"#btnStart":{
+	title: "INICIAR OPERAÇÃO"	
+},
+"#vwMain":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical"
+},

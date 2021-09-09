@@ -1,0 +1,75 @@
+/* Empty. Add your own CSS if you like */
+
+  .align-right {
+    right: 0px;
+    padding: 10px;
+    /*
+  float: right ! important;
+  display: block ! important;
+  */
+    /* doesn't work text-align: right ! important;*/
+  }
+
+  .align-left {
+    left: 0px;
+  }
+
+.card-positive .item{
+    border-color: #0c60ee;
+    background-color: #387ef5;
+    color: #fff;
+}
+
+
+.card-assertive .item{
+    border-color: #e42112;
+    background-color: #ef473a;
+    
+    color: #fff;
+}
+
+
+.card-calm .item{
+ border-color: #0a9dc7;
+    background-color: #11c1f3;
+    color: #fff;
+}
+
+.card-balanced .item{
+ border-color: #28a54c;
+    background-color: #33cd5f;
+    color: #fff;
+}
+
+.card-energized .item{
+     border-color: #e6b500;
+    background-color: #ffc900;
+    color: #fff;
+}
+
+.card-royal .item{
+     border-color: #6b46e5;
+    background-color: #886aea;
+    color: #fff;
+}
+
+.card-dark .item{
+     border-color: #111;
+    background-color: #444444;
+    color: #fff;
+}
+
+.card-stable .item{
+     border-color: #b2b2b2;
+    background-color: #f8f8f8;
+    color: #444;
+}
+
+.card-light .item{
+     border-color: #ddd;
+    background-color: white;
+    color: #444;
+}
+
+
+

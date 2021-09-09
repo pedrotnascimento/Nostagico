@@ -1,0 +1,65 @@
+﻿{
+    "myDelivery": [
+        {
+			"id" : "354789",
+			"endereco" : "Rua Paolo Maldini, 70, Vila Isabel",
+			"nome" : "Natasha Costa",
+			"preco" : "15.40",
+			"item" : "4",
+			"date" : "October 24, 2014 14:56:00",
+			"expiringTime" : "910",
+      "status": "",
+      "visit": false,
+			"produtos" : [
+							{
+							"id" :"1",
+							"nome": "Coca-Cola",
+							"preco": "16.18",
+							"quantidade": "2",
+							"img" : "../img/coca-cola.jpg",
+							"descricao" : "Refrigerante sabor cola"
+							
+							},
+							{
+									"id": "2",
+									"nome": "Vinho Bordeaux",
+									"preco": "16.18",
+									"quantidade": "2",
+									"img" : "../img/bordeaux.jpg",
+									"descrição" : "agua fresquinha da fonte"
+							}
+							]
+        },
+		{
+			"id" : "620489",
+			"endereco" : "Rua Carlos Pontes, 120, Centro",
+			"nome" : "Jose Alberto",
+			"preco" : "15.40",
+			"item" : "4",
+			"date" : "October 24, 2014 14:59:00",
+			"expiringTime" : "615",
+      "status": "",
+      "visit": false,
+			"produtos" : [
+							{
+							"id" :"1",
+							"nome": "Coca-Cola",
+							"preco": "16.18",
+							"quantidade": "2",
+							"img" : "../img/coca-cola.jpg",
+							"descricao" : "Refrigerante sabor cola"
+							
+							},
+							{
+									"id": "2",
+									"nome": "Vinho Bordeaux",
+									"preco": "16.18",
+									"quantidade": "2",
+									"img" : "../img/bordeaux.jpg",
+									"descrição" : "agua fresquinha da fonte"
+							}
+							]
+        }
+		
+		]
+}

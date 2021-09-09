@@ -1,0 +1,62 @@
+﻿.itemIMAGE {
+    height: 2em;
+    width: auto;
+}
+
+.bar-footerPedro { /* COM ESSA CLASSE O FOOTER SUPORTA O PREÇO TOTAL E O BOTÃO DE CONCLUIR COMPRA*/
+    display: block; /*bar-footer é uma classe do IONIC, mexendo nela você interfere com o bar-footer de todo mundo*/
+    /*min-height: 4em;*/
+}
+/*
+.bar-footer > div > .button {
+    min-height: 4em;
+}
+*/
+.item-divider {
+    height: 3em !important;
+}
+
+.produtoClasse {
+    display: block !important;
+}
+
+.produtoTexto {
+    padding-top: 1em;
+}
+
+.expiring_time {
+    text-align: right;
+    font-size: x-large;
+    color: black;
+    position: fixed;
+}
+
+.alinha_direita {
+    text-align: right;
+}
+.alinha_esquerda{
+    text-align:left;
+}
+
+.ION_FOOTER_HEIGHT_DELIVERYLIST {
+    height:6em;
+    bottom:0em;
+}
+
+.has-customFooter {
+    bottom: 6em;
+}
+
+.BOTAO_HEIGHT_DELIVERYLIST {
+    height:4em;
+    top:1em;
+    
+}
+
+.RED {
+    color: red;
+}
+
+.GREEN {
+    color: limegreen;
+}

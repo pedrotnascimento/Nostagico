@@ -1,0 +1,34 @@
+﻿<ion-view view-title="Convem">
+
+    <!-- Navbar (Override default) -->
+    <ion-nav-bar class="bar-stable" hide-nav-bar="true">
+    </ion-nav-bar><!-- End Navbar -->
+    <!-- Content -->
+    <ion-content>
+        <div class="col-center">
+            <button class="button button-full button-positive" ng-click="facebookSignIn2()"><i class="icon ion-social-facebook icon-left"> Entrar com Facebook</i></button>
+        </div>
+        <div class="col-center">
+            <p class="text-center">ou</p>
+        </div>
+        <div class="col-center">
+            <label class="item item-input">
+                <span class="input-label"><i class="icon ion-person"></i> Usuario</span>
+                <input type="text" ng-model="user.name" autocorrect="off" autocapitalize="none">
+            </label>
+        </div>
+        <div class="col-center">
+            <label class="item item-input">
+                <span class="input-label"><i class="icon ion-locked"></i> Senha</span>
+                <input type="password" ng-model="user.password" autocomplete="false">
+            </label>
+        </div>
+        <div class="col-center">
+            <button class="button button-full button-balanced" ng-click="entrar()">Entrar</button>
+        </div>
+        <div class="col-center text-center">
+            <button class="button button-full button-clear" ng-click="esqueceuSenha()">Esqueceu sua senha?</button>
+            <button class="button button-full button-clear" ng-click="routeCadastro()">Nao tem conta? Crie uma Conta</button>
+        </div>
+    </ion-content><!-- End Content -->
+</ion-view>

@@ -1,0 +1,66 @@
+﻿.itemImage {
+            height: 2em;
+            width: 2em;
+}
+
+.has-customFooter {
+    bottom: 150px; /* Mesma altura do footer*/
+}
+
+.itemHeight {
+    height: 3em;
+}
+
+.item-text-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.VALOR_ESTIMADO {
+    text-align:left;
+}
+
+.TAXA_ESTIMADA {
+        text-align:left;
+        font-size:small;
+        color:gray;
+}
+
+.VERDE {
+    color:green;
+}
+
+.ION_FOOTER_HEIGHT_OFERTA {
+    height: 5em;
+    bottom:0;
+}
+
+.FOOTER_ITEM_OFERTA {
+    border:none;
+    border-top-style:outset;
+    border-color:dodgerblue;
+    border-top-width:thin;
+}
+
+.FOOTER_LIS {
+    align-items:center;
+    min-height:11em;
+}
+
+.BOTAO_HEIGHT_OFERTA {
+    height:4em;
+    bottom:1em;
+    
+}

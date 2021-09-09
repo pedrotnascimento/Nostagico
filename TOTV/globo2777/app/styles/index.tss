@@ -1,0 +1,143 @@
+".container": {
+	"backgroundColor": "white"
+},
+
+"#imgLogo": {
+	"image": "/images/logo-globo-login.png",
+	"top": "7%",
+	"right":"3.96%", 
+	"height": "45",
+	"width": "45",
+},
+"Label": {
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"color": "#000"
+},
+"#vwGlobo": {
+	"backgroundColor": "#ffffff",
+	"height": "9.23%",
+	"left": "0.00%",
+	"top": "0.01%",
+	"width": "100.00%",
+	"zIndex": "2"
+},
+"#winLogin": {
+	"backgroundColor": "#ffffff"
+},
+"#vwMain": {
+	"backgroundColor": "#1b3d5b",
+	//"backgroundImage": "/images/bg_login_v4_@2x.png",
+	"height": "100%",
+	"left": "0.00%",
+	"width": "100.00%",
+},
+"#vwMain[platform=android]": {
+	"height": "100%"
+},
+"#lblGlobo": {
+	"text": "CENTRAL 2777",
+	"font": {fontSize:'20', fontFamily:'Arial Rounded MT Bold',fontStyle:'normal',fontWeight:'bold'},
+	"left": "3.96%",
+	"top": "22%",
+	
+	"color": "#fff",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+"#fldUser": {
+	"width": "92%",
+	"height": "8%",
+	"borderRadius": "5",
+	"borderColor": "#E5E5E5",
+	"borderWidth": "1",
+	"backgroundColor": "#ffffff",
+	"hintText": "Digite seu e-mail",
+	"top": "31.5%",
+	"hintTextColor": "#A7A7A7",
+	"left": "3.96%"
+},
+"#fldSenha": {
+	"width": "92%",
+	"height": "8%",
+	"borderRadius": "5",
+	"borderColor": "#E5E5E5",
+	"borderWidth": "1",
+	"backgroundColor": "#ffffff",
+	"hintText": "Digite sua senha",
+	"left": "4.00%",
+	"top": "39.96%",
+	"passwordMask": "true",
+	"hintTextColor": "#A7A7A7"
+},
+"#btnEntrar": {
+	"title": "ENTRAR",
+	"width": "92.00%",
+	"borderRadius": "5",
+	"borderColor": "#0085ba",
+	"borderWidth": "1",
+	"backgroundColor": "#009ddb",
+	"left": "4.00%",
+	"height": "7.25%",
+	"top": "50.13%",
+	"color": "white"
+},
+"#btnEntrarBG": {
+	"width": "92.00%",
+	"borderRadius": "5",
+	"borderColor": "#0085ba",
+	"borderWidth": "1",
+	"backgroundColor": "#0085ba",
+	"left": "4.00%",
+	"height": "7.25%",
+	"top": "50.90%",
+	"color": "white"
+},
+"#btnVis": {
+	"title": "OU ENTRE COMO VISITANTE",
+	"width": "92.00%",
+	"borderColor": "transparent",
+	"borderWidth": "1",
+	"backgroundColor": "transparent",
+	"left": "3.26%",
+	"height": "7%",
+	"top": "89%",
+	"color": "white"
+},
+"#btnCad": {
+	"title": "CADASTRE-SE",
+	"width": "92.00%",
+	"borderRadius": "5",
+	"borderColor": "white",
+	"borderWidth": "1",
+	"backgroundColor": "transparent",
+	"left": "4%",
+	"height": "7%",
+	"top": "80%",
+	"color": "white"
+},
+"#btnEsq": {
+	"title": "ESQUECI MINHA SENHA",
+	"width": "92.00%",
+	"borderColor": "transparent",
+	"backgroundColor": "transparent",
+	"left": "3.96%",
+	"height": "7.25%",
+	"top": "57.93%",
+	"color": "white"
+},
+"TextField": {
+	"hintTextColor": "#757271",
+	"color": "black",
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"Button": {
+	"borderRadius": "5",
+	"font": {fontSize:'14',fontStyle:'normal',fontWeight:'bold',fontFamily:'ProximaNova'}
+},
+"#bgLogin": {
+	"layout": "absolute",
+	"height": "92.02%",
+	"left": "35.20%",
+	"top": "7.09%",
+	"width": "90.13%"
+}

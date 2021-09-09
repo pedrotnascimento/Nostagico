@@ -1,0 +1,28 @@
+{
+    "global": {},
+    "env:development": {
+      "pedroId": "5900df39a7f6710941eae847",
+      "joaoId": "58f8c3fc10859c094bad2579"
+    },
+    "env:test": {
+      "pedroId": "5900df39a7f6710941eae847",
+      "joaoId": "58f8c3fc10859c094bad2579"
+    },
+    "env:production": {
+      "pedroId": "5900e03a5e1ef7094614bec0",
+      "joaoId": "5900e05a57d2f2291f67458e"
+    },
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "os:windows": {},
+    "dependencies": {
+        "widFechar": "1.0",
+        "nice-tabs": "1.0",
+        "searchView": "1.0",
+        "SuccessFeedback": "1.0",
+        "nice-search": "1.0",
+        "loadingOverlay": "1.0"   
+    }
+}

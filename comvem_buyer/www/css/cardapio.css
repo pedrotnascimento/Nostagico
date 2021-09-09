@@ -1,0 +1,39 @@
+﻿.ICON-MED { /*COM ESSA CLASSE O ICON NÃO FICA TÃO PEQUENO*/
+    font-size: 30px;
+}
+
+.ALTURA {
+    height: 2em;
+}
+
+.ALTURA-ITEM {
+    height: 4em;
+}
+
+.ION_FOOTER_HEIGHT {
+    height: 6em;
+    bottom:0em;
+}
+
+has-customFooter {
+    bottom: 6em;
+}
+
+.BOTAO_HEIGHT_CARDAPIO {
+    height:4em;
+    top:1em;
+}
+
+.itemImage {
+            height: 2em;
+            width: 2em;
+}
+
+.ALIGN-RIGHT { /*classe para alinhaR icone a direita*/
+    text-align: right;
+}
+
+.UPDOWN-BUTTON {
+    width: 1em;
+    height: auto;
+}

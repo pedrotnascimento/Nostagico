@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <form action="/articles" method="post" enctype="multipart/form-data">
+      <input name="title" value="Hey ho, the adventure" />
+      <textarea name="abstract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi consectetur, debitis delectus deleniti
+      deserunt eius enim error id maiores nobis omnis optio perspiciatis ratione repudiandae, saepe similique tempora
+      tempore.</textarea>
+      <input name="authors.1" value="Trololo" />
+      <input name="authors.2" value="Manolo" />
+      <input name="authors.3" value="Man in the black" />
+      <input type="file" name="document" />
+      <button>Create</button>
+    </form>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  </body>
+</html>
+

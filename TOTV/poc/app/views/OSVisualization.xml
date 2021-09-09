@@ -1,0 +1,84 @@
+<Alloy>
+    <Window id="windowOSVisualization">
+        <Widget id="indicator" src="loadingOverlay"/>
+        <ImageView id="imageHolder" class="backgroundImageHolder"/>
+        <View class="contentHolder">
+            <Require id="WidFechar" src="widFechar" type="widget"/>
+            <Require id="niceSearch" src="nice-search" type="widget"/>
+            <Require id="niceTabs" src="nice-tabs" type="widget"/>
+        </View>
+
+        <ListView defaultItemTemplate="templateOSView" id="listOpenOS" class="cardListView">
+            <Templates>
+                <ItemTemplate id="templateOSView" name="templateOSView" class="cardItemTemplate">
+                    <View layout="vertical" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+                        <View bindId="paddingUp" class="padding"/>
+                        <View class="cardView" height="Ti.UI.SIZE">
+                            <View layout="horizontal" height="80" width="Ti.UI.SIZE">
+                                <View width="49.5%" layout="vertical">
+                                    <Label height="Ti.UI.SIZE" class="subtitle">
+                                        NÚMERO DA O.S.
+                                    </Label>
+                                    <Label bindId="OSNumber" class="content"/>
+                                </View>
+                                <View class="vr"/>
+                                <View width="49.5%" layout="vertical">
+                                    <Label height="Ti.UI.SIZE" class="subtitle">
+                                        QTD. DE OPERAÇÕES
+                                    </Label>
+                                    <Label bindId="OPNumber" class="content"/>
+                                </View>
+                            </View>
+                            <View class="hr"/>
+                            <View height="48">
+                                <Label class="details" bindId="details">
+                                    DETALHAR
+                                </Label>
+                            </View>
+                        </View>
+                        <View bindId="paddingBottom" class="padding"/>
+                    </View>
+                </ItemTemplate>
+            </Templates>
+
+            <ListSection id="listSectionOpenOS"/>
+        </ListView>
+
+        <ListView defaultItemTemplate="templateOSView" id="listFinishedOS" class="cardListView">
+            <Templates>
+                <ItemTemplate id="templateOSView" name="templateOSView" class="cardItemTemplate">
+                    <View layout="vertical" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+                        <View bindId="paddingUp" class="padding"/>
+                        <View class="cardView" height="Ti.UI.SIZE">
+                            <View layout="horizontal" height="80" width="Ti.UI.SIZE">
+                                <View width="49.5%" layout="vertical">
+                                    <Label height="Ti.UI.SIZE" class="subtitle">
+                                        NÚMERO DA O.S.
+                                    </Label>
+                                    <Label bindId="OSNumber" class="content"/>
+                                </View>
+                                <View class="vr"/>
+                                <View width="49.5%" layout="vertical">
+                                    <Label height="Ti.UI.SIZE" class="subtitle">
+                                        QTD. DE OPERAÇÕES
+                                    </Label>
+                                    <Label bindId="OPNumber" class="content"/>
+                                </View>
+                            </View>
+                            <View class="hr"/>
+                            <View height="48">
+                                <Label class="details" bindId="details">
+                                    DETALHAR
+                                </Label>
+                            </View>
+                        </View>
+                        <View bindId="paddingBottom" class="padding"/>
+                    </View>
+                </ItemTemplate>
+            </Templates>
+
+            <ListSection id="listSectionFinishedOS"/>
+        </ListView>
+
+    </Window>
+</Alloy>

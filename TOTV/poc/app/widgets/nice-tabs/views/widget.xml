@@ -1,0 +1,6 @@
+<Alloy>
+    <View id="viewWidgetContainer">
+        <ScrollView id="scrollTabSelector"/> 
+        <ScrollableView id="scrollableTabDisplay"/>
+    </View>
+</Alloy>

@@ -1,0 +1,35 @@
+<Alloy>
+    <Window class="container vertical" id="winPrincipal">
+    	
+        <View id="vwGlobo">
+        	
+            <View id="vwMenuBtn">
+                <Label id="lblMenuBtn"/>
+            </View>
+            
+           		 <ImageView id="imgSair"/>
+            
+            <Label id="lblGlobo"/>
+        </View>
+         
+        <View>
+
+        	<View id="vwSettings">
+        		<ListView id="lstSettings">
+        			 <ListSection>
+                     	<ListItem class="lstSettingsItem" title="Ajuda"></ListItem>
+           			 	<ListItem class="lstSettingsItem" title="Sobre"></ListItem>
+            			<ListItem class="lstSettingsItem" title="Sair"></ListItem>
+        			 </ListSection>
+        		</ListView>
+            </View>
+
+            <Require id="SlideMenu" src="slideMenu" type="widget"/>
+            <View id="AppWrapper" width="100%">
+                <!-- width="100%"  nao deixa o layout do grid quebrar -->
+                <Require id="fg" src="com.prodz.tiflexigrid" type="widget"/>
+            </View>
+        </View>
+       
+    </Window>
+</Alloy>

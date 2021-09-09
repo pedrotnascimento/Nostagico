@@ -1,0 +1,12 @@
+<Alloy>
+    <Window id="winVerCard">
+        <Require id="WidNR" src="naoResponsivo" type="widget"/>
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+        <!--<View id="vwCancel">
+            <ImageView id="imgCancel"/>
+            <Label id="lblCancel"/>
+            <Label id="lblEditar" onClick="edtCardapio"/>
+     </View>-->
+        <View id="vwVerCard"/>
+    </Window>
+</Alloy>

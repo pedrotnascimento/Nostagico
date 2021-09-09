@@ -1,0 +1,23 @@
+﻿.ION_FOOTER_HEIGHT_SUGES {
+    height: 6em;
+    bottom:0em;
+}
+
+.BOTAO_HEIGHT_SUGES {
+    height:4em;
+    bottom:0em;
+    top:1em;    
+}
+
+.SUGESTAO_MARGEM {
+    color:cornflowerblue;
+    margin-left:10%;
+}
+
+.SUGESTAO {
+    margin-left:5%;
+}
+
+.ALTURA_SUGES {
+    height:3em;
+}

@@ -1,0 +1,58 @@
+".container": {
+},
+"#winRest": {
+	"backgroundColor": "white"
+},
+"#vwRest": {
+	"top": "30dp",
+	"borderRadius": "9",
+	"borderColor": "#d0cfd0",
+	"left":"10dp","right":"10dp",
+	"height": "130dp",
+	"backgroundColor":"white"
+
+},
+"#vwBlank": {
+	"top": "30dp",
+	"width": "95%",
+	"height": "80dp"
+},
+
+"#logoRest": {
+	"left": "12dp",
+	"borderColor": "#d0cfd0",
+	"width": "100dp",
+	"height": "100dp",
+	"image": "/images/no-photo.gif"
+},
+"#setaDir": {
+	"image": "/images/ic-arrow-right@3x.png",
+	"right": "20dp"
+},
+"#scrView": {
+	"height": "650dp",
+	"top": "60dp",
+	"layout": "vertical",
+	"backgroundColor": "#F5F5F5"
+},
+"#lblNome": {
+	"color": "#3273ab",
+	"top": "26dp",
+	"left": "125dp",
+	"font": {fontWeight:"bold",fontSize:"15"}
+},
+"#lblVer": {
+	"color": "#3273ab",
+	"top": "91dp",
+	"text": "Visualizar",
+	"left": "125dp",
+	"font": {fontWeight:"bold",fontSize:"14",}
+},
+"#lblTel": {
+	"color": "#666",
+	"top": "60dp",
+	"left": "125dp",
+	"font": {fontSize:"13",}
+},
+"#vwEspaco": {
+}

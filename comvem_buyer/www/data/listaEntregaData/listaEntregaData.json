@@ -1,0 +1,53 @@
+﻿{
+  "vendedores": [
+    {
+      "nome": "Mercearia do Seu João",
+      "id": "1",
+      "qt": "5",
+      "products": [
+        {
+          "id": "9834",
+          "nome": "Lanterna Hitachi",
+          "preco": "5.23",
+          "img": "lanterna-hitachi.jpg",
+          "visivel": "1",
+          "qt": "5",
+          "qtMiss": "0"
+        }
+
+      ]
+    },
+    {
+      "nome": "Casa Pedro",
+      "id": "2",
+      "qt": "9",
+      "products": [
+        {
+          "id": "1534",
+          "nome": "Chá Leão- Camomila",
+          "preco": "5.23",
+          "img": "camomila-leao.jpg",
+          "visivel": "1",
+          "qt": "4",
+          "qtMiss": "0"
+
+        },
+
+        {
+          "id": "144",
+          "nome": "Papel Higiênico",
+          "preco": "5.23",
+          "img": "Personal.jpg",
+          "visivel": "1",
+          "qt": "5",
+          "qtMiss": "0"
+        }
+      ]
+    }
+
+  ],
+  "qt": "14",
+
+  "dateEntrega": "2016-03-12T01:05:30"
+
+}

@@ -1,0 +1,21 @@
+<Alloy>
+    <Window id="winLogin">
+        <Widget id="indicator" src="loadingOverlay"/>
+        <ImageView id="imageHolder" class="backgroundImageHolder" />
+        <View class="contentHolder">
+            <View id="vwMain">
+                <ImageView id="imgFiat" />
+                <Label id="lblFiat" />
+                <TextField id="fldEmail" class="inputBox" />
+                <View class="delimitedBreak" />
+                <TextField id="fldPassword" class="inputBox" />
+                <View class="delimitedBreak" />
+                <Button class="btnSendStyle" id="btnLogin" />
+                <View id="vwLoginSection">
+                    <Button id="btnForgotPassword" />
+                </View>
+            </View>
+            <AlertDialog id="dlgError" title="Usuário inválido" message="Verifique se seu login foi inserido corretamente"/>
+        </View>
+    </Window>
+</Alloy>

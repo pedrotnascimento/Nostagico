@@ -1,0 +1,48 @@
+﻿.itemImage {
+    height: 2em;
+    width: 2em;
+}
+
+.ionic_ratings .icon {
+    font-size: 3em;
+}
+
+.ionic_ratings .read_only {
+    pointer-events: none;
+}
+
+.ION_FOOTER_HEIGHT_AVALIA {
+    height: 6em;
+    bottom:0em;
+}
+
+.has-customFooter {
+    bottom: 6em;
+}
+
+.myButton {
+    width: 100%;
+}
+
+.item-text-center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.BOTAO_HEIGHT_AVALIA {
+    top:1em;
+    height:4em;
+    bottom:0em;
+}

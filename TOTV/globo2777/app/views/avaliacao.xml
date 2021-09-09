@@ -1,0 +1,20 @@
+<Alloy>
+    <Window id="winAval">
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+        <View id="vwMain">
+            <Label id="lblPerg"/>
+            <Button class="notSelBtn" id="btnPes"/>
+            <Button class="notSelBtn" id="btnRuim"/>
+            <Button class="notSelBtn" id="btnBom"/>
+            <Button class="notSelBtn" id="btnExc"/>
+            <Label id="lblInfo"/>
+            <Label id="lblInfoCont"/>
+            <Label id="lblOpc"/>
+            <TextArea id="areaInfo"/>
+            <View id="vwBtn">
+                <Button id="btnEnviarBG"/>
+                <Button id="btnEnviar"/>
+            </View>
+        </View>
+    </Window>
+</Alloy>

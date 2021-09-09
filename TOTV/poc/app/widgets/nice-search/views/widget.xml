@@ -1,0 +1,9 @@
+<Alloy>
+    <View id="viewOuterWrapper">
+    	<View id="viewClickLeft"/>
+         
+        <TextField id="textFieldSearch"/>
+         
+        <View id="viewClickRight"/>        
+    </View>
+</Alloy>

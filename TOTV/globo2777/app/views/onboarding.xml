@@ -1,0 +1,14 @@
+<Alloy>
+    <Window id="winOnb">
+        <View id="vwMain">
+            <!--<ImageView id="imgLogo"/>-->
+            <Label id="lblGlobo"/>
+            <Label id="lblInfo"/>
+        </View>
+        <View id="vwMenu">
+            <Button id="btnPular"/>
+            <Button id="btnAv"/>
+            <Button id="btnFim"/>
+        </View>
+    </Window>
+</Alloy>

@@ -1,0 +1,40 @@
+﻿<style>
+    
+
+</style>
+
+
+
+<ion-view view-title="Convem">
+
+
+    <!-- Navbar (Override default) -->
+    <ion-nav-bar class="bar-stable" hide-nav-bar="true">
+        
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+
+    </ion-nav-bar><!-- End Navbar -->
+    <!-- Content -->
+    <ion-content>
+        <div class="col-center">
+            <button class="button button-full button-positive" disabled><i class="icon ion-social-facebook icon-left"> Entrar com Facebook</i></button>
+        </div>
+        <div class="col-center text-center">
+            Digite seu email para enviarmos a sua senha
+        </div>
+        <!-- <form name="form" ng-submit="ESCtrl.enviar(form.email.$modelValue)"   novalidate> -->
+        <div class="col-center">
+            <label class="item item-input">
+                <span class="input-label"><i class="icon ion-ios-email"></i> Email</span>
+                <input type="email" name="email" ng-model="email" required>
+            </label>
+        </div>
+           <!-- </form>-->
+        
+        <div class="col-center">
+            <input type="submit" value="Enviar"  ng-click="enviar(email)" class="button button-full button-block button-balanced" />
+        </div>
+
+    </ion-content><!-- End Content -->
+</ion-view>

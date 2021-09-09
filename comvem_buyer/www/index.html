@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+      <meta http-equiv="Content-Security-Policy" content="default-src *; style-src &apos;self&apos; &apos;unsafe-inline&apos;; script-src * &apos;unsafe-inline&apos; &apos;unsafe-eval&apos;">
+
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- #### Adicione o arquivo do controller aqui #### -->
+    <script src="js/app.js"></script>
+
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDpBHkDLF7XtICa5CcO345uAr3IoP80nKo&amp;&quot;"></script>
+    <script src="js/route.js"></script>
+
+    <!-- Arquivos Ian  -->
+    <!-- Modulo Especial para o Star Rating -->
+    <script src="js/modules/ionicRating.js"></script>
+    <!-- LocalForage -->
+    <script src="lib/localForage/dist/localforage.js"></script>
+    <script src="lib/angular-localForage/dist/angular-localForage.js"></script>
+
+    <script src="js/modules/oferta.js"></script>
+    <script src="js/services/ofertaFactory.js"></script>
+    <script src="js/controller/OfertaCtrl.js"></script>
+
+    <script src="js/modules/login.js"></script>
+    <script src="js/services/loginService.js"></script>
+    <script src="js/controller/LoginCtrl.js"></script>
+    <script src="js/controller/LogoutCtrl.js"></script>
+
+    <script src="js/modules/avaliacao.js"></script>
+    <script src="js/services/avaliacaoFactory.js"></script>
+    <script src="js/controller/AvaliaVendedorCtrl.js"></script>
+
+    <script src="js/modules/cartao.js"></script>
+    <script src="js/services/meuCartaoService.js"></script>
+    <script src="js/controller/MeuCartaoCtrl.js"></script>
+    <script src="js/controller/AddCartaoCtrl.js"></script>
+
+    <script src="js/modules/session.js"></script>
+    <script src="js/services/sessionFactory.js"></script>
+    <script src="js/services/APIInterceptor.js"></script>
+    <script src="js/services/APIconfig.js"></script>
+    <!-- FIM Arquivos Ian-->
+    <!-- INICIO Arquivos Mateus-->
+    <!--confirma local no mapa-->
+    <script src="js/modules/ConfirmaLocal.js"></script>
+    <script src="js/controller/ConfirmaLocalCtrl.js"></script>
+    <!--cadastro de usuario-->
+    <script src="js/modules/cadastro.js"></script>
+    <script src="js/services/cadastroService.js"></script>
+    <script src="js/controller/CadastroCtrl.js"></script>
+    <!--condicoes de uso-->
+    <script src="js/modules/condicoes.js"></script>
+    <script src="js/controller/CondicoesCtrl.js"></script>
+    <!-- FIM Arquivos Mateus-->
+    <!-- INICIO Arquivos Pedro-->
+    <!-- plugins -->
+    <link href="lib/plugin/ionic.filter.bar.min.css" rel="stylesheet">
+    <script src="lib/plugin/ionic.filter.bar.min.js"></script>
+    <script src="js/modules/pedidos.js"></script>
+    <script src="js/services/cardapioFactory.js"></script>
+    <script src="js/services/pedidosFactory.js"></script>
+    <script src="js/controller/PedidosCtrl.js"></script>
+    <script src="js/controller/CardapioCtrl.js"></script>
+    <script src="js/controller/CardapioItemCtrl.js"></script>
+    <script src="js/modules/entrega.js"></script>
+    <script src="js/controller/EntregaCtrl.js"></script>
+    <script src="js/controller/FaltaItemCtrl.js"></script>
+    <script src="js/services/entregaFactory.js"></script>
+
+    <script src="js/controller/EsqueceuSenhaCtrl.js"></script>
+    <script src="js/services/esqueceuSenhaFactory.js"></script>
+
+    <script src="js/modules/sugestao.js"></script>
+    <script src="js/controller/SugestaoCtrl.js"></script>
+
+    <script src="js/modules/contato.js"></script>
+    <script src="js/controller/ContatoCtrl.js"></script>
+
+</head>
+
+<body ng-app="convem">
+    <ion-nav-view></ion-nav-view>
+</body>
+</html>

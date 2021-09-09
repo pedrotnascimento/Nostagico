@@ -1,0 +1,47 @@
+<Alloy>
+    <Window id="winCreateNote">
+
+        <AlertDialog id='alertDialog'>
+            <View layout='vertical'>
+                <View id='topView'>
+                    <Label id='lb01'>
+                        Nota de manutenção criada com sucesso.
+                    </Label>
+                </View>
+                <View class='hr'/>
+                <View id='bottomView' onClick="closeWindow">
+                    <Label id='lb02'>
+                        Voltar para página inicial
+                    </Label>
+                </View>
+            </View>
+        </AlertDialog>
+
+        <Widget id="indicator" src="loadingOverlay"/>
+        <ImageView id="imageHolder" class="backgroundImageHolder"/>
+        <View class="contentHolder">
+            <Require id="WidFechar" src="widFechar" type="widget"/>
+            <View id="vwMain">
+                <View class="cardView" id="vwCard">
+                    <Label class="subtitle" id="lblEquipCode"/>
+                    <View class="contentView" id="vwSearch">
+                        <Label class="contentHighlight" id="lblSearch"/>
+                    </View>
+                    <View class="hr"/>
+                    <Label class="subtitle" id="lblNoteType"/>
+                    <View class="contentView" id="vwNoteType">
+                        <Label class="contentHighlight" id="lblSelectType"/>
+                    </View>
+                    <View class="hr"/>
+                    <Label class="subtitle" id="lblDescription"/>
+                    <TextArea class="textbox" id="txtAreaDescription"/>
+                    <View class="hr"/>
+                    <Label class="wordCount" id="lblWordCount"/>
+                </View>
+                <View id="vwCreateSection">
+                    <Button class="btnSendStyle" id="btnCreate"/>
+                </View>
+            </View>
+        </View>
+    </Window>
+</Alloy>

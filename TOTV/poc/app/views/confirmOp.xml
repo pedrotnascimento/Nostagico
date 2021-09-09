@@ -1,0 +1,65 @@
+<Alloy>
+	<Window id="winOPStatus">
+        <Widget id="indicator" src="loadingOverlay"/>
+		<ImageView id="imageHolder" class="backgroundImageHolder"/>
+		<View class="contentHolder">
+			<Require id="WidFechar" src="widFechar" type="widget"/>
+			<View id="vwMain">
+				<View id="vwCard" class="cardView">
+					<View backgroundColor="#21b38d" height=35>
+						<Label id="lblStatus">O.P. ATIVA</Label>
+					</View>
+					<View backgroundColor="#fafafa" height=30 top=10>
+	                    <Label class="dateText">INÍCIO</Label>
+	                </View>
+	                <View class="hr" />
+	                <View layout="horizontal" height="80" width="Ti.UI.SIZE" top="0">
+	                    <View width="49.5%" layout="vertical">
+	                        <Label height="Ti.UI.SIZE" class="subtitle">
+	                            DATA
+	                        </Label>
+	                        <Label class="content" id="lblInitDate"/>
+	                    </View>
+	                    <View class="vr" />
+	                    <View width="49.5%" layout="vertical">
+	                        <Label height="Ti.UI.SIZE" class="subtitle">
+	                            HORA
+	                        </Label>
+	                        <Label class="content" id="lblInitTime"/>
+	                   	</View>
+                    </View>
+                    <View class="hr" />
+                    <View backgroundColor="#fafafa" height=30>
+	                    <Label class="dateText">FIM</Label>
+	                </View>
+	                <View class="hr" />
+	                <View layout="horizontal" height="80" width="Ti.UI.SIZE" top="0">
+	                    <View width="49.5%" layout="vertical">
+	                        <Label height="Ti.UI.SIZE" class="subtitle">
+	                            DATA
+	                        </Label>
+	                        <Label class="content" id="lblEndDate"/>
+	                    </View>
+	                    <View class="vr" />
+	                    <View width="49.5%" layout="vertical">
+	                        <Label height="Ti.UI.SIZE" class="subtitle">
+	                            HORA
+	                        </Label>
+                            <Label class="content" id="lblEndTime"/>
+	                   	</View>
+                    </View>
+                    <View class="hr" />
+                    <View layout="vertical">
+	                        <Label height="Ti.UI.SIZE" class="subtitle">
+                            OBSERVAÇÕES
+	                        </Label>
+	                         <TextArea class="textbox" id="txtAreaObs"/>
+	                    </View>
+                </View>	
+				<View id="vwBtnSection" class="btnSection">
+	                <Button class="btnSendStyle" id="btnEnd"/>
+	            </View>	
+			</View>
+		</View>
+	</Window>
+</Alloy>

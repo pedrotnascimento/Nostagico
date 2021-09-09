@@ -1,0 +1,156 @@
+".container": {
+},
+"#winMapa": {
+	"title": "Window"
+},
+"#vwMain": {
+	"height": "90%",
+	"left": "0.00%",
+	"top": "10%",
+	"width": "100.00%"
+},
+"#vwMap[platform=android]": {
+	"height": Ti.UI.FILL,
+	"left": "0%",
+	"top": "116dp",
+	"width": "100%",
+	"region": {latitude:-22.961290,longitude:-43.406066,latitudeDelta:0.00043,longitudeDelta:0.0020282,zoom:30,bearing:10,viewingAngle:30},
+	"regionFit": "true",
+	"animate": "true"
+},
+"#lblCancel": {
+	"text": "Mapa Estúdios Globo",
+	"color": "white",
+	"height": "31.90%",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+"#vwCancel": {
+	"height": "9.32%",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%",
+	"backgroundColor": "#3574A9"
+},
+"#imgCancel": {
+	"height": "68.97%",
+	"image": "/images/cancelBtn.PNG",
+	"left": "1.60%",
+	"width": "12.80%"
+},
+"#imgLocal": {
+	"height": "68.97%",
+	"image": "/images/cancelBtn.PNG",
+	"left": "85.6%",
+	"top": "21.55%",
+	"width": "12.80%"
+},
+"#btnFiltro": {
+	"title": "FILTRAR",
+	"borderColor": "#009ddb",
+	"borderRadius": "5",
+	"color": "#169BD5",
+	"height": "35dp",
+	"left": "5",
+	"top": "10.5dp",
+	"bottom": "10.5dp",
+	"width": "80dp",
+	"backgroundColor": "transparent",
+	"font": {fontSize:"12"}
+},
+"#vwMain": {
+	"height": Ti.UI.FILL,
+	"left": "0.00%",
+	"top": "116dp",
+	"width": "100.00%"
+},
+"#vwFiltro": {
+	"height": "53dp",
+	"left": "0.00%",
+	"top": "60dp",
+	"width": "100.00%"
+},
+"#searchMap": {
+	"color": "black",
+	"barColor": "white",
+	"borderColor": "#e3e7ed",
+	"borderRadius": "5",
+	"font": {fontSize:"12"},
+	"backgroundColor": "#fff",
+	"hintText": "Pesquisar",
+	"keyboardStyle": Titanium.UI.KEYBOARD_TYPE_ASCII,
+	"top": "3dp",
+	"backgroundColor": "white",
+	"height": "50dp",
+	"right": "12dp",
+	"width": "200dp"
+},
+"#btnLegenda": {
+	"title": "LEGENDA",
+	"color": "white",
+	"borderRadius": "9",
+	"height": "40dp",
+	"left": "5dp",
+	"bottom": "10dp",
+	"width": "100dp",
+	"backgroundColor": "#169bd5"
+},
+"#btnLegendaBG": {
+	"borderRadius": "9",
+	"height": "40dp",
+	"left": "5dp",
+	"bottom": "5dp",
+	"width": "100dp",
+	"backgroundColor": "#0085ba"
+},
+"#vwLegenda": {
+	"height": "65%",
+	"left": "1.81%",
+	"bottom": "70dp",
+	"width": "95.76%",
+	"backgroundColor": "#fff",
+	"zIndex": 4,
+	"layout": "vertical"
+},
+"#WidFechar": {
+},
+"#listLegenda": {
+	"top": "0",
+	"backgroundColor": "#e3e7ed",
+	"color": "#009ddb",
+	"height": "100%",
+	"left": "0.00%",
+	"width": "100.00%"
+},
+"#icon": {
+	"width": "15dp",
+	"height": "30dp",
+	"left": "0"
+},
+"#title": {
+	"color": "black",
+	"font": {fontFamily:'Arial',fontSize:'20dp',fontWeight:'bold'},
+	"left": "80dp",
+	"top": "12dp"
+},
+"#vwCover": {
+	"left": "0.00%",
+	"top": "19.04%",
+	"backgroundColor": "transparent",
+	"zIndex": 20,
+	"height": "80.96%",
+	"width": "100.00%"
+},
+".lblLegenda": {
+	"left": "40dp",
+	"font": {fontSize:"14", fontWeight:"bold"},
+	"top": "0dp",
+	"height": "30dp"
+},
+".imgLegenda": {
+	"left": "5dp",
+	
+},
+"#vwItemLegenda": {
+	"width": "100%",
+	"height": "40dp"
+}

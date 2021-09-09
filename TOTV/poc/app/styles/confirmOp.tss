@@ -1,0 +1,28 @@
+"#btnPause": {
+	left: "5%",
+	width: "43.5%",
+	title: "PAUSAR",
+	color: "white",
+	height:52,
+	font: {
+        fontSize:"20"
+    },
+    bottom: 13,
+    borderColor: "white",
+    backgroundColor: "transparent"
+	
+},
+"#btnEnd": {
+	title: "CONFIRMAR CONCLUSÃO"
+},
+"#vwMain":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical"
+},
+"#txtAreaObs":{
+	top: 10,
+	hintText:"Digite uma breve observação",
+	borderColor:"transparent",
+//    width: "100%",
+},

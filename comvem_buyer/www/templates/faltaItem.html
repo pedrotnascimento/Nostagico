@@ -1,0 +1,83 @@
+﻿﻿
+<!-- Pedro Nascimento
+
+deliveryList.html
+interface do comprador da lista de produtos sendo entregues
+
+    Histórico
+ 1.0 29-01-2016 - elaboração da interface (parecido com a lista de entrega do vendedor)
+-->
+
+
+
+
+<ion-view title="Convem">
+    <link href="./css/faltaItem.css" rel="stylesheet">
+    <!-- NavBar -->
+
+    <ion-nav-bar class="bar-stable">
+        <!--<ion-nav-buttons side="left">
+            <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+        </ion-nav-buttons>-->
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar><!-- End NavBar -->
+    <div class="bar bar-subheader">
+        <center>Selecione os Itens que faltaram na entrega</center>   
+    </div>
+
+
+    <ion-content class="has-subheader has-customFooter">
+        <ion-list ng-repeat="vendedor in vendedores">
+            <!--comeco da lista referente aos itens -->
+
+            <div class="item-divider">
+                <div class="row">
+                    <div class="col col-70">
+                        {{vendedor.nome}}
+                    </div>
+                    <div class="col " id="alinha_direita">
+                        <span>
+                            {{qtMissVend(vendedor)}} <span ng-show="qtTotal>1">{{"itens"}}</span><span ng-show="!(qtTotal>1)">{{"item"}}</span><!-- verifica se é itens ou item -->
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <ion-item class="row" ng-repeat="product in vendedor.products" ng-click="faltaProdutoPopUp(vendedor, $index)"
+                    ng-class="{'item-positive':product.isMiss }">
+
+                    <!--detalhe para o fato do tamanho das imagens estarem diferentes, se iguais, continuam diferente-->
+                    <div class="col col-20 ">
+                        <img class="itemIMAGE" ng-src="./img/{{product.img}}">
+                    </div>
+<!-- 
+    
+                    <div class="col col-70 produtoTexto"><p  style =" text-align: left"> {{product.nome}} </p></div>
+                    <div ><p class="col i produtoTexto" style="text-align:right">Faltou {{product.qtMiss}} de {{product.qt}}</p></div>
+
+    -->
+                    <div class="col col-70 produtoTexto"><p  id="alinha_esquerda"> {{product.nome}} </p></div>
+                    <div ><p class="col i produtoTexto" id="alinha_direita">Faltou {{product.qtMiss}} de {{product.qt}}</p></div>
+
+                </ion-item>
+        </ion-list>
+        
+    </ion-content>
+    <!-- Footer -->
+    <div class="bar bar-footer bar-stable FOOTER">
+        
+            
+                
+                <div class="col">
+                    <button id="acceptBtn" class="button button-balanced button-full button-large" ng-click="goAvaliacao()">
+                        <b>Enviar</b>
+                    </button>
+                </div>
+
+            
+        
+    </div><!-- End Footer -->
+
+</ion-view>
+

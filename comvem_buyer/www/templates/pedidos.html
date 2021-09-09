@@ -1,0 +1,60 @@
+﻿<ion-view title="Convem">
+    <link href="./css/pedidos.css" rel="stylesheet" />
+    <ion-nav-bar class="bar-stable">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right" id="nav_bar_buttons">
+            <button class="button" ng-click="goCardapio()"><i class="icon ion-bag"></i></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <!--
+    <div class=" bar bar-subheader">
+        <input type="text" placeholder="Buscar item para adicionar a cesta" />
+    </div>
+    -->
+    <ion-content class="has-customFooter">
+
+        <div class="row" ng-repeat="product in pedido.items">
+            <div class="col-10">
+                <img class="itemImage" ng-src="{{product.imgUrl}}" alt=" " />
+            </div>
+
+            <div class="col-20">
+                {{product.name}}
+            </div>
+            <div class="ALIGN-RIGHT col-33">
+                <a ng-click="downQt(product)">
+                    <img src="./img/minus-round.png" class="UPDOWN-BUTTON_PEDIDO" />
+                </a>
+
+                <!-- <input class="item-input" value="{{product.qt}}" type="number" maxlength="2"  > -->
+                <span>{{product.qty}}</span>
+
+                <img src="./img/plus-round.png" ng-click="upQt(product)" class="UPDOWN-BUTTON_PEDIDO" />
+                <p class="VERDE">R{{(product.value * product.qty) | currency}}</p>
+
+            </div>
+
+            <div class="ALIGN-RIGHT col-40">
+
+                <span id="DELETEPRODUCT" class="button button-clear ion-close-circled button-large"
+                      ng-click="deleteProduct(product)"></span>
+            </div>
+        </div>
+    </ion-content>
+
+
+    <ion-footer-bar class="bar bar-footer col ION_FOOTER_HEIGHT FOOTER_LIS">
+        <div class="col FOOTER_ITEM">
+            <h3 class="col VALOR_ESTIMADO">Valor Estimado: <span class="VERDE">R{{pedido.preco_total | currency}}</span></h3>
+            <h3 class="col TAXA_ESTIMADA">Taxa Estimada de Servico <span class="VERDE">R$ 5,00</span></h3>
+        </div>
+        <div class="col">
+            <button class="button button-positive button-block BOTAO_HEIGHT_PEDIDO" ng-click="concluirCompra()">Concluir Compra</button>
+        </div>
+    </ion-footer-bar>
+
+
+
+</ion-view>

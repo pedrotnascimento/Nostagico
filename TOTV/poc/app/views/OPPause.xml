@@ -1,0 +1,28 @@
+<Alloy>
+	<Window id="winNewOP">
+		<Widget id="indicator" src="loadingOverlay"/>
+		<ImageView id="imageHolder" class="backgroundImageHolder"/>
+		<View class="contentHolder">
+			<Require id="WidFechar" src="widFechar" type="widget"/>
+			<View id="vwMain">
+				<View id="vwCard" class="cardView">
+					<View backgroundColor="#21b38d" height=35>
+						<Label id="lblStatus">O.P. ATIVA</Label>
+					</View>
+
+                    <View height="Ti.UI.SIZE" layout="vertical" id="viewTechnicalPause">
+                        <Label class="subtitle" top="10">
+                            JUSTIFICATIVA
+                        </Label>
+                        <TextArea class="textbox" id="txtAreaDescription"/>
+                        <View class="hr" top=5/>
+                        <Label class="wordCount" id="lblWordCount"/>
+                    </View>
+				</View>
+				<View id="vwBtnSection">
+	                <Button class="btnSendStyle" id="btnStart"/>
+	            </View>	
+	    	</View>
+		</View>
+	</Window>
+</Alloy>

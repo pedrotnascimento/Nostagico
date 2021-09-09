@@ -1,0 +1,24 @@
+"#win":{
+  title: 'Click window to test',
+  backgroundColor: 'white',
+  exitOnClose: true,
+  fullscreen: false
+}
+"#blessedView":{
+	height: 300,
+	width: 288,
+	backgroundColor: '#ffffff',
+	zIndex: 10
+}
+
+"Label": {
+	color: '#000',
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	zIndex: 30,
+	backgroundColor: 'white'
+}

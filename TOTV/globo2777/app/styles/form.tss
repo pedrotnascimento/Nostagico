@@ -1,0 +1,313 @@
+".container": {
+},
+"#winForm": {
+	"top": "0%",
+	"height": "100%"
+},
+".breakPt": {
+	"backgroundColor": "#F2F2F2",
+	"width": "100%",
+	"height": "2",
+	"top": "18dp"
+},
+"TextField": {
+	"hintTextColor": "#757271",
+	"color": "black",
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"backgroundColor": "transparent"
+},
+"Picker": {
+	"color": "black",
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"backgroundColor": "white"
+},
+"Label": {
+	"color": "black",
+	"left": "15dp",
+	"right":"15dp",
+	"top": "10dp",
+	"height": "3.5%"
+},
+"#icon": {
+	"width": "150dp",
+	"height": "150dp",
+	"left": "10",
+	"top": "15",
+	"bottom": "15dp"
+},
+"#icon[platform=ios]": { 	
+	"width": "120",
+	"height": "150",
+	"left": "10",
+	"top": "15",
+	"bottom": "15dp"
+},
+"#ListItem[platform=ios]":{
+	"height":180
+},
+"#title": {
+	"color": "black",
+	"font": {fontFamily:'Arial',fontSize:'16dp',fontWeight:'bold'},
+	"left": "162dp",
+	"top": "85dp"
+},
+"#title[platform=ios]": {
+	"color": "black",
+	"font": {fontFamily:'Arial',fontSize:'13dp',fontWeight:'bold'},
+	"left": "132dp",
+	"top": "85dp"
+},
+"Label[platform=android]": {
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE
+},
+"#scrollMain": {
+	"height": Ti.UI.FILL,
+	"left": "0.00%",
+	"top": "60dp",
+	"width": "100.00%",
+	"layout": "vertical",
+	"backgroundColor": "white"
+},
+
+"#lblDesc": {
+	"text": "Tipo de Solicitação",
+	"top":"1%",
+	"left":"15dp"
+},
+
+".descPick": {
+	"height": "52dp",
+	"left": "15dp",
+	"top": "10dp",
+	"right":"15dp"
+},
+"#pickDesciOS": {
+	"hintText": "Selecione um tipo de solicitação"
+},
+"#lblLocal": {
+	"text": "Local",
+},
+"#lblSubLocal": {
+	"text": "Escaneie o código QR do local onde está solicitando",
+	"top": "0%",
+	"width": "100%",
+	"color": "#999",
+	"font": {fontSize:'11',fontFamily:'',fontStyle:'',fontWeight:''},
+	"bottom":"2dp"
+},
+"#lblSubLocal[platform=android]": {
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"text": "Escaneie o código QR do local onde está solicitando o serviço ou selecione dentre os locais listados",
+},
+"#lblSubLocal2": {
+	"text": "o serviço ou selecione dentre os locais listados",
+	"top": "5dp",
+	"color": "#999",
+	"font": {fontSize:'11',fontFamily:'',fontStyle:'',fontWeight:''}
+},
+"#vwLocal": {
+	"top": "10dp",
+	"height": "130dp",
+	"width": "100%",
+	"backgroundColor": "white",
+	"layout":"vertical"
+},
+
+"#vwBtnQR": {
+	"top": "10dp",
+	"borderRadius": "5",
+	"borderColor": "#3273ab",
+	"height": "50dp",
+	"left":"15dp",
+	"right":"15dp"
+},
+
+"#lblQR1": {
+	"color": "#3273AB",
+	"top": "15dp",
+	"text": "ESCANEAR CÓDIGO QR",
+	"left": "50dp"
+},
+"#lblQR1[platform=android]": {
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE
+},
+"#lblSel1": {
+	"color": "#3273AB",
+	"top": "12dp",
+	"height":"25dp",
+	"title": "NÃO LOCALIZOU O CÓDIGO QR? CLIQUE AQUI!",
+	"font": {fontSize:'12',fontFamily:'',fontStyle:'',fontWeight:''},
+	"backgroundColor":"transparent",
+	"borderColor":"transparent",
+	"right":"0",
+	"left":"0dp",
+	"bottom":"0.5%"
+},
+"#lblSel2[platform=android]": {
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE
+},
+"#imgQR": {
+	"image": "/images/ic-codigo-qr@2x.png",
+	"left": "15dp"
+},
+"#imgQR[platform=android]": {
+	"width": "40dp",
+	"height": "40dp",
+	"left":"5dp"
+},
+"#lblInfo": {
+	"text": "Informação Adicional"
+},
+"#areaInfo": {
+	"left": "15dp",
+	"right":"15dp",
+	"top": "10dp",
+	"height": "40dp",
+	"borderRadius":"5",
+},
+"#vwBtn": {
+	"height": "55dp",
+	"left": "0.00%",
+	"top":"0",
+	"bottom":"10dp",
+	"width": "100.00%",
+	"backgroundColor": "white"
+},
+
+"#btnEnviar": {
+	"title": "ENVIAR SOLICITAÇÃO",
+	"height": "45dp",
+	"left": "15dp",
+	"bottom": "5dp",
+	"right":"15dp",
+	"color": "#ffffff",
+	"backgroundColor": "#009946",
+	"borderRadius": "5"
+},
+"#btnEnviarBG": {
+	"height": "45dp",
+	"left": "15dp",
+	"right":"15dp",
+	"bottom": "3dp",
+	"backgroundColor": "#00823b",
+	"borderRadius": "5"
+},
+
+"#PickerColumn[platform=android]": {
+	"color": "black",
+	"backgroundColor": "white"
+},
+"PickerRow[platform=android]": {
+	"color": "black",
+	"backgroundColor": "white"
+},
+"#lblFoto": {
+	
+	"text": "Inserir foto(s)",
+	"top": "0",
+	"left": "15dp"
+},
+"#lblFoto[platform=android]": {
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"textAlign": "Titanium.UI.TEXT_ALIGNMENT_CENTER"
+},
+"#pickColDescAnd": {
+},
+"#lblLocalId": {
+	"color": "#3273ab",
+	"bottom": "1dp",
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"top":"10dp"
+},
+"#vwFoto": {
+	"height": "60dp",
+	"top": "10dp",
+},
+"#imgFoto": {
+	"left": "15dp",
+	"width": "34dp",
+	"top":"25dp",
+	"image": "/images/ic-fotos@3x.png",
+	"height": "29dp"
+},
+"#imgMedia": {
+	"left": "70dp",
+	"width": "37dp",
+	"top":"26dp",
+	"image": "/images/icongallery.png",
+	"height": "29dp"
+
+},
+"#imgGal": {
+	"right": "12dp",
+	"width": "42dp",
+	"top":"20dp",
+	"image": "/images/icone-folder-fotos.png",
+	"height": "38dp"
+},
+"#btnGal": {
+	"right": "15dp",
+	"title":"Fotos",
+	"font":{fontSize: 16},
+	"borderRadius": "5",
+	"borderColor": "#009ddb",
+	"backgroundColor": "white",
+	"color":"#009ddb",
+	"width": "100dp",
+	"top":"5dp",	
+	"height": "45dp"
+},
+"#vwGallery": {
+	"backgroundColor": "#ffffff",
+	"height": "100%",
+	
+},
+"#listGallery": {
+	"height": "82.19%",
+	"left": "0.00%",
+	"top": "17.19%",
+	"width": "100.00%"
+},
+
+"#listGallery[platform=ios]": {
+	"height": "82.19%",
+	"left": "0.00%",
+	"top": "17.19%",
+	"width": "100.00%",
+	"separatorColor": "transparent"
+},
+"#listSecGallery": {
+	"left":"5dp"
+},
+"#vwReturn": {
+	"height": "70dp",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%",
+	"backgroundColor": "#3574A9"
+},
+"#imgReturn": {
+	"height": "25dp",
+	"image": "/images/ic-voltar@2x.png",
+	"left": "10dp",
+	"top": "26dp",
+	"width": "35dp",
+},
+"#lblReturn": {
+	"text": "FOTOS ANEXADAS",
+	"color": "white",
+	"height": "70dp",
+	"bottom": "1dp",
+	"width": "90%",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER,
+}

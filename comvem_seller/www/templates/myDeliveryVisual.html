@@ -1,0 +1,39 @@
+<ion-view view-title="Entrega #{{delivery.deliver.id}}">
+    <ion-nav-bar class="bar-royal">
+        <ion-nav-back-button>
+        </ion-nav-back-button>
+    </ion-nav-bar><!-- End NavBar -->
+    <div class="bar bar-subheader item-text-wrap">
+        <div class="row">
+            <p class="row tab text-left">
+                {{delivery.address.address}}, {{delivery.address.number}}
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-33 text-left header_text_large">
+                {{parseInt_ng(delivery.time/60)}} min
+            </div>
+            <div class="col-25 header_text_medium">
+                {{getQty(delivery.products)}}
+            </div>
+            <div class="col-50 text-center header_text_large">
+                R$ {{getPrice(delivery.products) | currency}}
+            </div>
+        </div>
+    </div>
+
+    <ion-content class="has-footer">
+        <ion-list ng-repeat="product in delivery.products">
+            <ion-item class="row card standard_card">
+                <p class="col-60 text-left margin_dlvry_detls text_large"><b>{{product.vendorref ? product.vendorref : product.name }}</b></p>
+                <p class="col-20 text-center margin_dlvry_detls text_large">{{product.qty}}</p>
+                <p class="col-20 margin_dlvry_detls text_large">{{product.price | currency}}</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <div class="bar bar-footer">
+        <div ng-click="finishDelivery(delivery.deliver.id, delivery.deliver.customerid)" class="button item-full">
+            <center>Terminar entrega</center>
+        </div>
+    </div>
+</ion-view>

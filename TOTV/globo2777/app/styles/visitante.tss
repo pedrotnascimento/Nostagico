@@ -1,0 +1,72 @@
+".container": {
+},
+"#winVis": {
+	"title": "Window"
+},
+"#vwMain": {
+	"backgroundColor": "white",
+	"height": "90%",
+	"left": "0.00%",
+	"top": "10%",
+	"width": "100.00%",
+	"backgroundImage": "/images/bg_visitante02.png",
+	"layout": "vertical"
+},
+"#vwGlobo": {
+	"height": "60dp",
+	"top": "0.00%",
+	"width": "100.00%",
+	"left": "0.00%"
+},
+"#lblGlobo": {
+	"text": "CENTRAL 2777",
+	"font": {fontSize:'18',fontStyle:'normal', fontFamily:'Arial Rounded MT Bold',fontWeight:'bold'},
+    "color":"#009ddb",
+	"top": "25dp",
+	"height": Ti.UI.SIZE,
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER,
+	"width": Ti.UI.SIZE
+},
+"#imgSair": {
+	"height": "30dp",
+	"width": "40dp",
+	"right": "10dp",
+	"top": "24dp",
+	"image": "/images/icon-exit.png",
+},
+"#btnSair": {
+	"title": "SAIR",
+	"color": "#009ddb",
+	"right": "15dp",
+	"height": "32",
+	"width": "61",
+	"borderColor": "#009ddb",
+	"backgroundColor": "transparent"
+},
+"#vwMapa": {
+	
+	"height": "200dp",
+	"top": "55dp",
+	"width": "200dp",
+	"backgroundColor": "transparent",
+	
+},
+"#imgMapa": {
+	"height": "200dp",
+	"width": "200dp",
+	"image": "/images/icon-mapa-visit.png"
+},
+"#vwRest": {
+	
+	"height": "200dp",
+	"top": "22.7",
+	"width": "200dp",
+	"backgroundColor": "transparent",
+	
+},
+"#imgRest": {
+	"height": "200dp",
+	
+	"width": "200dp",
+	"image": "/images/icon-rest-visit.png"
+}

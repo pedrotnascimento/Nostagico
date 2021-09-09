@@ -1,0 +1,18 @@
+<ion-view view-title="{{chat.nome}}">
+     <ion-content>
+      <img ng-src="{{chat.img}}" style="width: 64px; height: 64px">
+      <!-- mostra o chat(toda conversa) e alinha a direita ou a esquerda dependendo do destinatário --> 
+    <div class="row MSG" ng-repeat="msg in chat.fullConversation">
+      <div class="col col-100">
+          <span class="INBOX" ng-show="msg.desty==0">
+              {{msg.line}}
+          </span>   
+      </div>
+      <div class="col col-100">
+          <span ng-show="msg.desty==1" style="text-align: right" > 
+              {{msg.line}}
+          </span>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

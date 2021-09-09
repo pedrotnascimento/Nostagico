@@ -1,0 +1,129 @@
+﻿{
+    "classes": [
+        {
+			"tipo" : "Bebidas",
+			"id" : "1",
+			"img" : "ion-ios-pint",
+          "products": [
+            {
+								"id" : "9834",
+								"nome" : "Coco",
+								"preco" : "5.23",
+								"img" : "../img/coco.png",
+								"media": "31.50",
+                "tipoId": "1",
+                "possui": 0,
+                "descricao": "Refrigerante sabor cola"
+
+								
+								},
+            {
+              "id": "1",
+              "nome": "Coca-Cola",
+              "preco": "",
+              "img": "../img/coca-cola.jpg",
+              "media": "31.50",
+              "tipoId": "1",
+              "possui": 0,
+              "descricao": "Refrigerante sabor cola"
+
+            },
+            {
+              "id": "2",
+              "nome": "Água mineral",
+              "preco": "",
+              "media": "",
+              "img": "../img/mineral.jpg",
+              "tipoId": "1",
+              "possui": 0,
+              "descricao": "agua fresquinha da fonte"
+            }
+          ]
+            
+        },
+        { 
+			"tipo" : "Bebidas Alcoolicas",
+			"id": "2",
+			"img" : "ion-beer",
+          "products": [
+            {
+								"id" : "1534",
+								"nome" : "Brahma",
+								"preco" : "5.23",
+								"img" : "../img/cerveja-brahma.jpg",
+								"tipoId" : "2",
+              "media": "31.50",
+              
+              "possui": 0,
+              "descricao": "Refrigerante sabor cola"
+
+								},
+            {
+              "id": "1",
+              "nome": "Abscinto",
+              "preco": "",
+              "media": "31.50",
+              "quantidade_total": "5",
+              "img": "../img/absinto.jpg",
+              "tipoId": "2",
+              "possui": 0,
+              "descrição": "Refrigerante sabor cola"
+
+            },
+            {
+              "id": "2",
+              "nome": "Vinho Bordeaux",
+              "preco": "",
+              "media": "31.50",
+              "quantidade_total": "5",
+              "img": "../img/bordeaux.jpg",
+              "tipoId": "2",
+              "possui": 0,
+              "descrição": "agua fresquinha da fonte"
+            }
+          ]
+            
+        },
+		{
+			"tipo" : "Flores",
+			"id" : "3",
+			"img" : "ion-ios-rose",
+			"products": [
+							{
+								"id" : "1",
+								"nome": "Buquê de Tulipas",
+								"preco": "",
+								"media": "31.50",
+								"img" : "../img/tulipas.jpg",
+								"tipoId" : "3",
+								"possui" : 0,
+								"descrição" : ""
+            
+							},
+							{ 
+								"id": "2",
+								"nome": "Buquê de Girassóis",
+								"preco": "",
+								"media": "31.50",
+								"img" : "../img/girassol.jpg",
+								"tipoId" : "3",
+								"possui" : 0,
+								"descrição" : ""
+							}
+						]
+
+		},
+		{
+			"tipo" : "Alimentos",
+			"id": "4",
+			"img" : "ion-pizza",
+			"products" : [ ] 
+		},
+		{
+			"tipo" : "Fármacos",
+			"id" : "5",
+			"img" : "ion-medkit",
+			"products" : [ ] 
+		}
+]
+}

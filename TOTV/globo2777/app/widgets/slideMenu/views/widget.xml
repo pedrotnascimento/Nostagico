@@ -1,0 +1,19 @@
+<Alloy>
+    <View id="Wrapper">
+        <TableView id="Nodes"/>
+        <View id="vwFixo">
+            <View id="vwDiv01"/>
+            
+                <Label id="lblRest" text="RESTAURANTES"/>
+           
+            <View id="vwDiv02"/>
+           
+                <Label id="lblSO" text="MINHAS SOLICITAÇÕES"/>
+           
+            <View id="vwDiv03"/>
+            
+                <Label id="lblMapa" text="MAPA"/>
+            
+        </View>
+    </View>
+</Alloy>

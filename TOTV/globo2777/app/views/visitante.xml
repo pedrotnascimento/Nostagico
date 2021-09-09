@@ -1,0 +1,16 @@
+<Alloy>
+    <Window id="winVis">
+        <View id="vwMain">
+            <View id="vwMapa">
+                <ImageView id="imgMapa"/>
+            </View>
+            <View id="vwRest">
+                <ImageView id="imgRest"/>
+            </View>
+        </View>
+        <View id="vwGlobo">
+            <Label id="lblGlobo"/>
+            <ImageView id="imgSair"/>
+        </View>
+    </Window>
+</Alloy>

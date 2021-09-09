@@ -1,0 +1,97 @@
+<!-- view of the home page -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>Diretório de Artigos</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi consectetur, debitis delectus deleniti
+      deserunt eius enim error id maiores nobis omnis optio perspiciatis ratione repudiandae, saepe similique tempora
+      tempore.
+    </p>
+    <div class="row">
+      <div class="col-sm-4">
+        <p><a class="btn btn-primary btn-lg" href="/articles.html">Ver todos os Artigos &raquo;</a></p>
+      </div>
+      <div class="col-sm-8">
+        <form action="/articles.html" method="get" class="input-group input-lg">
+          <input type="text" class="form-control" name="query" placeholder="Pesquise por título, nome dos autores, conferência, e abstract">
+          <span class="input-group-btn">
+            <button class="btn btn-info" type="button">
+              Pesquisar
+            </button>
+          </span>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <h2>
+    Conferências Recentes
+    <small class="pull-right"><a href="/conferences.html" class="text-muted">Ver todas</a></small>
+  </h2>
+
+  <div class="row">
+    {% for _, conference in ipairs(conferences) do %}
+    <div class="col-md-4">
+      <a href="/conferences/{{conference.id}}.html">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h3>{{conference.abbreviation}}</h3>
+            <h4>{{conference.name}}</h4>
+            <p>
+              <em>{{conference.location}} &mdash; {{conference.month}} de {{conference.year}}</em>
+            </p>
+            <p>
+              Editado por {{conference.editors}}
+            </p>
+            <ul class="artigo-stats">
+              <li>Artigos: x</li>
+              <li>Downloads totais: x</li>
+            </ul>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% end %}
+  </div>
+
+  <h2>
+    Artigos Recentes
+    <small class="pull-right"><a href="/articles.html" class="text-muted">Ver todos</a></small>
+  </h2>
+
+  <div class="row">
+    {% for _, article in ipairs(articles) do %}
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <a href="{{article.view_path}}" class="artigo-titulo">{{article.title}}</a>
+          <span class="artigo-autores">{{article.authors}}</span>
+          <p class="artigo-abstract" data-limit="200">
+            {{article.abstract}}
+          </p>
+          <ul class="artigo-stats">
+            <li>Downloads: {{article.downloads}}</li>
+            <li>Citado por: {{article.quoting_rate}}</li>
+            <li><a href="{{article.scholar_link}}">[Scholar]</a></li>
+            <li class="link-download"><a target="_blank" href="{{article.download_path}}">Download</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    {% end %}
+  </div>
+
+
+  <hr>
+
+  <footer>
+    <p>&copy; 2016 PUC-Rio</p>
+  </footer>
+</div>
+
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>

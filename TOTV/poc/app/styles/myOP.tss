@@ -1,0 +1,13 @@
+  
+"ListView[platform=android]": {
+	separatorHeight: "0",
+}
+
+"ListView[platform=ios]": {
+	separatorStyle: "0",
+}
+    
+".padding": {
+    width: "90%",
+}
+    

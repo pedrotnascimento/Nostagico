@@ -1,0 +1,227 @@
+﻿{ "products" :	[
+						{
+						"tipo" : "Bebidas",
+						"id" : "1",
+						"img" : "ion-ios-pint",
+						"products" : [
+								{
+								"id" : "9834",
+								"nome" : "coco",
+								"preco" : "5.00",
+								"img" : "coco.png",
+								"visivel" : "1",
+								"tipoId" :  "1",
+								"qt" : "0"
+								
+								},{
+								"id" : "145",
+								"nome" : "Schweppes",
+								"preco" : "2.69",
+								"img" : "schweppes.jpg",
+								"visivel" : "1",
+								"tipoId" :  "1",
+								"qt" : "0"
+
+								},
+                                {
+								"id" : "146",
+								"nome" : "Coca Cola 600 mL",
+								"preco" : "2.89",
+								"img" : "coca-cola.jpg",
+								"visivel" : "1",
+								"tipoId" :  "1",
+								"qt" : "0"
+
+								},
+                                {
+								"id" : "143246",
+								"nome" : "Suco de Laranja NATIVE",
+								"preco" : "13.90",
+								"img" : "suco_laranja.jpg",
+								"visivel" : "1",
+								"tipoId" :  "1",
+								"qt" : "0"
+
+								},
+                                {
+								"id" : "1246",
+								"nome" : "Suco de Laranja DO BEM",
+								"preco" : "7.45",
+								"img" : "suco_laranjda_do_bem.jpg",
+								"visivel" : "1",
+								"tipoId" :  "1",
+								"qt" : "0"
+
+								},
+                                {
+								"id" : "1246324",
+								"nome" : "PEPSI Zero Lata",
+								"preco" : "2.19",
+								"img" : "pepsi_zero.jpg",
+								"visivel" : "1",
+								"tipoId" :  "1",
+								"qt" : "0"
+
+								},
+                                {
+								"id" : "121246",
+								"nome" : "PEPSI Lata",
+								"preco" : "2.09",
+								"img" : "pepsi.jpg",
+								"visivel" : "1",
+								"tipoId" :  "1",
+								"qt" : "0"
+
+								},
+                                {
+								"id" : "1298",
+								"nome" : "SUKITA Laranja Lata",
+								"preco" : "2.09",
+								"img" : "sukita.jpg",
+								"visivel" : "1",
+								"tipoId" :  "1",
+								"qt" : "0"
+
+								}
+								
+							]
+						},
+						{
+						"tipo" : "Bebidas Alcoolicas",
+						"id": "2",
+						"img" : "ion-beer",
+						"products" : [
+								{
+								"id" : "1534",
+								"nome" : "BRAHMA Long Neck",
+								"preco" : "5.23",
+								"img" : "cerveja-brahma.jpg",
+								"visivel" : "1",
+								"tipoId" :  "2",
+								"qt" : "0"
+
+								},
+								{
+								"id" : "144",
+								"nome" : "ANTARTICA Lata",
+								"preco" : "3.49",
+								"img" : "antartica_lata.jpg",
+								"visivel" : "1",
+								"tipoId" :  "2",
+								"qt" : "0"
+
+								},
+								{
+								"id" : "1443",
+								"nome" : "BUDWEISER Pack",
+								"preco" : "18.30",
+								"img" : "budweiser.jpg",
+								"visivel" : "1",
+								"tipoId" :  "2",
+								"qt" : "0"
+
+								},
+								{
+								"id" : "14112",
+								"nome" : "BRAHMA Zero Lata",
+								"preco" : "2.65",
+								"img" : "brahma.jpg",
+								"visivel" : "1",
+								"tipoId" :  "2",
+								"qt" : "0"
+
+								},
+								{
+								"id" : "32532",
+								"nome" : "HEINEKEN Lata",
+								"preco" : "3.49",
+								"img" : "heineken.jpg",
+								"visivel" : "1",
+								"tipoId" :  "2",
+								"qt" : "0"
+
+								},
+								{
+								"id" : "141244",
+								"nome" : "SKOL Beats Extreme Pack",
+								"preco" : "17.34",
+								"img" : "skoll_beats_pack.jpg",
+								"visivel" : "1",
+								"tipoId" :  "2",
+								"qt" : "0"
+
+								},
+								{
+								"id" : "43644",
+								"nome" : "BOHEMIA Lata",
+								"preco" : "2.65",
+								"img" : "bohemia.jpg",
+								"visivel" : "1",
+								"tipoId" :  "2",
+								"qt" : "0"
+
+								},
+								{
+								"id" : "7453",
+								"nome" : "BUDWEISER Lata",
+								"preco" : "3.19",
+								"img" : "budweiser_lata.jpg",
+								"visivel" : "1",
+								"tipoId" :  "2",
+								"qt" : "0"
+
+								}
+
+							]
+						},
+                        {
+						"tipo" : "Cigarro e Tabaco",
+						"id": "3",
+						"img" : "ion-flame",
+						"products" : [
+							]
+						},
+                        {
+						"tipo" : "Balas e Chocolates",
+						"id": "4",
+						"img" : "ion-happy-outline",
+						"products" : [
+							]
+						},
+                        {
+						"tipo" : "Drogaria",
+						"id": "5",
+						"img" : "ion-medkit",
+						"products" : [
+							]
+						},
+                        {
+						"tipo" : "Biscoitos",
+						"id": "6",
+						"img" : "ion-heart",
+						"products" : [
+							]
+						},
+                        {
+						"tipo" : "Jornais e Revistas",
+						"id": "7",
+						"img" : "ion-ios-paper-outline",
+						"products" : [
+							]
+						},
+                        {
+						"tipo" : "Floricultura",
+						"id": "8",
+						"img" : "ion-leaf",
+						"products" : [
+							]
+						},
+                        {
+						"tipo" : "Serviços",
+						"id": "9",
+						"img" : "ion-gear-b",
+						"products" : [
+							]
+						}
+				]
+}

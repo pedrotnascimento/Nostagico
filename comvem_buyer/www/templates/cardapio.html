@@ -1,0 +1,42 @@
+﻿<ion-view title="Convem">
+    <ion-nav-bar class="bar-stable">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon icon ion-navicon" menu-toggle></button>
+        </ion-nav-buttons>
+        <ion-nav-buttons side="right">
+            <div class="buttons">
+                <button class="button button-icon ion-android-search" ng-click="showFilterBar()"></button>
+            </div>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+
+    <ion-content class="has-customFooter">
+        <!--Grupo-->
+        <ion-list ng-repeat="classe in classes">
+            <ion-item class="item-stable"
+                      ng-click="toggleGroup(classe)"
+                      ng-class="{active: isGroupShown(classe)}">
+                <i class="icon" ng-class="isGroupShown(classe) ? 'ion-minus' : 'ion-plus'"></i>
+                &nbsp;
+                {{classe.name}}
+            </ion-item>
+            <!--Produto-->
+            <ion-item ng-repeat="subclasse in classe.subcategories"
+                      ng-show="isGroupShown(classe)"
+                      href="#/app/item/{{classe.id}}/{{subclasse.id}}">
+                <div class="row">
+                    <div class="col-20">
+                        <img class="itemImage" src="./img/logo_convem.png" />
+                    </div>
+                    <div class="col-80 item-text-center">
+                        {{subclasse.name}}
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+
+    <ion-footer-bar class="bar-footer footer">
+        <button class="button button-block button-positive footer_buttom" ng-click="goPedidos()"><i class="icon ion-android-cart"></i> Sua Lista de Compra</button>
+    </ion-footer-bar>
+</ion-view>

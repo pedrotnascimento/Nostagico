@@ -1,0 +1,22 @@
+"#vwSet":{
+	"width":"100dp",
+	"height":"100dp",
+	"layout":"vertical",
+	"backgroundColor":"white",
+	"zIndex":"15"
+},
+"Button":{
+	"backgroundColor":"transparent",
+	"color":"black",
+	"borderColor":"white",
+	"width":Ti.UI.FILL
+},
+"btnSair":{
+	"title":"Sair"
+},
+"btnSair":{
+	"title":"Voltar"
+},
+"btnSair":{
+	"title":"Ajuda"
+},

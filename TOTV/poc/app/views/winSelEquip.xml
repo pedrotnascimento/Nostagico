@@ -1,0 +1,33 @@
+<Alloy>
+    <Window id="winSelEquip">
+        <ImageView id="imageHolder" class="backgroundImageHolder" />
+        <View class="contentHolder">
+            <Require id="WidFechar" src="widFechar" type="widget" />
+            <View id="vwMain">
+                <View id="vwCard" class="cardView">
+                    <Widget id="vwSearch" src="searchView" />
+                    <View class="thickBreak" />
+                    <ListView id="listEquip" defaultItemTemplate="tempFiat">
+                        <Templates>
+                            <ItemTemplate id="templateFiat" name="tempFiat">
+                                <Label bindId="idText" id="equipIdText" />
+                                <ImageView bindId="check" id="checkIcon" />
+                                <Label bindId="id" id="equipId" />
+                            </ItemTemplate>
+                        </Templates>
+                        <ListSection id="listEquipSec">
+                            <ListItem id:text="M72250L8116-01002" searchableText="M72250L8116-01002" />
+                            <ListItem id:text="M72250L8116-01003" searchableText="M72250L8116-01003" />
+                            <ListItem id:text="M72250L8116-01004" searchableText="M72250L8116-01004" />
+                        </ListSection>
+                    </ListView>
+                </View>
+                <View id="vwSelectSection">
+                    <Button id="btnSelect" class="btnSendStyle" />
+                </View>
+            </View>
+        </View>
+        <AlertDialog id="dlgError" message="Por favor selecione um equipamento." title="Equipamento não selecionado" />
+    </Window>
+
+</Alloy>

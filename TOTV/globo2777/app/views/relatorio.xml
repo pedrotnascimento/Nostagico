@@ -1,0 +1,24 @@
+<Alloy>
+
+        <Window id="winRel" class="vertical">
+        	
+
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+       <View class="horizontal"  height="40" id="vwSel"> 
+        	<Label id="lblSel">Selecione o período do relatório</Label>
+   	   </View> 
+        
+        <View class="horizontal" height="20%" id="fromView">
+            <Label id="lblFrom" />
+        </View>
+        <View class="horizontal" height="20%" id="toView">
+          <Label id="lblTo" />
+
+          </View>
+          <View top="0">
+            <Button id="enviar" ></Button>
+          </View>
+          <Require id="WidNR" src="naoResponsivo" type="widget"/> 
+        </Window>
+
+</Alloy>

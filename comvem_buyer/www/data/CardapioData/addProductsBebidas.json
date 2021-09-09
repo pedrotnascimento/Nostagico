@@ -1,0 +1,21 @@
+﻿{
+    "products": [
+        {
+			"id" : "1",
+			"nome": "Coca-Cola",
+            "preco": "",
+            "media": "31.50",
+			"img" : "coca-cola.jpg",
+			"descrição" : "Refrigerante sabor cola"
+            
+        },
+        { 
+			"id": "2",
+            "nome": "Água mineral",
+            "preco": "",
+            "media": "31.50",
+			"img" : "mineral.jpg",
+			"descrição" : "agua fresquinha da fonte"
+        }
+    ]
+}

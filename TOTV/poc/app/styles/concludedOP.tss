@@ -1,0 +1,11 @@
+"#lblObs":{
+	text: "OBSERVAÇÕES",	
+},
+
+"#lblObsDesc":{
+	color:"#505050",
+	font:{
+		fontSize: 16	
+	},
+	top:10	
+},

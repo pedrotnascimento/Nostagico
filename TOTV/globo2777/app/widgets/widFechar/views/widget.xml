@@ -1,0 +1,8 @@
+<Alloy>
+    <View id="vwCancel">
+        <View id="vwImgCancel" onClick="voltar">
+            <ImageView id="imgCancel" onClick="voltar"/>
+        </View>
+        <Label id="lblCancel"/>
+    </View>
+</Alloy>

@@ -1,0 +1,38 @@
+"#vwMain":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical"
+},
+"#vwSelectSection":{
+	top: 20,
+	height:72,
+	width: Ti.UI.FILL	
+},
+"#btnSelect":{
+	title: "SELECIONAR",	
+},
+"#equipIdText":{
+	text:"CÓDIGO",
+	color:"#bfbfbf",
+	font:{
+		fontSize:14	,
+		fontWeight: "bold"
+	},
+	left: 60,
+	top: 15	
+},
+"#checkIcon":{
+	image:"/images/uncheckedCircle.png",
+	left: 10,
+	width: 25,
+	height: 25	
+}
+"#equipId":{
+	left: 60,	
+	font:{
+		fontSize:16	
+	},
+	color: "black",
+	top: 40,
+	bottom: 20
+}

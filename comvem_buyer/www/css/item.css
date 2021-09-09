@@ -1,0 +1,33 @@
+﻿
+.ALIGN-RIGHT { /*classe para alinhaR icone a direita*/
+    text-align: right;
+}
+
+.UPDOWN-BUTTON {
+    width: 1em;
+    height: auto;
+}
+
+.itemImage {
+    height: 2em;
+}
+
+.ION_FOOTER_HEIGHT {
+    height: 6em;
+    bottom: 0em;
+}
+
+.has-customFooter {
+    bottom: 6em;
+}
+
+.BOTAO_HEIGHT_ITEM {
+    height:4em;
+    bottom:0em;
+    top:1em;
+}
+
+.MARGEM_DIREITA {
+    margin-left:30%;
+    color:green;
+}

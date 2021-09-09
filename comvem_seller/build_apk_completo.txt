@@ -1,0 +1,11 @@
+
+cd platforms\android\build\outputs
+
+
+keytool -genkey -v -keystore cv_vendor.keystore -alias cv_vendor -keyalg RSA -keysize 2048 -validity 10000
+
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore cv_vendor.keystore android-debug.apk cv_vendor
+
+
+zipalign -v 4 android-debug-unaligned.apk cv_vendor.apk

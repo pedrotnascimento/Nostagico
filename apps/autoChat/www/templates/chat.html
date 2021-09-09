@@ -1,0 +1,31 @@
+
+<ion-view view-title="none">
+  <ion-content class="has-footer" >
+      <ion-list>
+        <div class=" card" ng-repeat="mess in messages"  ng-class="mess.color"  >
+          <div class="item item-text-wrap" style="width:100%;right:0px;">
+            <b style="display:block">{{mess.name}}</b>
+            <span style="white-space:pre-line;">
+              {{mess.message}} {{mess.align}}<!--FUCK DO: SHIT TRY TO GET THAT FUCKING TEXT TO THE RIGHT IF ITS YOU -->
+            </span>
+          </div>
+        </div>
+      </ion-list>
+  </ion-content>
+
+    <ion-footer-bar style="height:15%; display:block">
+        <textarea placeholder="escrever" 
+                  style="width:80%; display:inline" 
+                  ng-class="font"
+                  ng-model="message"></textarea>
+        <button class="button ion-android-send" ng-click="send(message)"></button>
+        <div class="row">
+            <button class="button col" 
+                    ng-repeat="persona in personas" 
+                    ng-class="persona.color"
+                    ng-click="sel_persona(persona, $index)" >
+              <center>{{persona.name}}</center>
+            </button>
+        </div> 
+    </ion-footer-bar>
+</ion-view>

@@ -1,0 +1,47 @@
+"#lblCancel[platform=android]": {
+	bottom: "17dp",
+}
+
+"#lblCancel": {
+	text: "Carregando...",
+	color: "white",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	bottom: "12dp",
+	font: {
+       fontFamily: "Futura",
+		fontSize: "13dp",
+	}
+}
+
+"#vwCancel[platform=android]": {
+	height: "50dp",
+}
+
+"#vwCancel": {
+	height: "60dp",
+	left: "0%",
+	top: "0%",
+	width: "100.00%",
+}
+
+"#viewClickLeft[platform=android]": {
+	height: "50dp",
+}
+
+"#viewClickLeft": {
+	left: "0dp",
+	bottom: "0dp",
+	height: "40dp",
+	width: "62dp",
+}
+
+"#viewClickRight[platform=android]": {
+	height: "50dp",
+}
+
+"#viewClickRight": {
+	right: "0dp",
+	bottom: "0dp",
+	height: "40dp",
+	width: "62dp",
+}

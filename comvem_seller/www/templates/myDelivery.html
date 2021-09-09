@@ -1,0 +1,79 @@
+<ion-view view-title="Principal">
+    <ion-nav-bar class="bar bar-royal">
+        <ion-nav-buttons>
+            <button class="button button-icon icon ion-navicon" menu-toggle></button>
+        </ion-nav-buttons>
+    </ion-nav-bar>
+    <!--Subheader-->
+    <div class='bar bar-subheader'>
+        <div class='button-bar'>
+            <a class="button button-purple" ng-click="goOrder()" ng-class="{'TAB_CLICKED':!showDeliveryTab}">
+                <span class="TAB_FONT_SIZE">
+                    Pedidos
+                </span>
+                <i class="badge-container"><span class="badge badge-assertive">{{ordersNotVisited || ""}}</span></i>
+            </a>
+            <a class="button button-purple" ng-click="goDelivery()" ng-class="{'TAB_CLICKED':showDeliveryTab}">
+                <span class="TAB_FONT_SIZE">
+                    Entregas
+                </span>
+                <i class="badge-container"><span class="badge badge-assertive">{{deliveriesNotVisited|| ""}}</span></i>
+            </a>
+        </div>
+    </div>
+
+    <!--Cards Entrega-->
+    <ion-content ng-show="showDeliveryTab" class="has-subheader">
+        <p ng-show="(!myDeliveries||myDeliveries.length==0)">Não existem entregas pendentes!</p>
+        <ion-list>
+            <ion-item 
+                      ng-show="myDeliveries"
+                      ng-repeat="delivery in myDeliveries| orderBy:'time'"
+                      class="card standard_card"
+                      ng-click="markVisitedDelivery(delivery)">
+
+                <div class="row">
+                    <div class="col-50 text-left convem_color"><b>Entrega #{{delivery.deliver.id}}</b></div>
+                    <div class="col-25 text-right">{{getTotalQty(delivery.products)}}</div>
+                    <div class="col-25 text-right">R{{ getTotalPrice(delivery.products)| currency}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-10 custom_badge text-left" ng-class="updateBadgeColor(delivery)">
+                        {{parseInt_ng(delivery.time/60)}} min
+                    </div>
+                    <div class="col-offset-20 col-66 text-right">
+                        <p><small>{{delivery.address.address}}, {{delivery.address.number}}</small></p>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <!---------------ACIMA EH ENTREGA---------------------------------------------------------------------ABAIXO EH PEDIDO---------------------------------------------------------->
+    <ion-content ng-hide="showDeliveryTab" class="has-subheader">
+        <p style="text-align:center" ng-show="(!orders||orders.length == 0)">Não existem pedidos pendentes!</p>
+        <ion-list ng-show="orders">
+            <ion-item 
+                      ng-repeat="order in orders | orderBy:'time'"
+                      href="#/app/orderDetalhe/{{order}}"
+                      class="card standard_card"
+                      ng-hide="order.time== -777">
+
+                <div class="never_clicked" ng-click="markVisitedOrder(order)" ng-class="{'clicked': order.visit}" >
+                    <div class="row">
+                        <div class="col-33 text-left margin_first_row convem_color">Pedido #{{order.id}}</div>
+                        <div class="col-33 text-center margin_first_row"></div> <!-- {MediaReg} -->
+                        <div class="col-33 text-right margin_first_row">{{order.totalitems}} Itens</div>
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-50 text-left text_large margin_second_row">{{showCount(order.time)}}</div> 
+                        <div class="col-50 text-right text_vlarge margin_second_row"> R{{ getTotalPrice(order.products) | currency}}</div>
+                    </div>
+
+                </div>
+
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    
+</ion-view>

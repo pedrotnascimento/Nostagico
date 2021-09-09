@@ -1,0 +1,22 @@
+<Alloy>
+    <Window id="winHome">
+        <ImageView class="backgroundImageHolder" id="imageHolder"/>
+        <View class="contentHolder">
+            <Require id="WidFechar" src="widFechar" type="widget"/>
+            <View id="vwMain">
+                <View class="inputBox" id="vwCreateNote">
+                    <Label text="Criar nota de manutenção"/>
+                </View>
+                <View class="delimitedBreak"/>
+                <View class="inputBox" id="vwViewNote">
+                    <Label text="Visualizar notas de manutenção"/>
+                </View>
+                <View class="delimitedBreak"/>
+                <View class="inputBox" id="vwViewOS">
+                    <Label text="Visualizar e distribuir O.S." id="option3"/>
+                </View>
+                <View class="delimitedBreak"/>
+            </View>
+        </View>
+    </Window>
+</Alloy>

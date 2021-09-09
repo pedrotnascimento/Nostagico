@@ -1,0 +1,41 @@
+﻿{
+    "avaliacoes": [
+        {
+			"nome" : "Anônimo",
+			"id" : "1",
+			"img" : "../img/ion-person.jpg",
+			"nota" : "5",
+			"texto" : "Maluco, rápido pra caramba, gostei de ver"
+            
+        },
+        { 
+			"nome" : "Athena Asamiya",
+			"id" : "2",
+			"img" : "../img/asamiya.jpg",
+			"nota" : "1",
+			"texto" : "cerveja quente, produto violado"
+            
+        },
+		{
+			"nome" : "Buda",
+			"id" : "3",
+			"img" : "../img/buda.jpg",
+			"nota" : "3",
+			"texto" : "alguém comeu meu brownie, mas devia estar com fome! harechrisna!"
+
+		},
+		{
+			"nome" : "Pedro Thiago do Nascimento Santos e Silva",
+			"id" : "4",
+			"img" : "../img/ion-person.jpg",
+			"nota" : "5",
+			"texto" : "Muito bom!"
+
+		}
+],
+
+"entregasRealizadas" : "14",
+"pedidosAceitos" : "17",
+"media" : "4.3"
+
+}

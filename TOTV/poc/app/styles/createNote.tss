@@ -1,0 +1,75 @@
+"#vwMain":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical"
+},
+"#lblSearch":{
+	text:"Pesquisar"
+},
+"#lblSelectType":{
+	text:"Selecione"
+},
+"TextField":{
+	top: 10	
+},
+"#lblEquipCode": {
+	text:"CÓDIGO DO EQUIPAMENTO"
+},
+"#lblNoteType":{
+	text:"TIPO DE NOTA"	
+} 
+"#lblDescription":{
+	text:"DESCRIÇÃO"	
+},
+"#txtAreaDescription":{
+	top: 10,
+	hintText:"Digite uma breve descrição",
+	borderColor:"transparent",
+//    width: "100%",
+},
+"#vwCreateSection":{
+	top: 20,
+	height:72,
+	width: Ti.UI.FILL	
+},
+"#btnCreate":{
+	title: "CRIAR NOTA"	
+}
+
+
+
+
+
+// Alert dialog tss
+
+"#topView":{
+	width: 288,
+	height: 220,
+	backgroundColor: 'white'
+}
+
+"#lb01":{
+	top: '28',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#96172e",
+	font: {fontSize: 24},
+	left: '10%',
+	right: '10%',
+}
+
+"#bottomView":{
+	width: 288,
+	height: 80,
+	backgroundColor: 'white'
+}
+
+"#lb02":{
+	top: '25',
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#96172e",
+	font: {fontSize: 20, fontWeight: 'bold'},
+	left: '10%',
+	right: '10%',	
+
+}
+

@@ -1,0 +1,52 @@
+"#enviar":{
+    title:"ENVIAR RELATÓRIO POR E-MAIL",
+    width: "80%",
+    backgroundColor: "#A00",
+    color: "#ffffff",
+    backgroundColor: "#C73636",
+    borderRadius: "5",
+    height:"60",
+    bottom:"10%"
+} ,
+"#fromView":{
+		"layout":"vertical",
+		"width": "100%",
+		"top": "20"
+		
+},
+"#toView":{
+	"layout":"vertical",
+	"width": "100%",
+	"top": "20"
+	
+},
+"#vwSel":{
+	"layout":"vertical",
+	"width": "100%",
+	"top": "20"
+	
+},
+"#lblTo":{
+	"text":"Até",
+	"left": "10%"
+},
+"#lblFrom":{
+	"text":"De",
+	"left": "10%"
+},
+"#lblToValue":{
+	"width": "90%",
+    "height": 40,
+    "borderWidth": 1,
+ //   value: new Date(),
+   "borderColor": "#009ddb",
+	"borderRadius": "5"
+},
+"#lblFromValue":{
+	"width": "90%",
+    "height": 40,
+    "borderWidth": 1,
+ //value: new Date(),
+    "borderColor": "#009ddb",
+	"borderRadius": "5"
+}

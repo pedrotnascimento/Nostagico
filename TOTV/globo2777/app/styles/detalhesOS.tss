@@ -1,0 +1,45 @@
+".container": {
+},
+"#winDet": {
+	"title": "Window"
+},
+"#scrollMain": {
+	"height": "90.44%",
+	"left": "0.00%",
+	"top": "60dp",
+	"width": "100.00%",
+	"layout": "vertical"
+},
+"#WidFechar": {
+},
+".mainLabel": {
+	"top": "15",
+	"font": {fontFamily:'ProximaNovaLight',fontSize:'18',fontWeight:"bold"}
+},
+".subLabel": {
+	"top": "5",
+	"font": {fontFamily:'ProximaNovaLight',fontSize:'14'}
+},
+"Label": {
+	"width": Ti.UI.SIZE,
+	"height": Ti.UI.SIZE,
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"left": "15",
+	"color": "black"
+},
+"lblServ": {
+	"top": "2"
+},
+"#scrollFotos": {
+	"top": "5",
+	"height": "340",
+	"layout": "horizontal",
+	"backgroundColor": "white",
+	"showHorizontalScrollIndicator": "true",
+	"left":"0"
+},
+"#scrollFotos[platform=android]": {
+	"scrollType": "horizontal"
+},
+"#lblServ": {
+}

@@ -1,0 +1,22 @@
+"#viewWidgetContainer": {
+    layout: "vertical",
+}
+    
+"#scrollTabSelector[platform=android]": {
+    scrollType: "horizontal",
+}
+ 
+"#scrollTabSelector[platform=ios]": {
+    disableBounce: true,
+}
+    
+"#scrollTabSelector": {
+    layout: "horizontal",
+    height: Ti.UI.SIZE,
+}
+
+    
+"#scrollableTabDisplay": {
+    width: "100%",
+    height: Ti.UI.FILL,
+}

@@ -1,0 +1,83 @@
+﻿﻿
+<!-- Pedro Nascimento
+
+deliveryList.html
+interface do comprador da lista de produtos sendo entregues
+
+    Histórico
+ 1.0 29-01-2016 - elaboração da interface (parecido com a lista de entrega do vendedor)
+-->
+
+<ion-view title="Convem">
+    <link href="./css/deliveryList.css" rel="stylesheet">
+    <!-- NavBar -->
+    <ion-nav-bar class="bar-stable">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar><!-- End NavBar -->
+    <div class="bar bar-subheader alinha_esquerda">
+        <div class="col">
+            <h1 class="title">Entregas Pendentes: {{numEntregas}}</h1>
+        </div>
+        <div class="col expiring_time">
+            
+         <!-- Quantidade Total de todos os vendedores -->
+        </div>
+    </div>
+
+
+    <ion-content class="has-subheader has-customFooter">
+        <ion-list ng-repeat="entrega in entregas" ng-click="abreEntrega(entrega.id,entrega.vendorname,entrega.vendorid)">
+            <!--comeco da lista referente aos itens -->
+
+            <div class="item-divider">
+                <div class="row">
+                    <div class="col-33">
+                        <strong>{{entrega.vendorname}}</strong>
+                    </div>
+                    <div class="col-30 item-text-center">
+                        <strong>Tempo: {{entrega.timeLeft>0? entrega.timeLeft+" min":"Esgotado"}}</strong>
+                    </div>
+                    <div class="col alinha_direita">
+                        <strong>{{entrega.qty}} Item(s)</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="produtoClasse">
+                <ion-item class="row " ng-repeat="product in entrega.products">
+
+                    <!--detalhe para o fato do tamanho das imagens estarem diferentes, se iguais, continuam diferente-->
+                    <div class="col col-20 ">
+                        <img class="itemIMAGE" ng-src="{{product.imgurl}}">
+                    </div>
+                    <div class="col col-70 produtoTexto alinha_esquerda">{{product.name}}</div>
+                    <div><p class="col i produtoTexto alinha_direita">{{product.qty}}</p></div>
+                </ion-item>
+            </div>
+        </ion-list>
+        <!--        {{dateEntrega}} <br />{{Now}}
+                <p>{{dayEntrega}} {{dayNow}}</p>
+                <p>{{hoursEntrega}} {{hoursNow}}</p>
+                <p>{{minutesEntrega}} {{minutesNow}}</p>
+                <p>{{secondsEntrega}} {{secondsNow}}</p>
+        -->
+       <!-- <button class="button button-full button-dark" ng-click="printEntrega()">Print JSON</button> -->
+    </ion-content>
+
+
+    <!-- Footer -->
+    <ion-footer-bar class="bar bar-footer ION_FOOTER_HEIGHT_DELIVERYLIST">
+        <button class="button button-positive button-full BOTAO_HEIGHT_DELIVERYLIST" ng-click="updateList()"><strong>Atualizar Lista</strong></button>
+    </ion-footer-bar>
+    <!--<ion-footer-bar class="bar bar-footer ION_FOOTER_HEIGHT_DELIVERYLIST">
+        <div class="col-25">
+            <button class="button button-assertive  button-block BOTAO_HEIGHT_DELIVERYLIST" ng-click="faltaItem()"><b>Falta Item</b></button>
+        </div>
+        <div class="col-75">
+            <button class="button button-positive button-block BOTAO_HEIGHT_DELIVERYLIST" ng-click="TudoEntregue()"><b>Todos Itens Entregues</b></button>
+        </div>
+    </ion-footer-bar> End Footer -->
+
+</ion-view>
+

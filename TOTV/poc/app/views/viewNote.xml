@@ -1,0 +1,37 @@
+<Alloy>
+    <Window id="windowViewNote">
+        <Widget id="indicator" src="loadingOverlay"/>
+        <ImageView id="imageHolder" class="backgroundImageHolder"/>
+        <View class="contentHolder">
+            <Require id="WidFechar" src="widFechar" type="widget"/>
+            <View id="viewMain">
+
+                <ScrollView id="scrollView">
+                    <ListView defaultItemTemplate="templateNote" id="listNotes" class="cardListView">
+                        <Templates>
+                            <ItemTemplate id="templateNote" name="templateNote" class="cardItemTemplate">
+                                <View layout="vertical">
+                                    <View class="note">
+                                        <Label id="labelNoteNumberSub" class="subtitle">
+                                            Número da Nota
+                                        </Label>
+                                        <Label bindId="noteNumber" id="labelNoteNumber" class="content"/>
+                                        <View class="hr" top="10"/>
+                                        <View layout="vertical" top="10">
+                                            <Label id="labelShowDetails" class="details">
+                                                Detalhar
+                                            </Label>
+                                        </View>
+                                    </View>
+                                    <View bindId="padding" id="viewPadding"/>
+                                </View>
+                            </ItemTemplate>
+                        </Templates>
+
+                        <ListSection id="listSectionNotes"/>
+                    </ListView>
+                </ScrollView>
+            </View>
+        </View>
+    </Window>
+</Alloy>

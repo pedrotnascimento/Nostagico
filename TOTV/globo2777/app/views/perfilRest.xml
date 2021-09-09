@@ -1,0 +1,24 @@
+<Alloy>
+    <Window id="winPerfilRest">
+        <View id="vwPerfilRest">
+            <ImageView id="imgFotoRest"/>
+            <View id="vwDiv"/>
+            <View id="vwDiv2"/>
+            <Label id="lblDescTel"/>
+            <Label id="lblTel"/>
+            <Label id="lblTel2"/>
+            <Label id="lblDescHorario"/>
+            <Label id="lblHorario1"/>
+            <Label id="lblHorario2"/>
+            <Label id="lblHorario3"/>
+            <Label id="lblHorario4"/>
+            <Label id="lblDescHorario1"/>
+            <Label id="lblDescHorario2"/>
+            <Label id="lblDescHorario3"/>
+            <Label id="lblDescHorario4"/>
+            <Button id="btnCardS"/>
+            <Button id="btnCard" onClick="openCard"/>
+        </View>
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+    </Window>
+</Alloy>

@@ -1,0 +1,34 @@
+﻿
+<ion-view view-title="Minhas Avaliações">
+    <div class="bar  bar-subheader bar-stable">
+        <p class="inline-block">Você entregou <span class="bold-larger">{{porcento}}%</span> dos pedidos.</p>
+        <p class="inline-block float-right">Sua nota média é <span class="bold-larger">{{media}}</span></p> 
+    </div>
+
+
+  <ion-content class="content has-subheader">
+    
+        <ion-list ng-repeat="aval in avaliacoes ">
+           
+        
+            <div class=" item item-divider">
+                <img class="AVATAR" ng-src="{{aval.img}}" /> <b>{{aval.nome}}</b>
+                
+                <div id="avaliacoes" class="AVALIACOES">
+                <img ng-src="../img/star.jpg" ng-show="aval.nota>=1"/><img ng-src="../img/star-outline.jpg" ng-hide="aval.nota>=1"/>
+                <img ng-src="../img/star.jpg" ng-show="aval.nota>=2"/><img ng-src="../img/star-outline.jpg" ng-hide="aval.nota>=2"/>
+                <img ng-src="../img/star.jpg" ng-show="aval.nota>=3"/><img ng-src="../img/star-outline.jpg" ng-hide="aval.nota>=3"/>
+                <img ng-src="../img/star.jpg" ng-show="aval.nota>=4"/><img ng-src="../img/star-outline.jpg" ng-hide="aval.nota>=4"/>
+                <img ng-src="../img/star.jpg" ng-show="aval.nota>=5"/><img ng-src="../img/star-outline.jpg" ng-hide="aval.nota>=5"/>
+                </div>
+
+        
+            </div>
+            <div class="item item-text-wrap">
+                {{aval.texto}}
+            </div>
+        </ion-list>
+        
+    
+  </ion-content>
+</ion-view>

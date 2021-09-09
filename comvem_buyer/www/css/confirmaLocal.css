@@ -1,0 +1,37 @@
+﻿
+.myImg {
+        height: 100%;
+    }
+
+.MyFooter {
+    height: 110px;
+}
+
+.scroll {
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.userAddr {
+    width: 100%;
+}
+
+.userCompl {
+    width: 98%;
+}
+
+.myBtn {
+    width: 100%;
+}
+
+.has-customFooter {
+    bottom: 100px;
+}
+
+.myDivider {
+    height: 1%;
+}

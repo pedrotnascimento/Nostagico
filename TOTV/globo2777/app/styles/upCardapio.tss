@@ -1,0 +1,71 @@
+".container": {
+},
+"#ImageView_1": {
+	"left": "11.20%",
+	"top": "20.00%",
+	"height": "46.91%",
+	"width": "58.00%"
+},
+"#vwVerCard": {
+	"backgroundColor": "#333333",
+	"height": "91%",
+	"top": "9%",
+	"left": "0.00%"
+},
+"#lblCancel": {
+	"text": "EDITAR CARDÁPIO",
+	"color": "white",
+	"height": "31.90%",
+	"left": "14.40%",
+	"top": "33.62%",
+	"width": "77.73%",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+"#vwCancel": {
+	"height": "9.32%",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%",
+	"backgroundColor": "#ea7f34"
+},
+"#imgCancel": {
+	"height": "40%",
+	"image": "/images/ic-voltar@2x.png",
+	"left": "2%",
+	"top": "35%",
+	"width": "9%",
+},
+
+"#vwFotos":{
+	"height":"40dp",
+	"top":"190dp"
+},
+"#lblFotos":{
+	"text":"PÁGINAS",
+	"top":"0dp"
+}
+
+"#btnAdicionar": {
+	"title": "ADICIONAR PÁGINA",
+	"height": "40dp",
+	
+	"top": "0dp",
+	"width": "92.40%",
+	"color": "#ffffff",
+	"backgroundColor": "#009946",
+	"borderRadius": "8"
+},
+"#vwBtn":{
+	"top": "95dp",
+	"height":"60dp"
+},
+"#btnAdicionarS": {
+	
+	"height": "40dp",
+	
+	"top": "5dp",
+	"width": "92.40%",
+	"color": "#ffffff",
+	"backgroundColor": "#00823b",
+	"borderRadius": "8"
+},

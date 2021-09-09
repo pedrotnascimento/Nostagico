@@ -1,0 +1,8 @@
+<Alloy>
+    <View backgroundColor="gray" height="45" id="container" width="100%">
+        <Button id="iosPicker" onClick="iosPickerClick" platform="ios"/>
+        <Picker id="androidPicker" onChange="androidPickerChange" platform="android">
+            <!--PickerColumn id="androidColumnPicker"/-->
+        </Picker>
+    </View>
+</Alloy>

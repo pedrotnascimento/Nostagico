@@ -1,0 +1,74 @@
+".container": {
+},
+"#winComboLocal": {
+	"title": "Window"
+},
+"#vwMain": {
+	"height": "90.78%",
+	"left": "0.00%",
+	"top": "60dp",
+	"width": "100.00%",
+	"layout": "vertical"
+},
+"#lblLocal": {
+	"text": "Selecione o local",
+	"height": "4.26%",
+	"left": "4%",
+	"top": "2.88%",
+	"width": "79.51%"
+},
+".pickLocal": {
+	"top": "2.5%",
+	"height": "9%",
+	"width": "92%",
+	"left": "4%",
+	"color": "black",
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	"borderRadius": "5",
+	"borderColor": "#d0cfd0",
+	"backgroundColor": "white",
+	"hintText":"Selecione um local"
+},
+"#btnConf": {
+	"top": "30%",
+	"height": "9%",
+	"width": "92%",
+	"title": "CONFIRMAR",
+	"left": "4%",
+	"color": "#ffffff",
+	"backgroundColor": "#36C784",
+	"borderRadius": "5"
+},
+"#pickLocaliOS3": {
+},
+"#Button_1": {
+	"title": "Button",
+	"left": "1.81%",
+	"top": "30%",
+	"height": "8.13%",
+	"width": "95.76%"
+},
+"#pickLocalAnd3": {
+},
+"#pickLocalAnd2": {
+},
+"#pickLocalAnd": {
+},
+"#lblDesc":{
+	"color":"black",
+	"width":Ti.UI.SIZE,
+	"height":Ti.UI.SIZE,
+	"top":"3%",
+	"left":"4%",
+	"text":"Descreva o local"
+},
+"#fldDesc":{
+	"color":"black",
+	"borderColor":"black",
+	"backgroundColor":"white",
+	"top":"1%",
+	"left":"4%",
+	"width":"92%",
+	"height":"9%"
+	
+}

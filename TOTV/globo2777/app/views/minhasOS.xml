@@ -1,0 +1,21 @@
+<Alloy>
+    <Window id="winOS">
+        <Require id="WidNR" src="naoResponsivo" type="widget"/>
+        <View id="vwMain">
+            <SearchBar id="searchBar"/>
+            <Button id="btnFiltro"/>
+            <View id="vwList">
+                <ListView defaultItemTemplate="tempOS" id="listOS">
+                    <Templates>
+                        <ItemTemplate id="templateOS" name="tempOS">
+                            <Label bindId="id" id="idOS"/>
+                            <Label bindId="status" id="statusOS"/>
+                        </ItemTemplate>
+                    </Templates>
+                    <ListSection id="listSecOS"/>
+                </ListView>
+            </View>
+        </View>
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+    </Window>
+</Alloy>

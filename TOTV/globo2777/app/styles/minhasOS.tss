@@ -1,0 +1,89 @@
+".container": {
+},
+"#winOS": {
+	"backgroundColor": "white",
+},
+"#lblCancel": {
+	"text": "Minhas O.S.",
+	"color": "white",
+	"height": "31.90%",
+	"left": "14.40%",
+	"top": "33.62%",
+	"width": "77.73%",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+"#vwCancel": {
+	"height": "9.32%",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%",
+	"backgroundColor": "#3574A9"
+},
+"#imgCancel": {
+	"height": "68.97%",
+	"image": "/images/cancelBtn.PNG",
+	"left": "1.60%",
+	"top": "21.55%",
+	"width": "12.80%"
+},
+"#vwMain": {
+	"height": "91.24%",
+	"left": "0.00%",
+	"top": "60dp",
+	"width": "100.00%",
+	"backgroundColor":"white"
+},
+"#idOS": {
+	"color": "#3574A9",
+	"left": "5",
+	"font": {fontFamily:'Arial',fontSize:'12',fontWeight:'bold'},
+	"top": "18",
+	"bottom": "18"
+},
+"#statusOS": {
+	"right": "5",
+	"borderWidth": "1",
+	"borderRadius": "5",
+	"top": "18",
+	"color": "white",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER,
+	"font": {fontFamily:'Arial',fontSize:'12',fontWeight:'bold'},
+	"bottom": "18"
+},
+"#vwList": {
+	"top": "60dp"
+},
+"#searchBar": {
+	"color": "black",
+	"barColor": "white",
+	"borderColor": "#e3e7ed",
+	"borderRadius": "5",
+	"font": {fontSize:"12"},
+	"backgroundColor": "#fff",
+	"hintText": "Buscar O.S. pelo serviço",
+	"height": "50dp",
+	"top": "3dp",
+	"left": "5dp",
+	"width": "200dp",
+},
+"#btnFiltro": {
+	"title": "FILTRAR",
+	"borderColor": "#009ddb",
+	"borderRadius": "5",
+	"color": "#169BD5",
+	"height": "35dp",
+	"right": "12",
+	"top": "12dp",
+	"width": "80dp",
+	"backgroundColor": "transparent",
+	"font": {fontSize:"12"}
+},
+"#listOS":{
+	"caseInsensitiveSearch": "true"
+},
+"#listOS[platform=android]": {
+	"separatorColor": "black"
+},
+"#listSecOS": {
+},
+

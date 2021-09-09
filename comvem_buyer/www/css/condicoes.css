@@ -1,0 +1,27 @@
+﻿.ESPACO_EXTRA {
+    height:3em;
+}
+
+.ALTURA_CONDICOES
+{
+    height:2em;
+}
+
+.MARGEM_GERAL {
+    margin-left:2em;
+    margin-right:2em;
+}
+
+.CABECALHO {
+    color: cornflowerblue;
+    text-align:center;
+    
+}
+
+.ALINHAMENTO {
+    text-align:center;
+}
+
+.TITULO_ITEM {
+    color:cornflowerblue;
+}

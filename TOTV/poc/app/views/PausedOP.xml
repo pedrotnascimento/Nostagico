@@ -1,0 +1,86 @@
+<Alloy>
+	<Window id="winOPStatus">
+		<Widget id="indicator" src="loadingOverlay"/>
+		<ImageView id="imageHolder" class="backgroundImageHolder"/>
+		<View class="contentHolder">
+			<Require id="WidFechar" src="widFechar" type="widget"/>
+			<Require id="niceTabs" src="nice-tabs" type="widget" />
+		</View>
+		<View id="vwMain">
+			<View height=10/>
+			<View id="vwCard" class="cardView">
+				<View backgroundColor="#d62631" height=35>
+					<Label id="lblStatus">OPERAÇÃO PAUSADA</Label>
+				</View>
+                <ScrollView id="scrollViewCard" layout="vertical" width="100%">
+                    <View backgroundColor="#fafafa" height=30>
+                        <Label class="dateText">INÍCIO</Label>
+                    </View>
+                    <View class="hr" />
+                    <View layout="horizontal" height="80" width="Ti.UI.SIZE" top="0">
+                        <View width="49.5%" layout="vertical">
+                            <Label height="Ti.UI.SIZE" class="subtitle">
+                                DATA
+                            </Label>
+                            <Label class="content" id="lblInitDate"/>
+                        </View>
+                        <View class="vr" />
+                        <View width="49.5%" layout="vertical">
+                            <Label height="Ti.UI.SIZE" class="subtitle">
+                                HORA
+                            </Label>
+                            <Label class="content" id="lblInitTime"/>
+                        </View>
+                    </View>
+                    <View class="hr" />
+
+                    <View id="pausesContainer" layout="vertical" height="Ti.UI.SIZE"/>
+                </ScrollView>
+            </View>	
+			<View id="vwBtnSection" class="btnSection">
+				<Button class="btnSendStyle" id="btnStart"/>
+            </View>	
+		</View>
+		<View id="vwDetails">
+			<View height=10/>
+			<View class="cardView" id="vwDetailsCard">
+				<View backgroundColor="#d62631" height=35>
+					<Label id="lblStatus">OPERAÇÃO PAUSADA</Label>
+				</View>
+				<ScrollView layout="vertical">
+					<Label class="subtitle" top=10>
+	                	NÚMERO DA O.S.
+	                </Label>
+	                <Label id="osNumber" class="info"/>
+	                <View class="hr" top=10/>
+	                <Label class="subtitle" top=10>
+	                	TEXTO BREVE
+	                </Label>
+	                <Label class="info">
+	                	VERIFICAR TRAVA DE SEGURANÇA
+	                </Label>
+	                <View class="hr" top=10/>
+	                <Label class="subtitle" top=10>
+	                	MANUTENTOR(ES)
+	                </Label>
+	                <View id="manutentores" layout="horizontal" height="40" top="10" width="Ti.UI.FILL" >
+	                	<View class="manHolder">
+	                		<Label id="manut1" class="manText" />
+	                	</View>
+	                	<View id="view2" class="manHolder">
+	                		<Label id="manut2" class="manText" />
+	                	</View>
+	                </View>
+	                <View class="hr" top=10/>
+	                <Label class="subtitle" top=10>
+	                	TEXTO LIVRE OPERAÇÃO
+	                </Label>
+	                <Label class="info">
+	                	a) Verificar a integridade física das travas  elétricas, fixação das linguetas e estado das físico.\nb) Verificar integridade dos lacres e parafusos de fixação.\nc) Caso verificado anomalia efetuar a substituição. Normal Fim de Curso:\nC5000019010858; Normal Acionador:\nC5000019010859\n
+	                </Label>
+                </ScrollView>
+			</View>
+			<View top=10 height = 10 id="vwEndBreak"/>
+		</View>
+	</Window>
+</Alloy>

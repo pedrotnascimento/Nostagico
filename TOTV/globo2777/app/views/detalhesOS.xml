@@ -1,0 +1,26 @@
+<Alloy>
+    <Window id="winDet">
+        <Require id="WidFechar" src="widFechar" type="widget"/>
+        <Require id="WidNR" src="naoResponsivo" type="widget"/>
+        <ScrollView class="container" id="scrollMain">
+            <Label class="mainLabel" id="lblServ" text="Serviço"/>
+            <Label class="subLabel" id="lblServInfo"/>
+            <Label class="mainLabel" id="lblTpServ" text="Tipo de serviço"/>
+            <Label class="subLabel" id="lblTpServInfo"/>
+            <Label class="mainLabel" id="lblDetServ" text="Detalhes do serviço"/>
+            <Label class="subLabel" id="lblDetServInfo"/>
+            <Label class="mainLabel" id="lblLocal" text="Local"/>
+            <Label class="subLabel" id="lblLocalInfo"/>
+            <Label class="mainLabel" id="lblLocalDesc" text="Descrição do local"/>
+            <Label class="subLabel" id="lblLocalDescInfo"/>
+            <Label class="mainLabel" id="lblData" text="Data de criação"/>
+            <Label class="subLabel" id="lblDataInfo"/>
+            <Label class="mainLabel" id="lblFotos" text="Foto(s)"/>
+            <ScrollView id="scrollFotos"/>
+            <Label class="mainLabel" id="lblNota" text="Nota da Pesquisa de Avaliação"/>
+            <Label class="subLabel" id="lblNotaInfo"/>
+            <Label class="mainLabel" id="lblComent" text="Comentário da Pesquisa de Avaliação"/>
+            <Label class="subLabel" id="lblComentInfo"/>
+        </ScrollView>
+    </Window>
+</Alloy>

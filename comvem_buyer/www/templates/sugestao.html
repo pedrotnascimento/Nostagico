@@ -1,0 +1,32 @@
+﻿<ion-view view-title="Convem">
+    <link href="./css/sugestao.css" rel="stylesheet" />
+
+    <!-- Navbar (Override default) -->
+    <ion-nav-bar class="bar-stable" hide-nav-bar="true">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon icon ion-navicon" menu-toggle></button>
+        </ion-nav-buttons>
+    </ion-nav-bar><!-- End Navbar -->
+    <!-- Content -->
+    <ion-content>
+        <h5 class="SUGESTAO_MARGEM">Não encontrou o produto que procurava?</h5>
+        <h6 class="SUGESTAO"> Sugira-o para que possamos aumentar nossa prateleira</h6>
+        <div class="col-center text-center">
+            <div class="ALTURA_SUGES text-center"></div>
+        </div>
+        <!--        <form name="form" ng-submit="ESCtrl.enviar(form.email.$modelValue)"   novalidate>                                                       -->
+        <div class="col-center">
+            <label class="item item-input item-stacked-label">
+                <span class="input-label"><i class="icon ion-ios-lightbulb"></i> Sugira um produto</span>
+                <textarea type="text" placeholder="" ng-model="sugestao"></textarea>
+            </label>
+        </div>
+        <!-- </form>                                                                                                                          -->
+
+
+    </ion-content><!-- End Content -->
+
+    <ion-footer-bar class="ION_FOOTER_HEIGHT_SUGES">
+        <button class="button button-block button-positive BOTAO_HEIGHT_SUGES" ng-click="enviar(sugestao)"><b>Enviar</b></button>
+    </ion-footer-bar>
+</ion-view>

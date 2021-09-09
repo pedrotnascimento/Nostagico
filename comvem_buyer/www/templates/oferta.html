@@ -1,0 +1,62 @@
+﻿<ion-view view-title="Convem">
+    <!-- CSS file (link not working) -->
+    <link href="./css/oferta.css" rel="stylesheet">
+
+    <!-- NavBar -->
+    <ion-nav-bar class="bar-stable">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+        </ion-nav-buttons>
+    </ion-nav-bar><!-- End NavBar -->
+    
+    <div class="bar bar-subheader bar-stable">
+        <h1 class="title">Ofertas Pendentes: {{numOffers? numOffers:0}}</h1>
+    </div>
+    
+    <!-- Content -->
+    <ion-content class="has-customFooter has-subheader">
+        <!-- Mensagem quando vazio -->
+        <div ng-hide="hasOffer">
+            <div class="row">
+                <h3>Você não tem ofertas no momento <i class="icon ion-sad-outline"></i></h3> 
+            </div>
+        </div>
+        <!-- Item List -->
+        <ion-list ng-show="hasOffer">
+            <ion-checkbox ng-repeat="item in oferta.itens" ng-checked="true" ng-model="item.checked" class="itemHeight">
+                <div class="row item-text-center">
+                    <div class="col-10">
+                        <img ng-src="{{item.img}}" alt=" " class="itemImage">
+                    </div>
+                    <div class="col-20">
+                        <small>{{item.name}}</small>
+                    </div>
+                    <div class="col-offset-34">
+                        <div class="row-top">
+                            
+                                <small>{{item.qty}} und</small>  <!-- Quantity Offered -->
+                        </div>
+                        <div class="row-bottom">  
+                            <div class="col-10">
+                                <small class="{{(item.price > item.avg_price)? RED:GREEN}}">R$ {{item.price}}</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ion-checkbox>
+        </ion-list><!-- End Item List -->
+        <!-- <button class="button button-full button-dark" ng-click="printJson()">Print JSON</button> -->
+        <!-- <small>Não foram encontrados vendedores para os items desativados</small> -->
+
+    </ion-content> <!-- End Content -->
+    <ion-footer-bar class="bar bar-footer col ION_FOOTER_HEIGHT_OFERTA FOOTER_LIS">
+        <div class="col FOOTER_ITEM_OFERTA">
+            <h3 class="col VALOR_ESTIMADO">Valor Total: <span class="VERDE">R{{amount ? amount:0 | currency}}</span></h3>
+            <!--<h3 class="col TAXA_ESTIMADA">Taxa de Servico <span class="VERDE">R$ 5,00</span></h3> -->
+        </div>
+            <div class="row">
+                <button class="col-25 button button-assertive button-block BOTAO_HEIGHT_OFERTA" ng-click="cancelar()" ng-disabled="{{hasOffer? '':disabled}}">Cancelar</button>
+                <button class="col-75 button button-positive button-block BOTAO_HEIGHT_OFERTA" id="acceptBtn" ng-click="finalizar()" ng-disabled="{{hasOffer? '':disabled}}">Aceitar Oferta</button>
+            </div>
+    </ion-footer-bar>  
+</ion-view>
